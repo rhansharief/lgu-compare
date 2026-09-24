@@ -1,0 +1,7 @@
+---
+// A glossary link for static pages. Only the first occurrence of each term on a page keeps its link.
+import type { TermKey } from '../lib/terms.ts';
+interface Props { k: TermKey }
+const { k } = Astro.props;
+---
+<a class="term" data-term={k} href={`/glossary/#${k}`}><slot /></a>

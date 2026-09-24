@@ -5,9 +5,9 @@ export const CATEGORIES = ['flood', 'roads', 'buildings', 'other'] as const;
 export type Category = (typeof CATEGORIES)[number];
 export const CATEGORY_LABEL: Record<Category, string> = {
   flood: 'Flood control',
-  roads: 'Roads & bridges',
-  buildings: 'Buildings & facilities',
-  other: 'Other (water, misc.)',
+  roads: 'Roads and bridges',
+  buildings: 'Schools, halls and other buildings',
+  other: 'Water and other',
 };
 
 /** Per budget year: spend per category (PHP), project count, completed count, count with known status. */
@@ -59,7 +59,7 @@ export const PERIODS: PeriodDef[] = [
     from: 2023,
     to: 2026,
     prev: 'duterte',
-    note: '2026 budget-year projects are still being procured and awarded, so the 2026 total will keep growing. A low figure here does not mean nothing is happening.',
+    note: 'Projects approved for 2026 are still being bid out and awarded, so the 2026 total will keep growing. A low figure here does not mean nothing is happening.',
   },
   { id: 'duterte', label: 'Duterte admin (2016-07→2022-06)', from: 2017, to: 2021, prev: null },
   // Comparison-only periods (not shown as chips)
@@ -140,26 +140,26 @@ export function completionRate(t: PeriodTotals): number | null {
 
 export type PeerMode = 'class' | 'region' | 'pop' | 'country';
 export const PEER_MODES: { id: PeerMode; label: string }[] = [
-  { id: 'class', label: 'Same income class & island group' },
-  { id: 'region', label: 'Same region' },
-  { id: 'pop', label: 'Similar population (±30%)' },
-  { id: 'country', label: 'Whole country' },
+  { id: 'class', label: 'Similar cities and towns' },
+  { id: 'region', label: 'Cities and towns in the same region' },
+  { id: 'pop', label: 'Places with a similar population' },
+  { id: 'country', label: 'Every city and town in the country' },
 ];
 
 export function peerLabel(mode: PeerMode, lgu: LguIndexRow, all?: LguIndexRow[]): string {
   switch (mode) {
     case 'class': {
       const kinds = lgu.kind === 'City' ? 'cities' : 'municipalities';
-      if (!all || !lgu.cls) return lgu.cls ? `${lgu.cls} class ${kinds}, ${lgu.island}` : `${kinds[0].toUpperCase()}${kinds.slice(1)}, ${lgu.island}`;
+      if (!all || !lgu.cls) return lgu.cls ? `${lgu.cls} income class ${kinds} in ${lgu.island}` : `${kinds[0].toUpperCase()}${kinds.slice(1)} in ${lgu.island}`;
       const band = classBand(lgu, all);
-      return `${band.length > 1 ? `${band[0]}–${band[band.length - 1]}` : band[0]} class ${kinds}, ${lgu.island}`;
+      return `${band.length > 1 ? `${band[0]}–${band[band.length - 1]}` : band[0]} income class ${kinds} in ${lgu.island}`;
     }
     case 'region':
       return lgu.reg;
     case 'pop':
       return lgu.pop ? `Population ${fmtCompact(lgu.pop * 0.7)}–${fmtCompact(lgu.pop * 1.3)}` : 'Similar population';
     case 'country':
-      return lgu.reg === SEPARATE_REGION ? 'All BARMM cities & municipalities' : 'All cities & municipalities outside BARMM';
+      return lgu.reg === SEPARATE_REGION ? 'All cities & municipalities in the Bangsamoro region (BARMM)' : 'All cities & municipalities outside the Bangsamoro region (BARMM)';
   }
 }
 
@@ -169,7 +169,7 @@ export function peerLabel(mode: PeerMode, lgu: LguIndexRow, all?: LguIndexRow[])
  */
 export const SEPARATE_REGION = 'BARMM';
 export const SEPARATE_NOTE =
-  'BARMM LGUs are compared only with each other: most public works in BARMM are carried out by the region\'s own Ministry of Public Works, not DPWH, so their DPWH figures are low by design.';
+  'Cities and towns in the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) are compared only with each other: most public works there are carried out by the region\'s own Ministry of Public Works, not the Department of Public Works and Highways (DPWH), so their DPWH figures are low by design.';
 
 /** BARMM and non-BARMM LGUs never share a peer group (see SEPARATE_NOTE). */
 export function comparable<T extends LguIndexRow>(lgu: Pick<LguIndexRow, 'reg'> | null, all: T[]): T[] {
@@ -231,6 +231,30 @@ export function rankDesc(value: number | null, values: (number | null)[]): { ran
   if (value == null) return null;
   return { rank: v.filter((x) => x > value).length + 1, of: v.length };
 }
+
+/**
+ * Where a value sits among its peers, for plain-language wording ("Less concentrated than 7 of 9 peers").
+ * `values` includes the LGU's own value; `peers` excludes it. Ties count as neither above nor below.
+ */
+export function standing(value: number | null, values: (number | null)[]): { above: number; below: number; peers: number } | null {
+  if (value == null) return null;
+  const v = values.filter((x): x is number => x != null && Number.isFinite(x));
+  return { above: v.filter((x) => x > value).length, below: v.filter((x) => x < value).length, peers: Math.max(0, v.length - 1) };
+}
+
+/**
+ * "Higher than 6 of 9 peers" / "Lower than 6 of 9 peers": always states the larger side, in the
+ * direction the reader expects, so nobody has to know whether 1st means highest or lowest.
+ */
+export function standingPhrase(s: { above: number; below: number; peers: number } | null, more: string, less: string): string {
+  if (!s || s.peers === 0) return '';
+  if (s.above === 0 && s.below === s.peers) return `${cap(more)} than all ${s.peers} peers`;
+  if (s.below === 0 && s.above === s.peers) return `${cap(less)} than all ${s.peers} peers`;
+  if (s.above === 0 && s.below === 0) return `The same as all ${s.peers} peers`;
+  return s.below >= s.above ? `${cap(more)} than ${s.below} of ${s.peers} peers` : `${cap(less)} than ${s.above} of ${s.peers} peers`;
+}
+
+const cap = (x: string) => x[0].toUpperCase() + x.slice(1);
 
 // ---------- Formatting ----------
 

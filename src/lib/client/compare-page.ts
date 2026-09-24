@@ -1,8 +1,11 @@
 import { CATEGORY_LABEL, SEPARATE_NOTE, comparable, fmtPeso, peerLabel, peers, perResident, spendFor, totals, type IslandGroup } from '../metrics.ts';
 import { renderControls } from './controls.ts';
 import { esc, loadIndex, type IndexRow } from './data.ts';
-import { legendHtml, renderScatter, type Point } from './scatter.ts';
+import { legendHtml, QUADRANTS, quadrantOf, renderScatter, type Point } from './scatter.ts';
 import { initSearch } from './search.ts';
+import { provWarning } from './ui.ts';
+import { term } from '../terms.ts';
+import { linkFirstTerms } from './terms.ts';
 import { periodOf, readState, writeState } from './state.ts';
 
 const $ = <T extends HTMLElement = HTMLElement>(sel: string) => document.querySelector<T>(sel)!;
@@ -58,24 +61,24 @@ function render(all: IndexRow[], me: IndexRow | null, state: ReturnType<typeof r
   const colors: [string, string, string] = me ? ['--hl', '--c1', '--c2'] : ['--c1', '--c2', '--c3'];
   $('#legend').innerHTML = legendHtml(labels, [0, 1, 2].map((g) => pts.some((p) => p.group === g)), colors);
   const catLabel = state.cat === 'all' ? 'all categories' : CATEGORY_LABEL[state.cat].toLowerCase();
-  $('#chart-title').textContent = me
-    ? `${me.name} and ${group.length - 1} peers: ${peerLabel(mode, me, all)}`
-    : `All ${group.length} cities and municipalities outside BARMM`;
-  $('#chart-sub').textContent = `DPWH spend per resident (${catLabel}), ${per.label}, against poverty incidence.`;
+  $('#chart-title').innerHTML = me
+    ? `${esc(me.name)} and ${group.length - 1} ${term('peer-group', 'peers')}: ${esc(peerLabel(mode, me, all))}`
+    : `All ${group.length} cities and municipalities outside ${term('barmm', 'the Bangsamoro region (BARMM)')}`;
+  $('#chart-sub').innerHTML = `Money from the ${term('dpwh', 'Department of Public Works and Highways (DPWH)')} per person (${catLabel}), ${esc(per.label)}, against ${term('poverty', 'poverty incidence')}.`;
   const { medX, medY, over, cap } = renderScatter($('#chart'), pts, {
     groupLabels: labels,
     colors,
     log: state.log,
-    yLabel: `↑ DPWH spend per resident (${catLabel})`,
+    yLabel: `↑ DPWH money per person (${catLabel})`,
     onPick: (p) => { location.href = `/lgu/${p.psgc}/?peer=${state.peer}&period=${state.period}${state.period === 'custom' ? `&from=${state.from}&to=${state.to}` : ''}`; },
   });
 
   const provLevel = pts.filter((p) => p.povLevel === 'prov').length;
   const dropped = group.length - pts.length;
   const zeroLog = state.log ? pts.filter((p) => p.y <= 0).length : 0;
+  $('#chart-warn').innerHTML = provLevel ? provWarning(provLevel, pts.length) : '';
   $('#chart-note').innerHTML = [
-    `Dashed lines are the medians of this group: poverty ${medX?.toFixed(1)}%, spend ${fmtPeso(medY)} per resident. They split the chart into the four labelled quadrants.`,
-    provLevel ? `${provLevel} of ${pts.length} LGUs use their province's poverty figure (PSA city/municipal estimates aren't loaded yet), so LGUs in the same province line up vertically.` : '',
+    `Dashed lines mark the typical place in this group (the median): poverty ${medX?.toFixed(1)}%, ${fmtPeso(medY)} per person. "Poorer" and "better-off", "more" and "less money" are compared with those lines, not with the whole country.`,
     dropped ? `${dropped} LGU${dropped > 1 ? 's' : ''} without a poverty figure or population ${dropped > 1 ? 'are' : 'is'} not shown.` : '',
     zeroLog ? `${zeroLog} LGUs with no spend are hidden on the log scale.` : '',
     over ? `▲ ${over} LGU${over > 1 ? 's' : ''} above ${fmtPeso(cap)} per resident ${over > 1 ? 'are' : 'is'} drawn at the top edge (hover for the value, or use the log scale).` : '',
@@ -85,19 +88,18 @@ function render(all: IndexRow[], me: IndexRow | null, state: ReturnType<typeof r
 
   // Quadrant counts: a plain-language summary, no causal claims.
   if (medX != null && medY != null) {
-    const q = { hiNeedLess: 0, hiNeedMore: 0, loNeedMore: 0, loNeedLess: 0 };
-    for (const p of pts) {
-      if (p.x >= medX) p.y >= medY ? q.hiNeedMore++ : q.hiNeedLess++;
-      else p.y >= medY ? q.loNeedMore++ : q.loNeedLess++;
-    }
+    const counts = new Map<string, number>(QUADRANTS.map((q) => [q.key, 0]));
+    for (const p of pts) { const q = quadrantOf(p, medX, medY); counts.set(q.key, counts.get(q.key)! + 1); }
     const mine = me ? pts.find((p) => p.group === 0) : null;
-    const where = mine ? `${esc(me!.name)} is in <b>${mine.x >= medX ? 'higher need' : 'lower need'} · ${mine.y >= medY ? 'more money' : 'less money'}</b>. ` : '';
-    $('#summary').innerHTML = `${where}Of ${pts.length} LGUs: ${q.hiNeedLess} higher need · less money, ${q.hiNeedMore} higher need · more money, ${q.loNeedMore} lower need · more money, ${q.loNeedLess} lower need · less money.`;
+    const where = mine ? `${esc(me!.name)} is in the <b>${quadrantOf(mine, medX, medY).label.toLowerCase()}</b> corner. ` : '';
+    $('#summary').innerHTML = `${where}Of ${pts.length.toLocaleString('en-PH')} places: ${QUADRANTS.map((q) => `${counts.get(q.key)} ${q.label.toLowerCase()}`).join('; ')}.`;
   }
 
   $('#table').innerHTML = `<div class="table-wrap"><table><thead><tr><th>LGU</th><th>Province</th><th class="r">Poverty %</th><th class="r">Spend / resident</th><th class="r">Population</th></tr></thead><tbody>${
     [...pts].sort((a, b) => b.y - a.y).map((p) => `<tr class="${p.group === 0 && me ? 'me' : ''}"><td><a href="/lgu/${p.psgc}/">${esc(p.name)}</a></td><td>${esc(p.prov)}</td><td class="r num">${p.x.toFixed(1)}${p.povLevel === 'prov' ? '<span class="faint">*</span>' : ''}</td><td class="r num">${fmtPeso(p.y)}</td><td class="r num">${p.pop.toLocaleString('en-PH')}</td></tr>`).join('')
   }</tbody></table></div><p class="faint small">* province-wide figure</p>`;
+
+  linkFirstTerms();
 
   // Peer chips need an LGU
   document.querySelectorAll<HTMLButtonElement>('#controls [data-peer]').forEach((b) => { b.disabled = !me && b.dataset.peer !== 'country'; b.title = b.disabled ? 'Pick an LGU first' : ''; });

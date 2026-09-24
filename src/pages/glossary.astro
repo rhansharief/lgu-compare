@@ -1,0 +1,77 @@
+---
+import Base from '../layouts/Base.astro';
+import { TERMS, type TermKey } from '../lib/terms.ts';
+
+// Short, plain entries. Other pages link here from the first time each word appears.
+const entries: { id: TermKey; body: string[] }[] = [
+  { id: 'dpwh', body: [
+    'The national agency that builds and maintains national roads, bridges, flood control and public buildings.',
+    'This site counts only DPWH projects, not money a city or town spends from its own budget.',
+  ] },
+  { id: 'lgu', body: [
+    'A province, city, municipality or barangay with its own elected officials.',
+    'On this site, LGU means a city or a municipality (town).',
+  ] },
+  { id: 'poverty', body: [
+    'The share of people whose family income is below the poverty line: the least a family needs for food and other basic needs, as set by the Philippine Statistics Authority (PSA).',
+    'A poverty incidence of 38.9% means about 39 of every 100 people live below that line. Higher = poorer. On this site it is our measure of <i>need</i>.',
+    'For most towns only the figure for the whole province is loaded so far. Pages mark those with “Province-wide figure”.',
+  ] },
+  { id: 'income-class', body: [
+    'Every city and municipality has an income class, from 1st (highest income) to 6th (lowest), based on its average yearly income over the past few years.',
+    'The Department of Finance sets the brackets, and cities have different brackets from municipalities. We use it to compare places with similar means.',
+  ] },
+  { id: 'psgc', body: [
+    'The official ID number the PSA gives every region, province, city, municipality and barangay. The City of Mati is 1102509000.',
+    'We use it to join the project, population and poverty data without mixing up places with the same or similar names.',
+  ] },
+  { id: 'budget-year', body: [
+    'DPWH lists each project under its budget (infra) year: the year its money was approved in the national budget. Building usually happens over the next one or two years.',
+    'So a 2025 project may still be under construction, and the latest year always looks unfinished. It doesn’t mean nothing is happening.',
+  ] },
+  { id: 'deo', body: [
+    'DPWH’s local office. One office usually covers several towns, and DPWH lists projects by office, not by town.',
+    'That’s why we have to work out which town each project is in. See <a href="#confidence">placed / confidence</a>.',
+  ] },
+  { id: 'confidence', body: [
+    'DPWH doesn’t say which town a project is in, so we work it out from the place named at the end of the project description and from the project’s map point.',
+    '<b>High</b>: both agree, or the description names both town and province. <b>Medium</b>: we have only one of the two, or they disagree and we followed the description. <b>Low</b>: we only know it was handled by the city’s own DPWH office.',
+  ] },
+  { id: 'peer-group', body: [
+    'The places a city or town is compared with. By default: the same income class, the same kind (city or town) and the same island group (Luzon, Visayas or Mindanao), so a small town isn’t measured against Metro Manila.',
+    'If fewer than 8 places match exactly, the next income classes up and down are added. You can also compare with the same region, places of similar population, or the whole country.',
+  ] },
+  { id: 'typical-peer', body: [
+    'The middle value of the peer group (the median): half the places are above it and half below.',
+    'We use the middle instead of the average so that one very large figure doesn’t pull it up.',
+  ] },
+  { id: 'joint-venture', body: [
+    'When two or more contractors win a contract together (a joint venture), we split its cost equally between them. Each partner in a ₱100M joint venture of two firms is counted with ₱50M.',
+    'DPWH data doesn’t say how the partners actually shared the work or the money.',
+  ] },
+  { id: 'pcab', body: [
+    'The contractor’s licence number from the Philippine Contractors Accreditation Board, which DPWH lists for every contractor. We use it as the contractor’s ID.',
+    'A firm that holds several licences shows up as several contractors. We don’t merge them.',
+  ] },
+  { id: 'barmm', body: [
+    'The Bangsamoro Autonomous Region in Muslim Mindanao. Most public works there are done by the region’s own Ministry of Public Works, not DPWH, so its DPWH figures are low by design.',
+    'BARMM cities and towns are only compared with each other.',
+  ] },
+];
+---
+
+<Base title="Glossary" nav="glossary" description="Plain-language meanings of the words and numbers used on Infra Money Tracker.">
+  <div class="prose glossary">
+    <h1>Glossary</h1>
+    <p class="subline">What the words on this site mean, in plain language.</p>
+    <dl>
+      {entries.map((e) => (
+        <div class="entry" id={e.id}>
+          <dt>{TERMS[e.id]}</dt>
+          {e.body.map((b) => <dd set:html={b} />)}
+        </div>
+      ))}
+    </dl>
+    <p class="faint small">More detail on how each number is made: <a href="/about/">method &amp; data</a>.</p>
+  </div>
+</Base>

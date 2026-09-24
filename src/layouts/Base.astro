@@ -7,7 +7,7 @@ const sources = buildIndex.sources;
 interface Props {
   title: string;
   description?: string;
-  nav?: 'home' | 'compare' | 'about' | 'lgu' | 'contractor';
+  nav?: 'home' | 'compare' | 'about' | 'glossary' | 'lgu' | 'contractor';
 }
 const { title, description = 'Does national infrastructure (DPWH) money go where it is needed, and who is getting it? Compare any Philippine city or municipality with similar LGUs.', nav } = Astro.props;
 const fullTitle = title === 'Infra Money Tracker' ? title : `${title} · Infra Money Tracker`;
@@ -23,9 +23,10 @@ const fullTitle = title === 'Infra Money Tracker' ? title : `${title} · Infra M
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#0066eb" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <script is:inline>
       try {
         const t = localStorage.getItem('theme');
@@ -36,7 +37,10 @@ const fullTitle = title === 'Infra Money Tracker' ? title : `${title} · Infra M
   <body>
     <header class="site-header">
       <div class="wrap">
-        <a class="brand" href="/">Infra <span>Money</span> Tracker</a>
+        <a class="brand" href="/">
+          <img src="/favicon.svg" alt="" />
+          <span><span class="brand-name">Infra Money Tracker</span><span class="brand-sub">Where national road and flood money goes</span></span>
+        </a>
         <div class="search" data-search>
           <input
             type="search"
@@ -52,6 +56,7 @@ const fullTitle = title === 'Infra Money Tracker' ? title : `${title} · Infra M
         </div>
         <nav class="site-nav" aria-label="Main">
           <a href="/compare/" aria-current={nav === 'compare' ? 'page' : undefined}>Compare</a>
+          <a href="/glossary/" aria-current={nav === 'glossary' ? 'page' : undefined}>Glossary</a>
           <a href="/about/" aria-current={nav === 'about' ? 'page' : undefined}>Method &amp; data</a>
           <button class="theme-toggle" type="button" aria-label="Toggle dark mode" data-theme-toggle>◐</button>
         </nav>
@@ -64,21 +69,27 @@ const fullTitle = title === 'Infra Money Tracker' ? title : `${title} · Infra M
     </main>
     <footer class="site-footer">
       <div class="wrap">
-        <p>Data from BetterGov.PH APIs and PSA. Not affiliated.</p>
+        <div class="footer-brand">
+          <img src="/favicon.svg" alt="" />
+          <span><span class="brand-name">Infra Money Tracker</span><span class="brand-sub">A personal, non-profit civic-tech project</span></span>
+        </div>
         <p>
-          Sources: <a href={sources.dpwh.url}>DPWH Transparency Portal via BetterGov.PH</a> (retrieved {sources.dpwh.fetched}) ·
-          <a href={sources.psgc.url}>PSA PSGC Q2 2024, population 2024</a> ·
-          <a href={sources.poverty.url}>PSA poverty incidence 2018–2023</a> (retrieved {sources.poverty.fetched})
+          Where the numbers come from: <a href={sources.dpwh.url}>Department of Public Works and Highways (DPWH) Transparency Portal via BetterGov.PH</a> (retrieved {sources.dpwh.fetched}) ·
+          <a href={sources.psgc.url}>Philippine Statistics Authority (PSA) list of cities and towns, with 2024 population</a> ·
+          <a href={sources.poverty.url}>PSA poverty figures 2018–2023</a> (retrieved {sources.poverty.fetched})
         </p>
         <p>
-          National DPWH infrastructure projects only, not LGU-funded spending. Amounts are contract costs
-          as listed in the DPWH Transparency Portal. A personal, non-profit civic-tech project. See <a href="/about/">method &amp; data</a>.
+          National DPWH infrastructure projects only, not money cities and towns spend from their own budgets. Amounts are contract costs
+          as listed in the DPWH Transparency Portal. See <a href="/about/">method &amp; data</a>.
         </p>
+        <p class="footer-legal">Data from BetterGov.PH APIs and PSA. Not affiliated.</p>
       </div>
     </footer>
     <script>
       import { initSearch } from '../lib/client/search.ts';
+      import { linkFirstTerms } from '../lib/client/terms.ts';
       initSearch();
+      linkFirstTerms();
       document.querySelector('[data-theme-toggle]')?.addEventListener('click', () => {
         const root = document.documentElement;
         const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;

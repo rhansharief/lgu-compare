@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { customPeriod, median, ordinal, peers, periodById, prevOf, rankDesc, totals, type LguIndexRow } from './metrics.ts';
+import { customPeriod, median, ordinal, peers, periodById, prevOf, rankDesc, standing, standingPhrase, totals, type LguIndexRow } from './metrics.ts';
 
 const mk = (psgc: string, o: Partial<LguIndexRow> = {}): LguIndexRow => ({
   psgc, name: psgc, prov: 'P', reg: 'Region XI', island: 'Mindanao', kind: 'City', cls: '4th', pop: 100_000,
@@ -62,4 +62,16 @@ test('BARMM LGUs are compared only with each other', () => {
   const b2 = mk('b2', { reg: 'BARMM' });
   assert.deepEqual(peers(me, [me, b, b2], 'country').map((l) => l.psgc), ['me']);
   assert.deepEqual(peers(b, [me, b, b2], 'country').map((l) => l.psgc), ['b', 'b2']);
+});
+
+test('standing: plain-language position among peers', () => {
+  // Mati's top-3 share, last 3 years: 8th of 10 → 7 peers above, 2 below.
+  const s = standing(0.376, [0.376, 0.9, 0.8, 0.7, 0.6, 0.55, 0.5, 0.45, 0.3, 0.2]);
+  assert.deepEqual(s, { above: 7, below: 2, peers: 9 });
+  assert.equal(standingPhrase(s, 'more concentrated', 'less concentrated'), 'Less concentrated than 7 of 9 peers');
+  assert.equal(standingPhrase(standing(5, [5, 1, 2, 9]), 'higher', 'lower'), 'Higher than 2 of 3 peers');
+  assert.equal(standingPhrase(standing(9, [9, 1, 2]), 'higher', 'lower'), 'Higher than all 2 peers');
+  assert.equal(standingPhrase(standing(0, [0, 1, 2]), 'higher', 'lower'), 'Lower than all 2 peers');
+  assert.equal(standingPhrase(standing(1, [1]), 'higher', 'lower'), '');
+  assert.equal(standing(null, [1, 2]), null);
 });

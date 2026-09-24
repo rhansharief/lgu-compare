@@ -1,37 +1,58 @@
 ---
 import { readFileSync } from 'node:fs';
 import Base from '../../layouts/Base.astro';
+import { buildIndex, povertyLineFor } from '../../lib/build-data.ts';
+import { shortName } from '../../lib/answers.ts';
+import { contractorCount, headline } from '../../lib/headline.ts';
+import { periodById } from '../../lib/metrics.ts';
+import { term } from '../../lib/terms.ts';
 
 export function getStaticPaths() {
   const index = JSON.parse(readFileSync('public/data/index.json', 'utf8'));
   return index.lgus.map((l: any) => ({ params: { psgc: l.psgc }, props: { l } }));
 }
 const { l } = Astro.props as { l: any };
+// The headline for the default view (same-class peers, last 3 years). The page script rewrites it,
+// and the meta description, when the reader changes peer group or period.
+const lguFile = JSON.parse(readFileSync(`public/data/lgu/${l.psgc}.json`, 'utf8'));
+const per = periodById('last3')!;
+const summary = headline({ me: l, all: buildIndex.lgus, mode: 'class', per, top3: l.top3.last3 ?? null, contractors: contractorCount(lguFile.projects, per) });
+const povertyLine = povertyLineFor(l);
 const kind = l.kind === 'City' ? 'City' : 'Municipality';
-const cls = l.cls ? (l.cls === 'Special' ? 'special income class' : `${l.cls} income class`) : 'income class n/a';
+const escHtml = (x: string) => x.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
 ---
 
-<Base title={`${l.name}, ${l.prov}`} nav="lgu" description={`How much national DPWH infrastructure money went to ${l.name}, ${l.prov}, per resident, and how that compares with similar LGUs.`}>
+<Base title={`${l.name}, ${l.prov}`} nav="lgu" description={summary}>
   <div class="page-head">
     <h1>{l.name} <small id="peer-count"></small></h1>
   </div>
-  <p class="subline">
-    {kind} · {l.prov} · {l.reg} · {cls} · pop. {l.pop ? l.pop.toLocaleString('en-PH') : '—'} (2024)
-  </p>
-  <p class="faint small">National DPWH projects only, not LGU-funded spending. Amounts are project costs by budget (infra) year. PSGC {l.psgc}</p>
+  <p class="headline" id="headline">{summary}</p>
+  <p class="subline">{kind === 'City' ? 'City' : 'Town'} in {l.prov} · {l.pop ? `${l.pop.toLocaleString('en-PH')} people` : 'population not listed'}</p>
+  <p class="plain-note">This counts only money from the national government (DPWH). Money the {kind === 'City' ? 'city' : 'town'} spends from its own budget is not included.</p>
+  <details class="details head-details">
+    <summary>Details</summary>
+    <div class="details-body" set:html={
+      `<p>${kind} in ${escHtml(l.prov)}, ${escHtml(l.reg)}.</p>` +
+      `<p>${l.cls ? term('income-class', `${l.cls === 'Special' ? 'Special' : l.cls} income class`) : 'Income class not listed'}. ` +
+      `Population ${l.pop ? l.pop.toLocaleString('en-PH') : 'not listed'} (2024). ${term('psgc', 'PSGC')} ${l.psgc}.</p>` +
+      `<p>Only national projects of the ${term('dpwh', 'Department of Public Works and Highways (DPWH)')} are counted, not money the ` +
+      `${term('lgu', 'local government unit (LGU)')} spends from its own budget. Amounts are project costs, counted by ` +
+      `${term('budget-year', 'budget year')}.</p>`
+    } />
+  </details>
 
   <div class="controls" id="controls"></div>
-  <p class="small muted" id="peer-label" style="margin:-8px 0 12px"></p>
   <div id="period-note"></div>
-  <noscript><p class="banner">This page needs JavaScript to compute peer comparisons.</p></noscript>
+  <noscript><p class="banner">This page needs JavaScript to compare with similar places.</p></noscript>
 
   <div class="grid tiles" id="tiles"><div class="loading">Loading…</div></div>
 
   <div class="grid two section">
     <section class="card">
       <div class="card-head">
-        <h2>Need vs. money: where every peer LGU sits</h2>
-        <p class="muted small">Left to right: poverty incidence. Bottom to top: DPWH spend per resident. Click a dot to open that LGU.</p>
+        <h2>Do poorer places get more money?</h2>
+        <p class="muted small" id="scatter-sub"></p>
+        <div id="scatter-warn"></div>
       </div>
       <div class="legend" id="scatter-legend"></div>
       <div class="chart" id="scatter"></div>
@@ -40,7 +61,7 @@ const cls = l.cls ? (l.cls === 'Special' ? 'special income class' : `${l.cls} in
     </section>
     <section class="card">
       <div class="card-head">
-        <h2>Closest peers, side by side</h2>
+        <h2 id="closest-title">Similar places side by side</h2>
       </div>
       <div id="closest"></div>
     </section>
@@ -48,33 +69,36 @@ const cls = l.cls ? (l.cls === 'Special' ? 'special income class' : `${l.cls} in
 
   <div class="grid two section">
     <section class="card">
-      <div class="card-head"><h2>What the money was for</h2><p class="muted small">DPWH spend by category in the selected period</p></div>
+      <div class="card-head"><h2>What was the money for?</h2><p class="muted small">National money by type of work, in the selected period</p></div>
       <div id="categories"></div>
     </section>
     <section class="card">
-      <div class="card-head"><h2>Who got the contracts</h2><p class="muted small">Top contractors by amount in the selected period</p></div>
+      <div class="card-head"><h2>Which companies got paid?</h2><p class="muted small" id="contractors-intro"></p></div>
       <div id="contractors"></div>
     </section>
   </div>
 
   <section class="card section">
-    <div class="card-head"><h2>Projects</h2><p class="muted small">DPWH projects placed in {l.name}, selected period</p></div>
+    <div class="card-head"><h2>Every project, one by one</h2><p class="muted small">National projects we placed in {shortName(l.name)}, in the selected period</p></div>
     <div id="projects"></div>
+    <details class="details" id="coverage-details">
+      <summary>How sure are we these are in {shortName(l.name)}?</summary>
+      <div id="coverage" class="details-body"></div>
+    </details>
   </section>
 
   <section class="card section">
-    <div class="card-head"><h2>Data coverage</h2></div>
-    <div id="coverage" class="small"></div>
-    <h3 style="margin-top:14px">Sources</h3>
+    <div class="card-head"><h2>Where the numbers come from</h2></div>
     <ul id="sources" class="small"></ul>
   </section>
 
-  <script define:vars={{ psgc: l.psgc }}>
+  <script define:vars={{ psgc: l.psgc, povertyLine }}>
     window.__PSGC__ = psgc;
+    window.__POVERTY_LINE__ = povertyLine;
   </script>
   <script>
     import { initLguPage } from '../../lib/client/lgu-page.ts';
-    initLguPage((window as any).__PSGC__).catch((e) => {
+    initLguPage((window as any).__PSGC__, (window as any).__POVERTY_LINE__).catch((e) => {
       console.error(e);
       document.getElementById('tiles')!.innerHTML = '<p class="banner">Could not load data. Please reload.</p>';
     });

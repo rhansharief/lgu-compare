@@ -1,12 +1,13 @@
 ---
 import Base from '../layouts/Base.astro';
+import Term from '../components/Term.astro';
 ---
 
 <Base title="Need vs. money" nav="compare" description="Every Philippine city and municipality in a peer group: poverty incidence against national DPWH infrastructure spend per resident.">
   <div class="page-head">
     <h1>Need vs. money</h1>
   </div>
-  <p class="subline">Does national infrastructure money go where it's needed? Each dot is one city or municipality.</p>
+  <p class="subline">Does national infrastructure money go where it's needed? Each dot is one city or municipality (a <Term k="lgu">local government unit, or LGU</Term>).</p>
 
   <div class="controls" style="margin-bottom:6px">
     <div class="control-group search-row" style="flex:1 1 320px">
@@ -27,6 +28,7 @@ import Base from '../layouts/Base.astro';
       <div>
         <h2 id="chart-title">Loading…</h2>
         <p class="muted small" id="chart-sub"></p>
+        <div id="chart-warn"></div>
       </div>
       <div style="display:flex;gap:12px;align-items:center">
         <label class="small muted"><input type="checkbox" id="log" /> Log scale</label>

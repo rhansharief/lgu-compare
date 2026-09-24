@@ -25,6 +25,8 @@ export interface ScatterOpts {
   log: boolean;
   onPick?: (p: Point) => void;
   yLabel: string;
+  /** Defaults to the poverty % label. */
+  xLabel?: string;
 }
 
 const css = (name: string) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
@@ -62,7 +64,7 @@ export function renderScatter(el: HTMLElement, points: Point[], opts: ScatterOpt
   const hlRadius = hl.length ? Math.sqrt(hl[0].pop / popMax) * rMax : 0;
   const rest = pts.filter((p) => !p.hl).sort((a, b) => b.pop - a.pop); // big dots underneath
   const quad = (label: string, fx: 'left' | 'right', fy: 'top' | 'bottom') =>
-    Plot.text([narrow ? label.replace(' · ', '\n') : label], { frameAnchor: `${fy}-${fx}` as any, dx: fx === 'left' ? 6 : -6, dy: fy === 'top' ? 6 : -6, fill: text3, fontSize: narrow ? 10 : 11.5 });
+    Plot.text([narrow ? label.replace(', ', ',\n') : label], { frameAnchor: `${fy}-${fx}` as any, dx: fx === 'left' ? 6 : -6, dy: fy === 'top' ? 6 : -6, fill: text3, fontSize: narrow ? 10 : 11.5, stroke: surface, strokeWidth: 3, paintOrder: 'stroke' });
 
   const plot = Plot.plot({
     width,
@@ -72,7 +74,7 @@ export function renderScatter(el: HTMLElement, points: Point[], opts: ScatterOpt
     marginTop: 14,
     marginBottom: 42,
     style: { background: 'transparent', color: text3, fontSize: narrow ? '11px' : '12px', fontFamily: 'inherit' },
-    x: { domain: [0, xMax], label: 'Poverty incidence (% of population) →', labelAnchor: 'center', tickFormat: (d: number) => `${d}%`, ticks: narrow ? 5 : 10 },
+    x: { domain: [0, xMax], label: opts.xLabel ?? 'Poverty (% of people below the poverty line) →', labelAnchor: 'center', tickFormat: (d: number) => `${d}%`, ticks: narrow ? 5 : 10 },
     y: {
       type: opts.log ? 'log' : 'linear',
       domain: [yMin, yMax],
@@ -87,12 +89,10 @@ export function renderScatter(el: HTMLElement, points: Point[], opts: ScatterOpt
       Plot.gridY({ stroke: grid, strokeOpacity: 1, ticks: opts.log ? undefined : 6 }),
       medX != null ? Plot.ruleX([medX], { stroke: text3, strokeDasharray: '4,4', strokeOpacity: 0.8 }) : null,
       medY != null ? Plot.ruleY([medY], { stroke: text3, strokeDasharray: '4,4', strokeOpacity: 0.8 }) : null,
-      quad('lower need · more money', 'left', 'top'),
-      quad('higher need · more money', 'right', 'top'),
-      quad('lower need · less money', 'left', 'bottom'),
-      quad('higher need · less money', 'right', 'bottom'),
       Plot.dot(rest.filter((d) => !over.includes(d)), { x: 'x', y: 'y', r: 'pop', fill: (d: Point) => colors[d.group], fillOpacity: 0.78, stroke: surface, strokeWidth: 0.8 }),
       Plot.dot(over.filter((d) => !d.hl), { x: 'x', y: plotY, symbol: 'triangle', r: narrow ? 4 : 5, fill: (d: Point) => colors[d.group], fillOpacity: 0.9 }),
+      // corner labels above the ordinary dots (with a halo) but under the highlighted LGU
+      ...QUADRANTS.map((q) => quad(q.label, q.poorer ? 'right' : 'left', q.more ? 'top' : 'bottom')),
       Plot.dot(hl, { x: 'x', y: plotY, r: (d: Point) => Math.max(d.pop, 1), fill: hlColor, stroke: surface, strokeWidth: 1.5, symbol: (d: Point) => (over.includes(d) ? 'triangle' : 'circle') }),
       Plot.dot(hl, { x: 'x', y: plotY, r: 3.5, fill: hlColor }),
       ...(['start', 'end'] as const).map((anchor) =>
@@ -134,9 +134,9 @@ export function renderScatter(el: HTMLElement, points: Point[], opts: ScatterOpt
     ring.setAttribute('r', String(Math.max(6, (plot.scale('r')!.apply(p.pop) as number) + 3)));
     ring.style.display = '';
     tip.innerHTML = `<b>${esc(p.name)}</b><br><span class="faint">${esc(p.prov)}</span><br>
-      ${fmtPeso(p.y)} per resident<br>
-      Poverty ${p.x.toFixed(1)}%${p.povYear ? ` (${p.povYear}${p.povLevel === 'prov' ? ', province figure' : ''})` : ''}<br>
-      Pop. ${p.pop.toLocaleString('en-PH')}${opts.onPick ? '<br><span class="faint">Click to open</span>' : ''}`;
+      ${fmtPeso(p.y)} per person<br>
+      Poverty ${p.x.toFixed(1)}%${p.povLevel === 'prov' ? ' (province-wide)' : ''}<br>
+      Population ${p.pop.toLocaleString('en-PH')}${opts.onPick ? '<br><span class="faint">Click to open</span>' : ''}`;
     tip.hidden = false;
     const left = (px[i][0] / width) * rect.width;
     const top = (px[i][1] / height) * rect.height;
@@ -151,6 +151,18 @@ export function renderScatter(el: HTMLElement, points: Point[], opts: ScatterOpt
   if (opts.onPick) (plot as SVGElement).style.cursor = 'pointer';
 
   return { medX, medY, over: over.length, cap: capped };
+}
+
+/** Corners of the chart, split at the peer medians. Relative to the typical peer, never absolute. */
+export const QUADRANTS = [
+  { key: 'poorerMore', label: 'Poorer, gets more money', poorer: true, more: true },
+  { key: 'poorerLess', label: 'Poorer, gets less money', poorer: true, more: false },
+  { key: 'betterMore', label: 'Better-off, gets more money', poorer: false, more: true },
+  { key: 'betterLess', label: 'Better-off, gets less money', poorer: false, more: false },
+] as const;
+
+export function quadrantOf(p: Pick<Point, 'x' | 'y'>, medX: number, medY: number) {
+  return QUADRANTS.find((q) => q.poorer === p.x >= medX && q.more === p.y >= medY)!;
 }
 
 export function legendHtml(labels: string[], present: boolean[], vars: string[]): string {

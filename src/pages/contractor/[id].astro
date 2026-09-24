@@ -1,6 +1,8 @@
 ---
 import { readdirSync, readFileSync } from 'node:fs';
 import Base from '../../layouts/Base.astro';
+import Term from '../../components/Term.astro';
+import { titleCase } from '../../lib/names.ts';
 
 export function getStaticPaths() {
   const dir = 'public/data/contractor';
@@ -11,20 +13,21 @@ export function getStaticPaths() {
 const { name } = Astro.props as { name: string };
 ---
 
-<Base title={name} nav="contractor" description="National DPWH infrastructure contracts won by a contractor, and the cities and municipalities where it worked.">
-  <div class="page-head"><h1 id="c-name">{name}</h1></div>
+<Base title={titleCase(name)} nav="contractor" description="National DPWH infrastructure contracts won by a contractor, and the cities and municipalities where it worked.">
+  <div class="page-head"><h1 id="c-name" title={name}>{titleCase(name)}</h1></div>
+  <p class="muted">Contracts from the <Term k="dpwh">Department of Public Works and Highways (DPWH)</Term> won by this contractor, and the cities and towns where the work was.</p>
   <p class="subline" id="c-sub"></p>
   <p class="faint small" id="c-aliases"></p>
   <div id="c-body">
     <div class="grid tiles section" id="c-tiles"></div>
     <div class="grid two section">
       <section class="card"><div class="card-head"><h2>Where it worked</h2><p class="muted small">Cities and municipalities, by amount</p></div><div id="c-lgus"></div></section>
-      <section class="card"><div class="card-head"><h2>By budget year and category</h2></div><div id="c-years"></div></section>
+      <section class="card"><div class="card-head"><h2>By <Term k="budget-year">budget year</Term> and category</h2></div><div id="c-years"></div></section>
     </div>
     <section class="card section"><div class="card-head"><h2>Projects</h2></div><div id="c-projects"></div></section>
   </div>
   <p class="faint small" style="margin-top:14px">
-    Amounts are DPWH contract costs as listed in the Transparency Portal. A joint-venture contract is split equally between its partners.
+    Amounts are DPWH contract costs as listed in the Transparency Portal. A <Term k="joint-venture">joint-venture</Term> contract is split equally between its partners.
     Winning contracts is not evidence of wrongdoing. See <a href="/about/">method &amp; data</a>.
   </p>
   <script>
