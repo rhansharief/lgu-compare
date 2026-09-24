@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="Need vs. money" nav="compare" description="Every Philippine city and municipality in a peer group: poverty incidence against national DPWH infrastructure spend per resident.">
+  <div class="page-head">
+    <h1>Need vs. money</h1>
+  </div>
+  <p class="subline">Does national infrastructure money go where it's needed? Each dot is one city or municipality.</p>
+
+  <div class="controls" style="margin-bottom:6px">
+    <div class="control-group search-row" style="flex:1 1 320px">
+      <span class="control-label">Highlight</span>
+      <div style="flex:1;min-width:220px;max-width:420px;position:relative">
+        <div class="search" id="compare-search" data-search style="max-width:none">
+          <input type="search" placeholder="Type a city or municipality…" aria-label="Highlight an LGU" role="combobox" aria-expanded="false" aria-controls="compare-list" autocomplete="off" />
+          <ul id="compare-list" role="listbox" hidden></ul>
+        </div>
+      </div>
+      <button class="btn" id="clear-lgu" type="button">Show whole country</button>
+    </div>
+  </div>
+  <div class="controls" id="controls"></div>
+
+  <section class="card">
+    <div class="card-head" style="display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap;align-items:flex-start">
+      <div>
+        <h2 id="chart-title">Loading…</h2>
+        <p class="muted small" id="chart-sub"></p>
+      </div>
+      <div style="display:flex;gap:12px;align-items:center">
+        <label class="small muted"><input type="checkbox" id="log" /> Log scale</label>
+        <button class="btn" id="copy-link" type="button">Copy link</button>
+      </div>
+    </div>
+    <div class="legend" id="legend"></div>
+    <div class="chart" id="chart"></div>
+    <p class="small" id="summary" style="margin-top:10px"></p>
+    <p class="faint small" id="chart-note"></p>
+    <details class="table-view"><summary>Table view</summary><div id="table"></div></details>
+  </section>
+
+  <p class="faint small" style="margin-top:14px">
+    Where an LGU sits in this chart describes where DPWH money went. It doesn't show why, and it is not a verdict on the LGU.
+    National DPWH projects only. See <a href="/about/">method &amp; data</a>.
+  </p>
+
+  <script>
+    import { initComparePage } from '../lib/client/compare-page.ts';
+    initComparePage().catch((e) => { console.error(e); document.getElementById('chart-title')!.textContent = 'Could not load data. Please reload.'; });
+  </script>
+</Base>

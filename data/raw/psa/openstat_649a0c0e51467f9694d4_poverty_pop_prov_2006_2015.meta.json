@@ -1,0 +1,513 @@
+{
+ "meta": {
+  "id": "649a0c0e51467f9694d4",
+  "path": "3D/0023C3DP020.px",
+  "title": "Annual Per Capita Poverty Threshold, Poverty Incidence and Magnitude of Poor Population by Region/Province, Item and Year",
+  "domain": "Living Conditions, Poverty and Cross-cutting Social Issues",
+  "topics": [
+   "Living Conditions, Poverty and Cross-cutting Social Issues"
+  ],
+  "source": "https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__3D/0023C3DP020.px",
+  "sourceUpdated": "2026-07-09T11:45:08",
+  "retrieved": "2026-09-08T19:04:45.696Z",
+  "release": "2026-07-09T11-45-08-76271f5a60e0",
+  "ready": true,
+  "availability": "Full snapshot mirrored",
+  "schema": "complete",
+  "cells": "2060",
+  "latestYear": 2015,
+  "unit": "Reported value — see source for units",
+  "dimensions": [
+   {
+    "code": "Region/Province",
+    "label": "Region/Province",
+    "count": 103
+   },
+   {
+    "code": "Item",
+    "label": "Item",
+    "count": 4
+   },
+   {
+    "code": "Year",
+    "label": "Year",
+    "count": 5
+   }
+  ],
+  "links": {
+   "page": "/datasets/649a0c0e51467f9694d4",
+   "api": "/api/v1/datasets/649a0c0e51467f9694d4"
+  },
+  "observationUpdated": [],
+  "sampleQuery": {
+   "release": "2026-07-09T11-45-08-76271f5a60e0",
+   "selection": {
+    "Region/Province": [
+     "0"
+    ],
+    "Item": [
+     "0"
+    ],
+    "Year": [
+     "0"
+    ]
+   }
+  }
+ },
+ "values": {
+  "Region/Province": [
+   {
+    "code": "0",
+    "label": "PHILIPPINES"
+   },
+   {
+    "code": "1",
+    "label": "NCR d/"
+   },
+   {
+    "code": "2",
+    "label": "..1st District b/"
+   },
+   {
+    "code": "3",
+    "label": "..2nd District b/"
+   },
+   {
+    "code": "4",
+    "label": "..3rd District b/"
+   },
+   {
+    "code": "5",
+    "label": "..4th District b/"
+   },
+   {
+    "code": "6",
+    "label": "CAR"
+   },
+   {
+    "code": "7",
+    "label": "..Abra"
+   },
+   {
+    "code": "8",
+    "label": "..Apayao"
+   },
+   {
+    "code": "9",
+    "label": "..Benguet"
+   },
+   {
+    "code": "10",
+    "label": "..Ifugao b/"
+   },
+   {
+    "code": "11",
+    "label": "..Kalinga b/"
+   },
+   {
+    "code": "12",
+    "label": "..Mt. Province"
+   },
+   {
+    "code": "13",
+    "label": "Region I"
+   },
+   {
+    "code": "14",
+    "label": "..Ilocos Norte b/"
+   },
+   {
+    "code": "15",
+    "label": "..Ilocos Sur"
+   },
+   {
+    "code": "16",
+    "label": "..La Union b/"
+   },
+   {
+    "code": "17",
+    "label": "..Pangasinan"
+   },
+   {
+    "code": "18",
+    "label": "Region II"
+   },
+   {
+    "code": "19",
+    "label": "..Batanes c/"
+   },
+   {
+    "code": "20",
+    "label": "..Cagayan"
+   },
+   {
+    "code": "21",
+    "label": "..Isabela"
+   },
+   {
+    "code": "22",
+    "label": "..Nueva Vizcaya"
+   },
+   {
+    "code": "23",
+    "label": "..Quirino"
+   },
+   {
+    "code": "24",
+    "label": "Region III"
+   },
+   {
+    "code": "25",
+    "label": "..Aurora c/"
+   },
+   {
+    "code": "26",
+    "label": "..Bataan b/"
+   },
+   {
+    "code": "27",
+    "label": "..Bulacan b/"
+   },
+   {
+    "code": "28",
+    "label": "..Nueva Ecija"
+   },
+   {
+    "code": "29",
+    "label": "..Pampanga b/"
+   },
+   {
+    "code": "30",
+    "label": "..Tarlac"
+   },
+   {
+    "code": "31",
+    "label": "..Zambales b/"
+   },
+   {
+    "code": "32",
+    "label": "Region IV-A"
+   },
+   {
+    "code": "33",
+    "label": "..Batangas"
+   },
+   {
+    "code": "34",
+    "label": "..Cavite b/"
+   },
+   {
+    "code": "35",
+    "label": "..Laguna b/"
+   },
+   {
+    "code": "36",
+    "label": "..Quezon b/"
+   },
+   {
+    "code": "37",
+    "label": "..Rizal b/"
+   },
+   {
+    "code": "38",
+    "label": "Region IV-B"
+   },
+   {
+    "code": "39",
+    "label": "..Marinduque"
+   },
+   {
+    "code": "40",
+    "label": "..Occidental Mindoro b/"
+   },
+   {
+    "code": "41",
+    "label": "..Oriental Mindoro"
+   },
+   {
+    "code": "42",
+    "label": "..Palawan b/"
+   },
+   {
+    "code": "43",
+    "label": "..Romblon"
+   },
+   {
+    "code": "44",
+    "label": "Region V"
+   },
+   {
+    "code": "45",
+    "label": "..Albay"
+   },
+   {
+    "code": "46",
+    "label": "..Camarines Norte b/"
+   },
+   {
+    "code": "47",
+    "label": "..Camarines Sur"
+   },
+   {
+    "code": "48",
+    "label": "..Catanduanes"
+   },
+   {
+    "code": "49",
+    "label": "..Masbate"
+   },
+   {
+    "code": "50",
+    "label": "..Sorsogon"
+   },
+   {
+    "code": "51",
+    "label": "Region VI"
+   },
+   {
+    "code": "52",
+    "label": "..Aklan"
+   },
+   {
+    "code": "53",
+    "label": "..Antique b/"
+   },
+   {
+    "code": "54",
+    "label": "..Capiz b/"
+   },
+   {
+    "code": "55",
+    "label": "..Guimaras b/, c/"
+   },
+   {
+    "code": "56",
+    "label": "..Iloilo"
+   },
+   {
+    "code": "57",
+    "label": "..Negros Occidental"
+   },
+   {
+    "code": "58",
+    "label": "Region VII"
+   },
+   {
+    "code": "59",
+    "label": "..Bohol"
+   },
+   {
+    "code": "60",
+    "label": "..Cebu"
+   },
+   {
+    "code": "61",
+    "label": "..Negros Oriental"
+   },
+   {
+    "code": "62",
+    "label": "..Siquijor b/, c/"
+   },
+   {
+    "code": "63",
+    "label": "Region VIII"
+   },
+   {
+    "code": "64",
+    "label": "..Biliran"
+   },
+   {
+    "code": "65",
+    "label": "..Eastern Samar"
+   },
+   {
+    "code": "66",
+    "label": "..Leyte"
+   },
+   {
+    "code": "67",
+    "label": "..Northern Samar"
+   },
+   {
+    "code": "68",
+    "label": "..Southern Leyte b/"
+   },
+   {
+    "code": "69",
+    "label": "..Western Samar b/"
+   },
+   {
+    "code": "70",
+    "label": "Region IX"
+   },
+   {
+    "code": "71",
+    "label": "..Zamboanga del Norte"
+   },
+   {
+    "code": "72",
+    "label": "..Zamboanga del Sur b/"
+   },
+   {
+    "code": "73",
+    "label": "..Zamboanga Sibugay"
+   },
+   {
+    "code": "74",
+    "label": "..Isabela City b/, c/"
+   },
+   {
+    "code": "75",
+    "label": "Region X"
+   },
+   {
+    "code": "76",
+    "label": "..Bukidnon"
+   },
+   {
+    "code": "77",
+    "label": "..Camiguin c/"
+   },
+   {
+    "code": "78",
+    "label": "..Lanao del Norte b/"
+   },
+   {
+    "code": "79",
+    "label": "..Misamis Occidental"
+   },
+   {
+    "code": "80",
+    "label": "..Misamis Oriental b/"
+   },
+   {
+    "code": "81",
+    "label": "Region XI"
+   },
+   {
+    "code": "82",
+    "label": "..Davao del Norte b/"
+   },
+   {
+    "code": "83",
+    "label": "..Davao del Sur b/"
+   },
+   {
+    "code": "84",
+    "label": "..Davao Oriental b/"
+   },
+   {
+    "code": "85",
+    "label": "..Compostela Valley"
+   },
+   {
+    "code": "86",
+    "label": "Region XII"
+   },
+   {
+    "code": "87",
+    "label": "..North Cotabato"
+   },
+   {
+    "code": "88",
+    "label": "..Saranggani"
+   },
+   {
+    "code": "89",
+    "label": "..South Cotabato b/"
+   },
+   {
+    "code": "90",
+    "label": "..Sultan Kudarat"
+   },
+   {
+    "code": "91",
+    "label": "..Cotabato City b/, c/"
+   },
+   {
+    "code": "92",
+    "label": "Caraga"
+   },
+   {
+    "code": "93",
+    "label": "..Agusan del Norte"
+   },
+   {
+    "code": "94",
+    "label": "..Agusan del Sur"
+   },
+   {
+    "code": "95",
+    "label": "..Surigao Del Norte"
+   },
+   {
+    "code": "96",
+    "label": "..Surigao Del Sur"
+   },
+   {
+    "code": "97",
+    "label": "ARMM"
+   },
+   {
+    "code": "98",
+    "label": "..Basilan"
+   },
+   {
+    "code": "99",
+    "label": "..Lanao del Sur"
+   },
+   {
+    "code": "100",
+    "label": "..Maguindanao"
+   },
+   {
+    "code": "101",
+    "label": "..Sulu"
+   },
+   {
+    "code": "102",
+    "label": "..Tawi-tawi b/"
+   }
+  ],
+  "Item": [
+   {
+    "code": "0",
+    "label": "Annual Per Capita Poverty Threshold  (in Pesos)"
+   },
+   {
+    "code": "1",
+    "label": "Poverty Incidence among Population Estimate (%)"
+   },
+   {
+    "code": "2",
+    "label": "Coefficient of Variation"
+   },
+   {
+    "code": "3",
+    "label": "Magnitude of Poor Population Estimate"
+   }
+  ],
+  "Year": [
+   {
+    "code": "0",
+    "label": "1991"
+   },
+   {
+    "code": "1",
+    "label": "2006"
+   },
+   {
+    "code": "2",
+    "label": "2009"
+   },
+   {
+    "code": "3",
+    "label": "2012"
+   },
+   {
+    "code": "4",
+    "label": "2015"
+   }
+  ]
+ }
+}

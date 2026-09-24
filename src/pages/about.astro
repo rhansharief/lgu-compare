@@ -1,0 +1,89 @@
+---
+import { readFileSync } from 'node:fs';
+import Base from '../layouts/Base.astro';
+import { PERIODS, PRESET_IDS } from '../lib/metrics.ts';
+
+const index = JSON.parse(readFileSync('public/data/index.json', 'utf8'));
+const s = index.sources;
+const n = index.national;
+const presets = PRESET_IDS.map((id) => PERIODS.find((p) => p.id === id)!);
+---
+
+<Base title="Method & data" nav="about">
+  <div class="prose">
+    <h1>Method &amp; data</h1>
+    <p class="subline">How every number on this site is made, and what it can't tell you.</p>
+
+    <h2 id="question">The question</h2>
+    <p>Does national infrastructure money go where it's needed, and who's getting it? Every view on this site serves that question and nothing else.</p>
+
+    <h2 id="sources">Sources</h2>
+    <ul>
+      <li><b>DPWH projects</b>: <a href={s.dpwh.url}>{s.dpwh.name}</a>, retrieved {s.dpwh.fetched}. {s.dpwh.rows.toLocaleString('en-PH')} projects, budget years 2016–2026, with cost, category, status, contractor, dates and (for most) map coordinates.</li>
+      <li><b>Cities &amp; municipalities, income class, population</b>: <a href={s.psgc.url}>{s.psgc.name}</a>. Population is the 2024 figure.</li>
+      <li><b>Poverty incidence</b>: <a href={s.poverty.url}>{s.poverty.name}</a>. Poverty incidence among population, latest year 2023.</li>
+      <li><b>Municipal boundaries</b>: <a href="https://github.com/altcoder/philippines-psgc-shapefiles">altcoder/philippines-psgc-shapefiles</a> (MIT), boundaries as of 31 Dec 2023, simplified.</li>
+    </ul>
+    <p>Data from BetterGov.PH APIs and PSA. This site is not affiliated with BetterGov.PH, DPWH or PSA.</p>
+
+    <h2 id="money">What counts as "money"</h2>
+    <ul>
+      <li>The <b>project cost</b> DPWH lists for each contract (the <code>budget</code> field, which equals the award amount). The portal's "amount paid" field is 0 for every project, so it can't be used.</li>
+      <li>Projects are counted in their <b>budget (infra) year</b>, the year of the appropriation, not the year work happened.</li>
+      <li>Projects still in procurement often have no cost yet. They count as projects but add ₱0.</li>
+      <li>Only national DPWH projects. LGU-funded infrastructure, other agencies and foreign-assisted projects outside the DPWH list are not included.</li>
+    </ul>
+
+    <h2 id="periods">Periods</h2>
+    <p>A period uses only the budget years that fall fully inside it:</p>
+    <ul>
+      {presets.map((p) => <li><b>{p.label}</b>: budget years {p.from}{p.to !== p.from ? `–${p.to}` : ''}.{p.note ? ` ${p.note}` : ''}</li>)}
+      <li><b>Custom</b>: any range of budget years from 2016 to 2026. The "change" figure compares with the same number of years just before.</li>
+    </ul>
+    <p>Money approved in a year is spent over the following one to two years, so the most recent years always look incomplete.</p>
+
+    <h2 id="peers">Peer groups</h2>
+    <ul>
+      <li><b>Same income class &amp; island group</b> (default): same PSA income class, same kind (cities and municipalities have different class thresholds, so they're never mixed) and same island group (Luzon, Visayas or Mindanao). If fewer than 8 LGUs share the exact class, the neighbouring classes are added one step at a time (e.g. "4th–6th class cities, Mindanao"). The page always shows which group is used.</li>
+      <li><b>Same region</b>.</li>
+      <li><b>Similar population</b>: within ±30% of the LGU's 2024 population.</li>
+      <li><b>Whole country</b>.</li>
+    </ul>
+    <p>The peer group doesn't change when you change the period, so comparisons across periods are like for like.</p>
+
+    <h2 id="metrics">Metrics</h2>
+    <ul>
+      <li><b>Spend per resident</b>: total DPWH project cost placed in the LGU in the period ÷ 2024 population.</li>
+      <li><b>Rank</b>: position within the peer group, 1st = highest. Ties share a rank. Always shown with the peer-group size and median.</li>
+      <li><b>Top-3 contractor share</b>: share of the LGU's spend in the period won by its three biggest contractors. Joint-venture contracts are split equally between partners. Contracts with no contractor listed count in the total only.</li>
+      <li><b>Completion rate</b>: completed ÷ all projects with a known status in the period (including those still in procurement, so recent periods read lower).</li>
+      <li><b>Poverty incidence</b>: share of the population below the poverty threshold, PSA. See the limitation below.</li>
+    </ul>
+
+    <h2 id="mapping">How projects are placed in a city or municipality</h2>
+    <p>DPWH lists projects by <em>district engineering office</em>, which usually covers several towns, not by city or municipality. Each project is placed using two independent signals:</p>
+    <ol>
+      <li><b>Text</b>: the place at the end of the description, e.g. "…, CITY OF MATI, DAVAO ORIENTAL", matched against the official PSGC list within the project's region.</li>
+      <li><b>Coordinates</b>: the project's map point inside a municipal boundary. Points that land outside the project's DPWH region are discarded as bad coordinates.</li>
+    </ol>
+    <ul>
+      <li><b>High confidence</b>: both signals agree, or the text names both town and province.</li>
+      <li><b>Medium</b>: only one signal, or the two disagree. When they disagree we follow the text, because DPWH coordinates are unverified and often fall in the next town.</li>
+      <li><b>Low</b>: only the city's own engineering office (e.g. "Iligan City DEO").</li>
+    </ul>
+    <p>Overall, <b>{(100 * n.mapped / n.n).toFixed(1)}%</b> of projects ({(100 * n.mappedValue / n.value).toFixed(1)}% of the value) could be placed. The rest are not counted for any LGU. Each LGU page shows its region's coverage. A project that covers several towns (e.g. a highway section) is counted in one town only.</p>
+    <p>The full mapping table, one row per contract with method and confidence, is published under CC0: <a href="/data/psgc-map.csv">psgc-map.csv</a>.</p>
+
+    <h2 id="limits">Known limitations</h2>
+    <ul>
+      <li><b>Poverty is mostly a province figure.</b> PSA publishes city/municipal poverty estimates (Small Area Estimates), but they aren't available through the API used here yet. Until they're added, most LGUs show their province's poverty incidence, labelled as such. Highly urbanized cities and all Metro Manila cities have their own figure.</li>
+      <li><b>BARMM is compared separately.</b> Most public works in the Bangsamoro region are carried out by the BARMM Ministry of Public Works, not DPWH (median DPWH spend there is a small fraction of the rest of the country). BARMM cities and municipalities are compared only with each other, and never enter other LGUs' peer groups or medians.</li>
+      <li>Population is 2024 for every period, so per-resident figures for early years are slightly understated for growing LGUs.</li>
+      <li>Contractor identity is the PCAB licence number in the DPWH data. Firms using several licences, or related firms, are not merged.</li>
+      <li>The DPWH portal is updated continuously. Figures reflect the retrieval date above.</li>
+    </ul>
+
+    <h2 id="wording">How to read this site</h2>
+    <p>Figures describe where national DPWH money went during a period. They don't explain why, and they say nothing about individual officials. A high or low figure, or a concentrated contractor share, is not evidence of wrongdoing.</p>
+  </div>
+</Base>

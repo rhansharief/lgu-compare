@@ -1,0 +1,670 @@
+{
+ "meta": {
+  "id": "f19c15d14ad2f3c9023e",
+  "path": "1F/FY/0041F3DF02A.px",
+  "title": "Table 2a. Annual Per Capita Poverty Threshold and Poverty Incidence Among Population with Measures of Precision,  by Region, Province and Highly Urbanized Cities:  2018, 2021, and 2023",
+  "domain": "Poverty",
+  "topics": [
+   "Poverty",
+   "Full Year Poverty Statistics"
+  ],
+  "source": "https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__1F__FY/0041F3DF02A.px",
+  "sourceUpdated": "2026-08-03T13:49:16",
+  "retrieved": "2026-09-08T18:40:44.244Z",
+  "release": "2026-08-03T13-49-16-ffb070b97929",
+  "ready": true,
+  "availability": "Full snapshot mirrored",
+  "schema": "complete",
+  "cells": "2556",
+  "latestYear": 2023,
+  "unit": "Reported value — see source for units",
+  "dimensions": [
+   {
+    "code": "Geolocation",
+    "label": "Geolocation",
+    "count": 142
+   },
+   {
+    "code": "Threshold/Incidence/Parameters",
+    "label": "Threshold/Incidence/Parameters",
+    "count": 6
+   },
+   {
+    "code": "Year",
+    "label": "Year",
+    "count": 3
+   }
+  ],
+  "links": {
+   "page": "/datasets/f19c15d14ad2f3c9023e",
+   "api": "/api/v1/datasets/f19c15d14ad2f3c9023e"
+  },
+  "observationUpdated": [],
+  "sampleQuery": {
+   "release": "2026-08-03T13-49-16-ffb070b97929",
+   "selection": {
+    "Geolocation": [
+     "0"
+    ],
+    "Threshold/Incidence/Parameters": [
+     "0"
+    ],
+    "Year": [
+     "0"
+    ]
+   }
+  }
+ },
+ "values": {
+  "Geolocation": [
+   {
+    "code": "0",
+    "label": "PHILIPPINES r1, 1/, 2/, 3/"
+   },
+   {
+    "code": "1",
+    "label": "..National Capital Region (NCR) 1/, 2/, a/"
+   },
+   {
+    "code": "2",
+    "label": "....1st District"
+   },
+   {
+    "code": "3",
+    "label": "....City of Manila a/, b/, c/"
+   },
+   {
+    "code": "4",
+    "label": "....2nd District"
+   },
+   {
+    "code": "5",
+    "label": "....City of Mandaluyong a/, b/, c/"
+   },
+   {
+    "code": "6",
+    "label": "....City of Marikina 2/, a/, b/, c/"
+   },
+   {
+    "code": "7",
+    "label": "....City of Pasig a/, b/, c/"
+   },
+   {
+    "code": "8",
+    "label": "....Quezon City 2/, a/, b/, c/"
+   },
+   {
+    "code": "9",
+    "label": "....City of San Juan *, **, a/"
+   },
+   {
+    "code": "10",
+    "label": "....3rd District"
+   },
+   {
+    "code": "11",
+    "label": "....City of Caloocan 2/, a/, b/, c/"
+   },
+   {
+    "code": "12",
+    "label": "....City of Malabon 1/, 2/, a/, b/, c/"
+   },
+   {
+    "code": "13",
+    "label": "....City of Navotas a/, b/, c/"
+   },
+   {
+    "code": "14",
+    "label": "....City of Valenzuela 1/, a/, b/, c/"
+   },
+   {
+    "code": "15",
+    "label": "....4th District"
+   },
+   {
+    "code": "16",
+    "label": "....City of Las Piñas 1/, 2/, a/, b/, c/"
+   },
+   {
+    "code": "17",
+    "label": "....City of Makati 1/, a/, b/, c/"
+   },
+   {
+    "code": "18",
+    "label": "....City of Muntinlupa 1/, 2/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "19",
+    "label": "....City of Parañaque 1/, 2/, a/, b/, c/"
+   },
+   {
+    "code": "20",
+    "label": "....Pasay City 2/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "21",
+    "label": "....Pateros 2/, a/, b/, c/"
+   },
+   {
+    "code": "22",
+    "label": "....City of Taguig 1/, 2/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "23",
+    "label": "..Cordillera Administrative Region (CAR) 1/, 2/, 3/"
+   },
+   {
+    "code": "24",
+    "label": "....Abra 2/, c/"
+   },
+   {
+    "code": "25",
+    "label": "....Apayao 1/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "26",
+    "label": "....Benguet (w/o the City of Baguio) a/, b/, c/"
+   },
+   {
+    "code": "27",
+    "label": "....City of Baguio 3/, a/, b/, c/"
+   },
+   {
+    "code": "28",
+    "label": "....Ifugao 1/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "29",
+    "label": "....Kalinga 2/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "30",
+    "label": "....Mt. Province 3/, c/"
+   },
+   {
+    "code": "31",
+    "label": "..Region I (Ilocos Region) 1/"
+   },
+   {
+    "code": "32",
+    "label": "....Ilocos Norte 2/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "33",
+    "label": "....Ilocos Sur 1/, 2/, a/, b/, c/"
+   },
+   {
+    "code": "34",
+    "label": "....La Union 1/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "35",
+    "label": "....Pangasinan 1/, a/, c/"
+   },
+   {
+    "code": "36",
+    "label": "..Region II (Cagayan Valley) 2/, 3/"
+   },
+   {
+    "code": "37",
+    "label": "....Batanes 1/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "38",
+    "label": "....Cagayan 1/, 3/, b/, c/"
+   },
+   {
+    "code": "39",
+    "label": "....Isabela 2/, 3/, a/, c/"
+   },
+   {
+    "code": "40",
+    "label": "....Nueva Vizcaya a/, b/, c/"
+   },
+   {
+    "code": "41",
+    "label": "....Quirino a/, b/, c/"
+   },
+   {
+    "code": "42",
+    "label": "..Region III (Central Luzon) 1/, 2/"
+   },
+   {
+    "code": "43",
+    "label": "....Aurora 2/, a/, b/, c/"
+   },
+   {
+    "code": "44",
+    "label": "....Bataan 1/, a/, b/, c/"
+   },
+   {
+    "code": "45",
+    "label": "....Bulacan 1/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "46",
+    "label": "....Nueva Ecija 1/, a/, b/, c/"
+   },
+   {
+    "code": "47",
+    "label": "....Pampanga (w/o the City of Angeles) 2/, a/, b/, c/"
+   },
+   {
+    "code": "48",
+    "label": "....City of Angeles 2/, a/, b/, c/"
+   },
+   {
+    "code": "49",
+    "label": "....Tarlac a/, c/"
+   },
+   {
+    "code": "50",
+    "label": "....Zambales (w/o the City of Olongapo) 1/, 2/, a/"
+   },
+   {
+    "code": "51",
+    "label": "....City of Olongapo 1/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "52",
+    "label": "..Region IV-A (CALABARZON) 1/, 2/"
+   },
+   {
+    "code": "53",
+    "label": "....Batangas 1/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "54",
+    "label": "....Cavite 1/, a/, b/, c/"
+   },
+   {
+    "code": "55",
+    "label": "....Laguna 1/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "56",
+    "label": "....Quezon (w/o the City of Lucena) 1/, 2/, a/, b/, c/"
+   },
+   {
+    "code": "57",
+    "label": "....City of Lucena 1/, 2/, a/, b/, c/"
+   },
+   {
+    "code": "58",
+    "label": "....Rizal 3/, a/, b/, c/"
+   },
+   {
+    "code": "59",
+    "label": "..MIMAROPA Region 1/, 3/"
+   },
+   {
+    "code": "60",
+    "label": "....Marinduque 1/, 2/, a/, c/"
+   },
+   {
+    "code": "61",
+    "label": "....Occidental Mindoro 1/, a/, c/"
+   },
+   {
+    "code": "62",
+    "label": "....Oriental Mindoro 1/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "63",
+    "label": "....Palawan (w/o the City of Puerto Princesa 2/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "64",
+    "label": "....City of Puerto Princesa 1/, a/, b/, c/"
+   },
+   {
+    "code": "65",
+    "label": "....Romblon 1/, 2/"
+   },
+   {
+    "code": "66",
+    "label": "..Region V (Bicol Region)"
+   },
+   {
+    "code": "67",
+    "label": "....Albay"
+   },
+   {
+    "code": "68",
+    "label": "....Camarines Norte 1/, 3/"
+   },
+   {
+    "code": "69",
+    "label": "....Camarines Sur 1/, 2/"
+   },
+   {
+    "code": "70",
+    "label": "....Catanduanes 2/, 3/"
+   },
+   {
+    "code": "71",
+    "label": "....Masbate 2/, 3/"
+   },
+   {
+    "code": "72",
+    "label": "....Sorsogon 2/, 3/"
+   },
+   {
+    "code": "73",
+    "label": "..Region VI (Western Visayas) r2, 1/, 2/"
+   },
+   {
+    "code": "74",
+    "label": "....Aklan 1/, 2/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "75",
+    "label": "....Antique a/, c/"
+   },
+   {
+    "code": "76",
+    "label": "....Capiz 3/, a/, b/, c/"
+   },
+   {
+    "code": "77",
+    "label": "....Guimaras a/, b/, c/"
+   },
+   {
+    "code": "78",
+    "label": "....Iloilo (w/o the City of Iloilo) b/"
+   },
+   {
+    "code": "79",
+    "label": "....City of Iloilo a/, b/, c/"
+   },
+   {
+    "code": "80",
+    "label": "..Negros Island Region (NIR) 2/, 3/"
+   },
+   {
+    "code": "81",
+    "label": "....Negros Occidental (w/o the City of Bacolod) 2/, 3/, a/"
+   },
+   {
+    "code": "82",
+    "label": "....City of Bacolod 2/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "83",
+    "label": "....Negros Oriental"
+   },
+   {
+    "code": "84",
+    "label": "....Siquijor 1/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "85",
+    "label": "..Region VII (Central Visayas) r2, 1/, 2/"
+   },
+   {
+    "code": "86",
+    "label": "....Bohol c/"
+   },
+   {
+    "code": "87",
+    "label": "....Cebu (w/o the Cities of Cebu  Lapu-Lapu and Mandaue) 1/, 2/, a/"
+   },
+   {
+    "code": "88",
+    "label": "....City of Cebu 1/, 2/, a/, b/, c/"
+   },
+   {
+    "code": "89",
+    "label": "....City of Lapu-Lapu (Opon) 1/, 2/, a/, b/, c/"
+   },
+   {
+    "code": "90",
+    "label": "....City of Mandaue 1/, 2/, a/, b/, c/"
+   },
+   {
+    "code": "91",
+    "label": "..Region VIII (Eastern Visayas) 3/"
+   },
+   {
+    "code": "92",
+    "label": "....Biliran 1/, 2/, 3/, c/"
+   },
+   {
+    "code": "93",
+    "label": "....Eastern Samar 1/, 3/"
+   },
+   {
+    "code": "94",
+    "label": "....Leyte (w/o the City of Tacloban)"
+   },
+   {
+    "code": "95",
+    "label": "....City of Tacloban 1/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "96",
+    "label": "....Northern Samar 1/"
+   },
+   {
+    "code": "97",
+    "label": "....Southern Leyte 2/, 3/, c/"
+   },
+   {
+    "code": "98",
+    "label": "....Samar"
+   },
+   {
+    "code": "99",
+    "label": "..Region IX (Zamboanga Peninsula)"
+   },
+   {
+    "code": "100",
+    "label": "....Zamboanga del Norte"
+   },
+   {
+    "code": "101",
+    "label": "....Zamboanga del Sur (w/o the City of Zamboanga) 2/"
+   },
+   {
+    "code": "102",
+    "label": "....City of Zamboanga 1/, 2/, a/, b/, c/"
+   },
+   {
+    "code": "103",
+    "label": "....Zamboanga Sibugay 2/, 3/"
+   },
+   {
+    "code": "104",
+    "label": "....Isabela City 1/, 3/, b/, c/"
+   },
+   {
+    "code": "105",
+    "label": "..Region X (Northern Mindanao) 1/"
+   },
+   {
+    "code": "106",
+    "label": "....Bukidnon"
+   },
+   {
+    "code": "107",
+    "label": "....Camiguin 2/, 3/, c/"
+   },
+   {
+    "code": "108",
+    "label": "....Lanao del Norte (w/o the City of Iligan) 1/, 3/"
+   },
+   {
+    "code": "109",
+    "label": "....City of Iligan a/, b/, c/"
+   },
+   {
+    "code": "110",
+    "label": "....Misamis Occidental"
+   },
+   {
+    "code": "111",
+    "label": "....Misamis Oriental (w/o the City of Cagayan de Oro)"
+   },
+   {
+    "code": "112",
+    "label": "....City of Cagayan De Oro a/, b/, c/"
+   },
+   {
+    "code": "113",
+    "label": "..Region XI (Davao Region) 3/"
+   },
+   {
+    "code": "114",
+    "label": "....Davao del Norte a/, b/, c/"
+   },
+   {
+    "code": "115",
+    "label": "....Davao del Sur (w/o the City of Davao) c/"
+   },
+   {
+    "code": "116",
+    "label": "....City of Davao a/, b/, c/"
+   },
+   {
+    "code": "117",
+    "label": "....Davao Oriental 1/, 2/"
+   },
+   {
+    "code": "118",
+    "label": "....Davao de Oro 2/, 3/, c/"
+   },
+   {
+    "code": "119",
+    "label": "....Davao Occidental 2/, 3/, c/"
+   },
+   {
+    "code": "120",
+    "label": "..Region XII (SOCCSKSARGEN) 2/, 3/, 4/"
+   },
+   {
+    "code": "121",
+    "label": "....Cotabato c/"
+   },
+   {
+    "code": "122",
+    "label": "....Sarangani 2/, 3/"
+   },
+   {
+    "code": "123",
+    "label": "....South Cotabato (w/o the City of Gen. Santos) a/, b/, c/"
+   },
+   {
+    "code": "124",
+    "label": "....City of General Santos (Dadiangas) 2/, 3/, a/, b/, c/"
+   },
+   {
+    "code": "125",
+    "label": "....Sultan Kudarat c/"
+   },
+   {
+    "code": "126",
+    "label": "..Region XIII (Caraga) 2/, 3/"
+   },
+   {
+    "code": "127",
+    "label": "....Agusan del Norte (w/o the City of Butuan) 2/, c/"
+   },
+   {
+    "code": "128",
+    "label": "....City of Butuan 1/, 2/, c/"
+   },
+   {
+    "code": "129",
+    "label": "....Agusan del Sur 2/"
+   },
+   {
+    "code": "130",
+    "label": "....Surigao del Norte 2/, 3/, b/, c/"
+   },
+   {
+    "code": "131",
+    "label": "....Surigao del Sur 2/, 3/, c/"
+   },
+   {
+    "code": "132",
+    "label": "....Dinagat Islands a/"
+   },
+   {
+    "code": "133",
+    "label": "..Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) r1, 1/, 3/, 5/"
+   },
+   {
+    "code": "134",
+    "label": "....Basilan 1/, 3/"
+   },
+   {
+    "code": "135",
+    "label": "....Lanao del Sur 1/, 2/, 3/"
+   },
+   {
+    "code": "136",
+    "label": "....Maguindanao 1/"
+   },
+   {
+    "code": "137",
+    "label": "......Maguindanao del Norte"
+   },
+   {
+    "code": "138",
+    "label": "......Maguindanao del Sur"
+   },
+   {
+    "code": "139",
+    "label": "....Sulu r1, 1/, 2/, 3/, c/"
+   },
+   {
+    "code": "140",
+    "label": "....Tawi-tawi 1/, 3/"
+   },
+   {
+    "code": "141",
+    "label": "....Cotabato City"
+   }
+  ],
+  "Threshold/Incidence/Parameters": [
+   {
+    "code": "0",
+    "label": "Annual Per Capita Poverty Threshold (in PhP)"
+   },
+   {
+    "code": "1",
+    "label": "Poverty Incidence among Population (%)"
+   },
+   {
+    "code": "2",
+    "label": "Coefficient of Variation"
+   },
+   {
+    "code": "3",
+    "label": "Standard Error"
+   },
+   {
+    "code": "4",
+    "label": "95% Confidence Interval (Lower Limit)"
+   },
+   {
+    "code": "5",
+    "label": "95% Confidence Interval (Upper Limit)"
+   }
+  ],
+  "Year": [
+   {
+    "code": "0",
+    "label": "2018"
+   },
+   {
+    "code": "1",
+    "label": "2021"
+   },
+   {
+    "code": "2",
+    "label": "2023"
+   }
+  ]
+ }
+}

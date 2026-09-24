@@ -1,0 +1,46 @@
+# Weekly: refetch DPWH data, rebuild the mapping + site JSON, test, build, deploy to Vercel.
+# Needs repo secrets VERCEL_TOKEN, VERCEL_ORG_ID, VERCEL_PROJECT_ID (from `vercel link` → .vercel/project.json).
+name: Refresh data & deploy
+
+on:
+  schedule:
+    - cron: '0 18 * * 0' # Sundays 18:00 UTC = Monday 02:00 Manila
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Fetch DPWH projects (~15–20 min, the API is slow)
+        run: rm -rf data/raw/dpwh/pages && npm run fetch
+      - run: npm run pipeline
+      - run: npm test
+      - name: Commit mapping table and checksums if they changed
+        run: |
+          git config user.name "lgu-compare bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/psgc-map.csv data/raw/dpwh/manifest.json data/raw/dpwh/PAGES.SHA256SUMS
+          git diff --cached --quiet || git commit -m "data: weekly refresh $(date -u +%F)"
+          git push
+      - name: Deploy to Vercel
+        run: |
+          npx vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+          npx vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+          npx vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}

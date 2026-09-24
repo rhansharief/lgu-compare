@@ -1,0 +1,82 @@
+---
+import { readFileSync } from 'node:fs';
+import Base from '../../layouts/Base.astro';
+
+export function getStaticPaths() {
+  const index = JSON.parse(readFileSync('public/data/index.json', 'utf8'));
+  return index.lgus.map((l: any) => ({ params: { psgc: l.psgc }, props: { l } }));
+}
+const { l } = Astro.props as { l: any };
+const kind = l.kind === 'City' ? 'City' : 'Municipality';
+const cls = l.cls ? (l.cls === 'Special' ? 'special income class' : `${l.cls} income class`) : 'income class n/a';
+---
+
+<Base title={`${l.name}, ${l.prov}`} nav="lgu" description={`How much national DPWH infrastructure money went to ${l.name}, ${l.prov}, per resident, and how that compares with similar LGUs.`}>
+  <div class="page-head">
+    <h1>{l.name} <small id="peer-count"></small></h1>
+  </div>
+  <p class="subline">
+    {kind} · {l.prov} · {l.reg} · {cls} · pop. {l.pop ? l.pop.toLocaleString('en-PH') : '—'} (2024)
+  </p>
+  <p class="faint small">National DPWH projects only, not LGU-funded spending. Amounts are project costs by budget (infra) year. PSGC {l.psgc}</p>
+
+  <div class="controls" id="controls"></div>
+  <p class="small muted" id="peer-label" style="margin:-8px 0 12px"></p>
+  <div id="period-note"></div>
+  <noscript><p class="banner">This page needs JavaScript to compute peer comparisons.</p></noscript>
+
+  <div class="grid tiles" id="tiles"><div class="loading">Loading…</div></div>
+
+  <div class="grid two section">
+    <section class="card">
+      <div class="card-head">
+        <h2>Need vs. money: where every peer LGU sits</h2>
+        <p class="muted small">Left to right: poverty incidence. Bottom to top: DPWH spend per resident. Click a dot to open that LGU.</p>
+      </div>
+      <div class="legend" id="scatter-legend"></div>
+      <div class="chart" id="scatter"></div>
+      <p class="faint small" id="scatter-note"></p>
+      <details class="table-view"><summary>Table view</summary><div id="scatter-table"></div></details>
+    </section>
+    <section class="card">
+      <div class="card-head">
+        <h2>Closest peers, side by side</h2>
+      </div>
+      <div id="closest"></div>
+    </section>
+  </div>
+
+  <div class="grid two section">
+    <section class="card">
+      <div class="card-head"><h2>What the money was for</h2><p class="muted small">DPWH spend by category in the selected period</p></div>
+      <div id="categories"></div>
+    </section>
+    <section class="card">
+      <div class="card-head"><h2>Who got the contracts</h2><p class="muted small">Top contractors by amount in the selected period</p></div>
+      <div id="contractors"></div>
+    </section>
+  </div>
+
+  <section class="card section">
+    <div class="card-head"><h2>Projects</h2><p class="muted small">DPWH projects placed in {l.name}, selected period</p></div>
+    <div id="projects"></div>
+  </section>
+
+  <section class="card section">
+    <div class="card-head"><h2>Data coverage</h2></div>
+    <div id="coverage" class="small"></div>
+    <h3 style="margin-top:14px">Sources</h3>
+    <ul id="sources" class="small"></ul>
+  </section>
+
+  <script define:vars={{ psgc: l.psgc }}>
+    window.__PSGC__ = psgc;
+  </script>
+  <script>
+    import { initLguPage } from '../../lib/client/lgu-page.ts';
+    initLguPage((window as any).__PSGC__).catch((e) => {
+      console.error(e);
+      document.getElementById('tiles')!.innerHTML = '<p class="banner">Could not load data. Please reload.</p>';
+    });
+  </script>
+</Base>

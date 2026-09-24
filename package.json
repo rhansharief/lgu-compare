@@ -1,0 +1,34 @@
+{
+  "name": "lgu-compare",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Infra Money Tracker: does national (DPWH) infrastructure money go where it's needed?",
+  "scripts": {
+    "fetch": "tsx pipeline/fetch.ts",
+    "map": "tsx pipeline/map.ts",
+    "aggregate": "tsx pipeline/aggregate.ts",
+    "emit": "tsx pipeline/emit.ts",
+    "pipeline": "npm run map && npm run aggregate && npm run emit",
+    "test": "tsx --test pipeline/*.test.ts src/lib/*.test.ts",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@observablehq/plot": "^0.6.17",
+    "astro": "^7.3.4",
+    "d3": "^7.9.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@turf/boolean-point-in-polygon": "^7.4.0",
+    "@turf/helpers": "^7.4.0",
+    "@types/d3": "^7.4.3",
+    "@types/node": "^26.6.2",
+    "flatbush": "^4.6.2",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3"
+  }
+}

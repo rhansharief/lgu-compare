@@ -1,0 +1,50 @@
+---
+import { readFileSync } from 'node:fs';
+import Base from '../layouts/Base.astro';
+import { fmtPesoCompact } from '../lib/metrics.ts';
+
+const index = JSON.parse(readFileSync('public/data/index.json', 'utf8'));
+const n = index.national;
+const examples = ['1102509000', '1130700000', '0506900000', '1381300000']
+  .map((c) => index.lgus.find((l: any) => l.psgc === c))
+  .filter(Boolean);
+---
+
+<Base title="Infra Money Tracker">
+  <section style="max-width:760px;padding:28px 0 8px">
+    <h1 style="font-size:clamp(1.9rem,5vw,2.9rem)">Does national infrastructure money go where it's needed, and who's getting it?</h1>
+    <p class="muted" style="font-size:1.1rem;margin-top:14px">
+      Look up any Philippine city or municipality. See how much DPWH infrastructure money was spent there per resident,
+      how that compares with similar LGUs, whether it tracks poverty, and which contractors got the contracts.
+    </p>
+    <div class="search" data-search id="home-search" style="max-width:560px;margin-top:22px">
+      <input type="search" placeholder="Type a city or municipality, e.g. Mati" aria-label="Find a city or municipality" role="combobox" aria-expanded="false" aria-controls="home-list" autocomplete="off" style="height:50px;font-size:1.05rem" />
+      <ul id="home-list" role="listbox" hidden></ul>
+    </div>
+    <p class="small muted" style="margin-top:12px">
+      Try {examples.map((l: any, i: number) => (<>{i > 0 && ' · '}<a href={`/lgu/${l.psgc}/`}>{l.name}</a></>))} or open the <a href="/compare/">need vs. money chart</a>.
+    </p>
+  </section>
+
+  <div class="grid tiles section">
+    <div class="card tile"><div class="label">DPWH projects in the dataset</div><div class="value num">{n.n.toLocaleString('en-PH')}</div><div class="context">budget years 2016–2026 · {fmtPesoCompact(n.value)} total cost</div></div>
+    <div class="card tile"><div class="label">Placed in a city or municipality</div><div class="value num">{(100 * n.mapped / n.n).toFixed(1)}%</div><div class="context">{(100 * n.mappedValue / n.value).toFixed(1)}% of the value · <a href="/about/#mapping">how</a></div></div>
+    <div class="card tile"><div class="label">Cities & municipalities</div><div class="value num">{index.lgus.length.toLocaleString('en-PH')}</div><div class="context">compared within peer groups, not ranked overall</div></div>
+  </div>
+
+  <section class="card section prose" style="max-width:none">
+    <h2>What this is, and what it isn't</h2>
+    <ul>
+      <li><b>National DPWH money only.</b> Projects funded by the national Department of Public Works and Highways, not what LGUs spend from their own budgets.</li>
+      <li><b>Compared with similar LGUs.</b> By default: same income class, same kind (city or municipality), same island group. You can switch to same region, similar population or the whole country.</li>
+      <li><b>Periods, not people.</b> Figures are for budget years in a period, such as "during the Marcos Jr. administration". Nothing here is about individual officials.</li>
+      <li><b>No overall score.</b> Each number is ranked on its own within the peer group, with the peer median alongside it.</li>
+      <li><b>Descriptive, not causal.</b> The site shows where the money went. It does not say why, and a position on a chart is not evidence of wrongdoing.</li>
+    </ul>
+  </section>
+
+  <script>
+    import { initSearch } from '../lib/client/search.ts';
+    initSearch(undefined, document.getElementById('home-search')!.parentElement!);
+  </script>
+</Base>
