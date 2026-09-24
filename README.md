@@ -90,8 +90,11 @@ First deploy, from a machine with the data built:
 
 ```bash
 npx vercel link
-npx vercel build --prod && npx vercel deploy --prebuilt --prod
+npx vercel build --prod && npx vercel deploy --prebuilt --prod --archive=tgz
 ```
+
+`--archive=tgz` uploads the ~10k built files as one archive. Without it, the free plan's limit of 5,000 file uploads a
+day stops the deploy partway.
 
 Weekly refresh: `.github/workflows/refresh.yml` refetches, rebuilds, commits the updated mapping table and checksums,
 and deploys with `vercel deploy --prebuilt`. It needs the repo secrets `VERCEL_TOKEN`, `VERCEL_ORG_ID` and
