@@ -21,7 +21,7 @@
   --chip-on-bg: #111111;
   --chip-on-text: #ffffff;
   --radius: 10px;
-  --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font: 'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
   color-scheme: light;
 }
@@ -84,7 +84,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font: 15px/1.5 var(--font);
-  font-feature-settings: 'tnum' 1, 'cv11' 1;
+  font-feature-settings: 'tnum' 1;
 }
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
