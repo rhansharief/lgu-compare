@@ -1,8 +1,8 @@
 {
   "source": "https://api.dpwh.bettergov.ph/projects",
-  "fetchedAt": "2026-09-24T02:10:00Z (pages downloaded 02:10\u201302:27Z)",
-  "totalPages": 54,
-  "limit": 5000,
+  "fetchedAt": "2026-09-27T20:47:31.101Z",
   "totalCountReported": 265437,
-  "rowsOnDisk": 265439
+  "rowsOnDisk": 265439,
+  "totalPages": 54,
+  "limit": 5000
 }
