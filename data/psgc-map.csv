@@ -194256,7 +194256,9 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 24BB0228,"APARRI, CAGAYAN",Cagayan 1st DEO,Region II,,,0201505000,Aparri,Cagayan,text,high,
 24BB0229,"APARRI, CAGAYAN",Cagayan 1st DEO,Region II,,,0201505000,Aparri,Cagayan,text,high,
 24BB0230,"BUGUEY,CAG",Cagayan 1st DEO,Region II,,,0201508000,Buguey,Cagayan,text,medium,
+24BB0231,"GATTARAN, CAGAYAN",Cagayan 1st DEO,Region II,,,0201513000,Gattaran,Cagayan,text,high,
 24BB0232,"GONZAGA, CAGAYAN",Cagayan 1st DEO,Region II,,,0201514000,Gonzaga,Cagayan,text,high,
+24BB0233,"LAL-LO, CAGAYAN",Cagayan 1st DEO,Region II,,,0201516000,Lal-Lo,Cagayan,text,high,
 24BB0234,"CAG.;STA. ANA CS BARANGAY CENTRO, STA. ANA. CAGAYAN",Cagayan 1st DEO,Region II,,,0201523000,Santa Ana,Cagayan,text,high,
 24BB0236,"STA. TERESITA, CAGAYAN",Cagayan 1st DEO,Region II,,,0201525000,Santa Teresita,Cagayan,text,high,
 24BB0237,"GONZAGA, CAGAYAN",Cagayan 1st DEO,Region II,,,0201514000,Gonzaga,Cagayan,text,high,
@@ -200049,6 +200051,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 24DB0166,"BALAYAN, BATANGAS",Batangas 1st DEO,Region IV-A,,,0401003000,Balayan,Batangas,text,high,
 24DB0167,"CITY OF CALACA, BATANGAS",Batangas 1st DEO,Region IV-A,,,0401007000,City of Calaca,Batangas,text,high,
 24DB0168,"BALAYAN, BATANGAS",Batangas 1st DEO,Region IV-A,,,0401003000,Balayan,Batangas,text,high,
+24DB0170,"TUY, BATANGAS",Batangas 1st DEO,Region IV-A,,,0401034000,Tuy,Batangas,text,high,
 24DC0001,"NETWORK DEVELOPMENT PROGRAM - ROAD WIDENING - SECONDARY ROADS, PALICO - BALAYAN - BATANGAS RD",Batangas 3rd DEO,Region IV-A,13.8766778,120.9695583,0401027000,Santa Teresita,Batangas,geo,medium,0401027000
 24DC0002,"TERTIARY ROADS, TALISAY-LAUREL-AGONCILLO RD",Batangas 3rd DEO,Region IV-A,14.0780844,120.9604083,0401030000,Talisay,Batangas,geo,medium,0401030000
 24DC0003,"NETWORK DEVELOPMENT PROGRAM - ROAD WIDENING - SECONDARY ROADS, TANAUAN-TALISAY-TAGAYTAY RD",Batangas 3rd DEO,Region IV-A,14.0936361,121.0302583,0401030000,Talisay,Batangas,geo,medium,0401030000
@@ -225793,6 +225796,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25BG0220,"BENITO SOLIVEN, ISABELA",Isabela 3rd DEO,Region II,,,0203104000,Benito Soliven,Isabela,text,high,
 25BG0221,"BENITO SOLIVEN, ISABELA",Isabela 3rd DEO,Region II,,,0203104000,Benito Soliven,Isabela,text,high,
 25BG0222,"ANGADANAN, ISABELA",Isabela 3rd DEO,Region II,,,0203102000,Angadanan,Isabela,text,high,
+25BG0223,"REINA MERCEDES, ISABELA",Isabela 3rd DEO,Region II,,,0203125000,Reina Mercedes,Isabela,text,high,
 25BG0225,"ANGADANAN, ISABELA",Isabela 3rd DEO,Region II,,,0203102000,Angadanan,Isabela,text,high,
 25BG0226,"BARANGAY DISULAP, SAN M",Isabela 3rd DEO,Region II,,,,,,,,
 25BG0227,"GAMU, ISABELA",Isabela 3rd DEO,Region II,,,0203113000,Gamu,Isabela,text,high,
@@ -226727,6 +226731,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25CA0086,"HERMOSA, BATAAN",Bataan 1st DEO,Region III,,,0300805000,Hermosa,Bataan,text,high,
 25CA0087,CONVERGENCE AND SPECIAL SUPPORT PROGRAM - SUSTAINABLE INFRASTRUCTURE PROJECTS ALLEVIATING GAPS (SIPAG) - ACCESS ROADS AN,Bataan 1st DEO,Region III,,,,,,,,
 25CA0088,"ORANI, BATAAN",Bataan 1st DEO,Region III,,,0300809000,Orani,Bataan,text,high,
+25CA0089,"HERMOSA, BATAAN",Bataan 1st DEO,Region III,,,0300805000,Hermosa,Bataan,text,high,
 25CB0001,"PREVENTIVE MAINTENANCE - TERTIARY ROADS-BALANGA-CADRE RD - K0125 + 378 - K0126 + 526, BATAAN 2ND DISTRICT",Bataan 2nd DEO,Region III,14.6829694,120.5250314,0300803000,City of Balanga,Bataan,geo,medium,0300803000
 25CB0003,"BALANGA CITY, BATAAN",Bataan 2nd DEO,Region III,14.680925,120.5303194,0300803000,City of Balanga,Bataan,text+geo,high,0300803000
 25CB0005,"PILAR, BATAAN",Bataan 2nd DEO,Region III,14.6366333,120.5239111,0300811000,Pilar,Bataan,text-geo-conflict,medium,0300803000
@@ -227571,6 +227576,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25CD0241,"CITY OF SAN JOSE DEL MONTE, BULACAN",Bulacan 2nd DEO,Region III,,,0301420000,City of San Jose Del Monte,Bulacan,text,high,
 25CD0242,"STA. MARIA, BULACAN",Bulacan 2nd DEO,Region III,,,0301423000,Santa Maria,Bulacan,text,high,
 25CD0243,"CITY OF MEYCAUAYAN, BULACAN",Bulacan 2nd DEO,Region III,,,0301412000,City of Meycauayan,Bulacan,text,high,
+25CD0244,"CITY OF SAN JOSE DEL MONTE, BULACAN",Bulacan 2nd DEO,Region III,,,0301420000,City of San Jose Del Monte,Bulacan,text,high,
 25CE0001,"TALAVERA, NUEVA ECIJA",Nueva Ecija 1st DEO,Region III,15.6737583,120.9876197,0304930000,Talavera,Nueva Ecija,text+geo,high,0304930000
 25CE0002,"TALAVERA, NUEVA ECIJA",Nueva Ecija 1st DEO,Region III,15.6367339,120.9614128,0304930000,Talavera,Nueva Ecija,text+geo,high,0304930000
 25CE0003,"TALAVERA, NUEVA ECIJA",Nueva Ecija 1st DEO,Region III,15.6473589,120.9461869,0304930000,Talavera,Nueva Ecija,text+geo,high,0304930000
@@ -228964,6 +228970,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25CK0174,"CAPAS, TARLAC",Tarlac 2nd DEO,Region III,,,0306904000,Capas,Tarlac,text,high,
 25CK0175,"CONCEPCION, TARLAC",Tarlac 2nd DEO,Region III,,,0306905000,Concepcion,Tarlac,text,high,
 25CK0176,"CAPAS, TARLAC",Tarlac 2nd DEO,Region III,,,0306904000,Capas,Tarlac,text,high,
+25CK0177,"CONCEPCION, TARLAC",Tarlac 2nd DEO,Region III,,,0306905000,Concepcion,Tarlac,text,high,
 25CL0001,"BOTOLAN, ZAMBALES",Zambales 1st DEO,Region III,15.31599,120.0336,0307101000,Botolan,Zambales,text+geo,high,0307101000
 25CL0003,"CANDELARIA, ZAMBALES",Zambales 1st DEO,Region III,15.6381556,119.9577417,0307103000,Candelaria,Zambales,text+geo,high,0307103000
 25CL0004,"SANTA CRUZ, ZAMBALES",Zambales 1st DEO,Region III,15.8164806,119.9879611,0307113000,Santa Cruz,Zambales,text+geo,high,0307113000
@@ -229713,6 +229720,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25CP0207,"SAN ILDEFONSO, BULACAN",Bulacan 3rd DEO,Region III,,,0301419000,San Ildefonso,Bulacan,text,high,
 25CP0209,"SAN MIGUEL, BULACAN",Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
 25CP0210,"SAN MIGUEL, BULACAN",Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
+25CP0211,"SAN MIGUEL, BULACAN",Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
 25CP0213,"SAN MIGUEL, BULACAN",Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
 25CP0214,"SAN MIGUEL, BULACAN",Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
 25CP0215,"SAN MIGUEL, BULACAN",Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
@@ -229721,15 +229729,20 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25CP0219,"SAN MIGUEL, BULACAN",Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
 25CP0221,"SAN MIGUEL, BULACAN",Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
 25CP0222,FARM-TO-MARKET ROAD (FMR) PROJECTS - REPAIR/ REHABIILATION AND CONSTRUCTION OF FARM-TO-MARKET ROADS - CONCRETING OF FMR ,Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
+25CP0224,"SAN MIGUEL, BULACAN",Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
 25CP0226,"SAN ILDEFONSO, BULACAN",Bulacan 3rd DEO,Region III,,,0301419000,San Ildefonso,Bulacan,text,high,
 25CP0228,"SAN ILDEFONSO, BULACAN",Bulacan 3rd DEO,Region III,,,0301419000,San Ildefonso,Bulacan,text,high,
 25CP0229,"SAN MIGUEL, BULACAN",Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
 25CP0230,"SAN MIGUEL, BULACAN",Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
+25CP0233,"SAN ILDEFONSO, BULACAN",Bulacan 3rd DEO,Region III,,,0301419000,San Ildefonso,Bulacan,text,high,
 25CP0234,"SAN ILDEFONSO, BULACAN",Bulacan 3rd DEO,Region III,,,0301419000,San Ildefonso,Bulacan,text,high,
 25CP0235,"SAN MIGUEL, BULACAN",Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
 25CP0236,"SAN MIGUEL, BULACAN",Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
 25CP0238,"DONA REMEDIOS TRINIDAD, BULACAN",Bulacan 3rd DEO,Region III,,,0301424000,Doña Remedios Trinidad,Bulacan,text,high,
+25CP0239,"SAN ILDEFONSO, BULACAN",Bulacan 3rd DEO,Region III,,,0301419000,San Ildefonso,Bulacan,text,high,
+25CP0240,"SAN ILDEFONSO, BULACAN",Bulacan 3rd DEO,Region III,,,0301419000,San Ildefonso,Bulacan,text,high,
 25CP0241,"SAN ILDEFONSO, BULACAN",Bulacan 3rd DEO,Region III,,,0301419000,San Ildefonso,Bulacan,text,high,
+25CP0242,"SAN ILDEFONSO, BULACAN",Bulacan 3rd DEO,Region III,,,0301419000,San Ildefonso,Bulacan,text,high,
 25CP0244,"SAN MIGUEL, BULACAN",Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
 25CP0246,"SAN ILDEFONSO, BULACAN",Bulacan 3rd DEO,Region III,,,0301419000,San Ildefonso,Bulacan,text,high,
 25CP0247,"SAN MIGUEL, BULACAN",Bulacan 3rd DEO,Region III,,,0301421000,San Miguel,Bulacan,text,high,
@@ -231554,6 +231567,11 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25DI0185,"SAN PEDRO, LAGUNA",Laguna 2nd DEO,Region IV-A,,,0403425000,City of San Pedro,Laguna,text,high,
 25DI0186,"BINAN CITY, LAGUNA",Laguna 2nd DEO,Region IV-A,,,0403403000,City of Biñan,Laguna,text,high,
 25DI0187,"BINAN CITY, LAGUNA",Laguna 2nd DEO,Region IV-A,,,0403403000,City of Biñan,Laguna,text,high,
+25DI0188,"CALAMBA CITY, LAGUNA",Laguna 2nd DEO,Region IV-A,,,0403405000,City of Calamba,Laguna,text,high,
+25DI0189,"LGU HOSPITALS, LAGUNA PROVINCIAL HOSPITAL - SAN PEDRO DISTRICT HOSPITAL",Laguna 2nd DEO,Region IV-A,,,,,,,,
+25DI0190,"CALAMBA CITY, LAGUNA",Laguna 2nd DEO,Region IV-A,,,0403405000,City of Calamba,Laguna,text,high,
+25DI0191,"CALAMBA CITY, LAGUNA",Laguna 2nd DEO,Region IV-A,,,0403405000,City of Calamba,Laguna,text,high,
+25DI0192,"CITY OF SAN PEDRO, LAGUNA",Laguna 2nd DEO,Region IV-A,,,0403425000,City of San Pedro,Laguna,text,high,
 25DJ0001,"LUCENA CITY, QUEZON",Quezon 2nd DEO,Region IV-A,13.917725,121.6132994,0431200000,City of Lucena,Quezon,text+geo,high,0431200000
 25DJ0002,"LUCENA, QUEZON",Quezon 2nd DEO,Region IV-A,13.9323472,121.648475,0431200000,City of Lucena,Quezon,text+geo,high,0431200000
 25DJ0003,"SARIAYA, QUEZON",Quezon 2nd DEO,Region IV-A,13.9178167,121.4624944,0405645000,Sariaya,Quezon,text+geo,high,0405645000
@@ -232082,6 +232100,10 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25DL0207,"QUIRINO H-WAY-K0276+197-K0276+237, K0276+252-K0276+287",Quezon 4th DEO,Region IV-A,,,,,,,,
 25DL0208,"ATIMONAN, QUEZON",Quezon 4th DEO,Region IV-A,,,0405603000,Atimonan,Quezon,text,high,
 25DL0209,"TAGKAWAYAN, QUEZON",Quezon 4th DEO,Region IV-A,,,0405646000,Tagkawayan,Quezon,text,high,
+25DL0210,"CALAUAG, QUEZON",Quezon 4th DEO,Region IV-A,,,0405607000,Calauag,Quezon,text,high,
+25DL0211,"GUINAYANGAN, QUEZON",Quezon 4th DEO,Region IV-A,,,0405618000,Guinayangan,Quezon,text,high,
+25DL0212,"LOPEZ, QUEZON",Quezon 4th DEO,Region IV-A,,,0405622000,Lopez,Quezon,text,high,
+25DL0213,"TAGKAWAYAN, QUEZON",Quezon 4th DEO,Region IV-A,,,0405646000,Tagkawayan,Quezon,text,high,
 25DM0001,"MACALELON & GENERAL LUNA, QUEZON",Quezon 3rd DEO,Region IV-A,13.7077089,122.1793072,0405616000,General Luna,Quezon,text+geo,high,0405616000
 25DM0002,"MULANAY & SAN NARCISO, QUEZON",Quezon 3rd DEO,Region IV-A,13.5674164,122.4456847,0405644000,San Narciso,Quezon,text-geo-conflict,medium,0405628000
 25DM0003,"MULANAY, QUEZON",Quezon 3rd DEO,Region IV-A,13.49726,122.4936739,0405628000,Mulanay,Quezon,text+geo,high,0405628000
@@ -232539,6 +232561,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25DO0129,"SAN MATEO, RIZAL",Rizal 2nd DEO,Region IV-A,,,0405811000,San Mateo,Rizal,text,high,
 25DO0130,"RODRIGUEZ (MONTALBAN), RIZAL",Rizal 2nd DEO,Region IV-A,,,0405808000,Rodriguez,Rizal,text,high,
 25DO0131,"BARANGAY ROSARIO, PASIG CITY",Rizal 2nd DEO,Region IV-A,,,,,,,,
+25DO0132,"PILILLA, RIZAL",Rizal 2nd DEO,Region IV-A,,,0405810000,Pililla,Rizal,text,high,
 25DP0001,"NAGCARLAN, LAGUNA",Laguna 3rd DEO,Region IV-A,14.121321,121.4019202,0403417000,Nagcarlan,Laguna,text+geo,high,0403417000
 25DP0002,"SAN PABLO CITY, LAGUNA",Laguna 3rd DEO,Region IV-A,14.0907685,121.3289463,0403424000,City of San Pablo,Laguna,text+geo,high,0403424000
 25DP0003,ASSET PRESERVATION PROGRAM - PREVENTIVE MAINTENANCE - PRIMARY ROADS - CALAMBA-STA CRUZ-FAMY JCT RD - K0070 + 450 - K0071,Laguna 3rd DEO,Region IV-A,14.1597769,121.3071508,0403406000,Calauan,Laguna,geo,medium,0403406000
@@ -233118,10 +233141,12 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25EA0101,"TORRIJOS, MARINDUQUE",Marinduque DEO,MIMAROPA Region,,,1704006000,Torrijos,Marinduque,text,high,
 25EA0102,"GASAN, MARINDUQUE",Marinduque DEO,MIMAROPA Region,13.2867789,121.8686629,1704003000,Gasan,Marinduque,text+geo,high,1704003000
 25EA0103,"BOAC, MARINDUQUE",Marinduque DEO,Region IV-B,,,1704001000,Boac,Marinduque,text,high,
+25EA0104,"MOGPOG, MARINDUQUE",Marinduque DEO,Region IV-B,,,1704004000,Mogpog,Marinduque,text,high,
 25EA0105,"BUENAVISTA, MARINDUQUE",Marinduque DEO,Region IV-B,,,1704002000,Buenavista,Marinduque,text,high,
 25EA0106,"BOAC, MARINDUQUE",Marinduque DEO,Region IV-B,,,1704001000,Boac,Marinduque,text,high,
 25EA0107,"BUENAVISTA, MARINDUQUE",Marinduque DEO,Region IV-B,,,1704002000,Buenavista,Marinduque,text,high,
 25EA0108,"MOGPOG, MARINDUQUE",Marinduque DEO,Region IV-B,,,1704004000,Mogpog,Marinduque,text,high,
+25EA0109,"BOAC, MARINDUQUE",Marinduque DEO,Region IV-B,,,1704001000,Boac,Marinduque,text,high,
 25EA0110,"MARINDUQUE PROVINCIAL HOSPITAL, MARINDUQUE",Marinduque DEO,Region IV-B,,,,,,,,
 25EA0111,"MOGPOG, MARINDUQUE",Marinduque DEO,Region IV-B,,,1704004000,Mogpog,Marinduque,text,high,
 25EA0112,"STA. CRUZ, MARINDUQUE",Marinduque DEO,Region IV-B,,,1704005000,Santa Cruz,Marinduque,text,high,
@@ -233269,6 +233294,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25EB0150,"MAMBURAO RURAL HEALTH UNIT, OCCIDENTAL MINDORO",Mindoro Occidental DEO,MIMAROPA Region,,,,,,,,
 25EB0151,"SAN JOSE, OCCIDENTAL MINDORO",Mindoro Occidental DEO,MIMAROPA Region,12.4648583,121.1793317,1705110000,San Jose,Occidental Mindoro,text+geo,high,1705110000
 25EB0152,"MAGSAYSAY, OCCIDENTAL MINDORO",Mindoro Occidental DEO,MIMAROPA Region,,,1705105000,Magsaysay,Occidental Mindoro,text,high,
+25EB0157,"SAN JOSE, OCCIDENTAL MINDORO",Mindoro Occidental DEO,Region IV-B,,,1705110000,San Jose,Occidental Mindoro,text,high,
 25EB0158,"MAMBURAO, OCCIDENTAL MINDORO",Mindoro Occidental DEO,Region IV-B,,,1705106000,Mamburao,Occidental Mindoro,text,high,
 25EB0159,"SANTA CRUZ, OCCIDENTAL MINDORO",Mindoro Occidental DEO,Region IV-B,,,1705111000,Santa Cruz,Occidental Mindoro,text,high,
 25EB0160,"ABRA DE ILOG, OCCIDENTAL MINDORO",Mindoro Occidental DEO,Region IV-B,,,1705101000,Abra De Ilog,Occidental Mindoro,text,high,
@@ -234317,9 +234343,11 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25F00586,"LEGAZPI CITY, ALBAY (2ND LEGISLATIVE DISTRICT)",Region V,Region V,,,0500506000,City of Legazpi,Albay,text,high,
 25F00587,"LEGAZPI CITY, ALBAY (2ND LEGISLATIVE DISTRICT)",Region V,Region V,,,0500506000,City of Legazpi,Albay,text,high,
 25F00588,"RAPU-RAPU, ALBAY (2ND LEGISLATIVE DISTRICT)",Region V,Region V,,,0500515000,Rapu-Rapu,Albay,text,high,
+25F00589,"RAPU-RAPU, ALBAY (2ND LD)",Region V,Region V,,,0500515000,Rapu-Rapu,Albay,text,high,
 25F00590,"RAPU-RAPU, ALBAY (2ND LEGISLATIVE DISTRICT)",Region V,Region V,,,0500515000,Rapu-Rapu,Albay,text,high,
 25F00591,"LEGAZPI CITY, ALBAY",Region V,Region V,,,0500506000,City of Legazpi,Albay,text,high,
 25F00592,"DARAGA, ALBAY (2ND LEGISLATIVE DISTRICT)",Region V,Region V,,,0500503000,Daraga,Albay,text,high,
+25F00593,"RAPU-RAPU, ALBAY (2ND LEGISLATIVE DISTRICT)",Region V,Region V,,,0500515000,Rapu-Rapu,Albay,text,high,
 25F00594,"DAET, CAMARINES NORTE",Region V,Region V,,,0501603000,Daet,Camarines Norte,text,high,
 25F00595,"POLANGUI, ALBAY (3RD LEGISLATIVE DISTRICT)",Region V,Region V,13.2846791,123.4911547,0500514000,Polangui,Albay,text+geo,high,0500514000
 25F00596,"POLANGUI, ALBAY (3RD LEGISLATIVE DISTRICT)",Region V,Region V,,,0500514000,Polangui,Albay,text,high,
@@ -234742,6 +234770,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25FE0042,"CAMARINES SUR, D.",Camarines Sur 2nd DEO,Region V,,,0501727000,Pasacao,Camarines Sur,text,high,
 25FE0043,"PASACAO, CAMARINES SUR",Camarines Sur 2nd DEO,Region V,,,0501727000,Pasacao,Camarines Sur,text,high,
 25FE0045,"MILAOR, CAMARINES SUR",Camarines Sur 2nd DEO,Region V,,,0501721000,Milaor,Camarines Sur,text,high,
+25FE0046,"PASACAO, CAMARINES SUR",Camarines Sur 2nd DEO,Region V,,,0501727000,Pasacao,Camarines Sur,text,high,
 25FF0001,002;CONST./MAINT. OF FLOOD MITIGATION STRUCTURES& DRAINAGE SYSTEM-CONST. OF FLOOD PROTECTION STRUCTURE ALONG HIBAGO RIVE,Camarines Sur 3rd DEO,Region V,13.5701556,123.3994972,0501725000,Ocampo,Camarines Sur,geo,medium,0501725000
 25FF0002,CONVERGENCE & SPECIAL SUPPORT PROG.-CONST./IMPROVEMENT OF ACCESS ROAD LEADING TO DECLARED TOURISM DESTINATION(TOURISM RO,Camarines Sur 3rd DEO,Region V,13.6095199,123.2040405,0501721000,Milaor,Camarines Sur,geo,medium,0501721000
 25FF0003,"(B00418LZ) ALONG PILI AIRPORT RD.,PILI CAMARINES SUR",Camarines Sur 3rd DEO,Region V,13.5847112,123.2656869,0501728000,Pili,Camarines Sur,text+geo,high,0501728000
@@ -235093,6 +235122,9 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25FI0092,"MASBATE CITY, MASBATE",Masbate 2nd DEO,Region V,,,0504111000,City of Masbate,Masbate,text,high,
 25FI0093,"MASBATE, PACKAGE 1",Masbate 2nd DEO,Region V,,,0504110000,Mandaon,Masbate,text,high,
 25FI0094,"AROROY, MASBATE",Masbate 2nd DEO,Region V,,,0504101000,Aroroy,Masbate,text,high,
+25FI0095,"MASBATE CITY, MASBATE",Masbate 2nd DEO,Region V,,,0504111000,City of Masbate,Masbate,text,high,
+25FI0096,ORGANIZATIONAL OUTCOME 1 : ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - NETWORK DEVELOPMENT - ROAD WIDENING - SECONDA,Masbate 2nd DEO,Region V,,,,,,,,
+25FI0097,"BALUD, MASBATE",Masbate 2nd DEO,Region V,,,0504103000,Balud,Masbate,text,high,
 25FJ0001,OO1: NETWORK DEVELOPMENT PROGRAM- ROAD WIDENING- SECONDARY ROADS- MASBATE- CATAINGAN- PLACER ROAD- K0052+000- K0052+815,Masbate 3rd DEO,Region V,12.1605783,123.8963217,0504115000,Palanas,Masbate,geo,medium,0504115000
 25FJ0002,OO1: NETWORK DEVELOPMENT PROGRAM- ROAD WIDENING- SECONDARY ROADS- MASBATE- CATAINGAN- PLACER RD - K0034+500- K0035+000,Masbate 3rd DEO,Region V,12.1849278,123.8038028,0504121000,Uson,Masbate,geo,medium,0504121000
 25FJ0003,OO1: NETWORK DEVELOPMENT PROGRAM- ROAD WIDENING- SECONDARY ROADS- MASBATE- CATAINGAN- PLACER RD - K0043+925- K0044+500,Masbate 3rd DEO,Region V,12.2073944,123.8436361,0504108000,Dimasalang,Masbate,geo,medium,0504108000
@@ -235650,6 +235682,10 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25FM0099,"CLAVERIA, MASBATE",Masbate 1st DEO,Region V,,,0504107000,Claveria,Masbate,text,high,
 25FM0100,"CLAVERIA, MASBATE",Masbate 1st DEO,Region V,,,0504107000,Claveria,Masbate,text,high,
 25FM0101,"SAN PASCUAL, MASBATE",Masbate 1st DEO,Region V,,,0504120000,San Pascual,Masbate,text,high,
+25FM0102,"SAN FERNANDO, MASBATE",Masbate 1st DEO,Region V,,,0504118000,San Fernando,Masbate,text,high,
+25FM0103,"MONREAL, MASBATE",Masbate 1st DEO,Region V,,,0504114000,Monreal,Masbate,text,high,
+25FM0104,"SAN JACINTO, MASBATE",Masbate 1st DEO,Region V,,,0504119000,San Jacinto,Masbate,text,high,
+25FM0105,"SAN JACINTO, MASBATE",Masbate 1st DEO,Region V,,,0504119000,San Jacinto,Masbate,text,high,
 25FM0111,"CLAVERIA, MASBATE",Masbate 1st DEO,Region V,,,0504107000,Claveria,Masbate,text,high,
 25FM0112,"CLAVERIA, MASBATE",Masbate 1st DEO,Region V,,,0504107000,Claveria,Masbate,text,high,
 25FN0001,"NABUA, CAMARINES SUR",Camarines Sur 5th DEO,Region V,13.4006847,123.3705667,0501723000,Nabua,Camarines Sur,text+geo,high,0501723000
@@ -235889,6 +235925,8 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25G00118,CONSTRUCTION OF ELECTRIC VEHICLE CHARGING STATIONS,Region VI,Region VI,,,,,,,,
 25G00119,"IBAJAY DISTRICT HOSPITAL, AKLAN",Region VI,Region VI,,,,,,,,
 25G00120,"JORDAN, GUIMARAS",Region VI,Region VI,,,0607902000,Jordan,Guimaras,text,high,
+25G00121,"DR. CATALINO GALLEGO NAVA PROVINCIAL HOSPITAL, GUIMARAS",Region VI,Region VI,,,,,,,,
+25G00122,"MADALAG DISTRICT HOSPITAL, AKLAN",Region VI,Region VI,,,,,,,,
 25GA0001,AKLAN EAST RD - K0281+000 - K0283+085,Aklan DEO,Region VI,11.6696583,122.3553139,0600407000,Kalibo,Aklan,geo,medium,0600407000
 25GA0002,"AKLAN WEST RD (KALIBO-NABAS) - K0234 + (-525) - K0234 + (-375), K0265 + 596 - K0266 + 000",Aklan DEO,Region VI,11.7189939,122.2814182,0600411000,Makato,Aklan,geo,medium,0600411000
 25GA0003,AKLAN EAST ROAD-K0310+335-K0310+406,Aklan DEO,Region VI,11.545575,122.4394917,0600401000,Altavas,Aklan,geo,medium,0600401000
@@ -236579,6 +236617,13 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25GG0245,"PASSI CITY, ILOILO",Iloilo 2nd DEO,Region VI,,,0603035000,City of Passi,Iloilo,text,high,
 25GG0246,"DUEÑAS, ILOILO",Iloilo 2nd DEO,Region VI,,,0603017000,Dueñas,Iloilo,text,high,
 25GG0247,"ANILAO, ILOILO",Iloilo 2nd DEO,Region VI,,,0603003000,Anilao,Iloilo,text,high,
+25GG0250,"DUMANGAS, ILOILO",Iloilo 2nd DEO,Region VI,,,0603018000,Dumangas,Iloilo,text,high,
+25GG0251,"DUMANGAS, ILOILO",Iloilo 2nd DEO,Region VI,,,0603018000,Dumangas,Iloilo,text,high,
+25GG0252,"DUMANGAS, ILOILO",Iloilo 2nd DEO,Region VI,,,0603018000,Dumangas,Iloilo,text,high,
+25GG0253,"DUMANGAS, ILOILO",Iloilo 2nd DEO,Region VI,,,0603018000,Dumangas,Iloilo,text,high,
+25GG0254,"DUMANGAS, ILOILO",Iloilo 2nd DEO,Region VI,,,0603018000,Dumangas,Iloilo,text,high,
+25GG0255,"SAN ENRIQUE, ILOILO",Iloilo 2nd DEO,Region VI,,,0603039000,San Enrique,Iloilo,text,high,
+25GG0256,"SAN ENRIQUE, ILOILO",Iloilo 2nd DEO,Region VI,,,0603039000,San Enrique,Iloilo,text,high,
 25GH0001,"BALASAN, ILOILO",Iloilo 3rd DEO,Region VI,11.46784,123.0982519,0603005000,Balasan,Iloilo,text+geo,high,0603005000
 25GH0002,"BALASAN, ILOILO",Iloilo 3rd DEO,Region VI,11.4562578,123.098375,0603005000,Balasan,Iloilo,text+geo,high,0603005000
 25GH0003,"BALASAN, ILOILO",Iloilo 3rd DEO,Region VI,11.4452319,123.0857308,0603005000,Balasan,Iloilo,text+geo,high,0603005000
@@ -238744,6 +238789,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25HH0171,"CEBU CITY, CEBU",Cebu City DEO,Region VII,,,0730600000,City of Cebu,Cebu,text,high,
 25HH0172,"CEBU CITY, CEBU",Cebu City DEO,Region VII,,,0730600000,City of Cebu,Cebu,text,high,
 25HH0173,"CEBU CITY, CEBU",Cebu City DEO,Region VII,,,0730600000,City of Cebu,Cebu,text,high,
+25HH0174,"CEBU CITY, CEBU",Cebu City DEO,Region VII,,,0730600000,City of Cebu,Cebu,text,high,
 25HI0001,"CARMEN, CEBU",Cebu 5th DEO,Region VII,10.5601969,123.9878311,0702215000,Carmen,Cebu,text+geo,high,0702215000
 25HI0002,"CATMON, CEBU",Cebu 5th DEO,Region VII,10.6878,123.9750222,0702216000,Catmon,Cebu,text+geo,high,0702216000
 25HI0003,"CATMON, CEBU",Cebu 5th DEO,Region VII,10.6771574,123.9354858,0702216000,Catmon,Cebu,text+geo,high,0702216000
@@ -239741,6 +239787,8 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25I00208,"BONTOC, SOUTHERN LEYTE",Region VIII,Region VIII,,,,,,,,
 25I00209,"TACLOBAN CITY JAIL, TACLOBAN CITY",Region VIII,Region VIII,,,0831600000,City of Tacloban,Leyte,text,high,
 25I00210,"CATARMAN, NORTHERN SAMAR",Region VIII,Region VIII,,,0804805000,Catarman,Northern Samar,text,high,
+25I00211,"MONDRAGON & CATARMAN, NORTHERN SAMAR",Region VIII,Region VIII,,,0804805000,Catarman,Northern Samar,text,high,
+25I00212,BRIDGE - RETROFITTING/STRENGTHENING OF PERMANENT BRIDGES - MAGKASAG (B00608LT) ALONG MAHARLIKA HIGHWAY,Region VIII,Region VIII,,,,,,,,
 25IA0001,"K1091+103 - K1091+237, K1092+000 -K1092+580",Biliran DEO,Region VIII,11.5352414,124.6136031,0807804000,Caibiran,Biliran,geo,medium,0807804000
 25IA0002,"NETWORK DEVELOPMENT - CONSTRUCTION OF BY-PASS ROADS AND DIVERSION ROADS - ALMERIA BY-PASS ROAD, BILIRAN",Biliran DEO,Region VIII,11.6222519,124.3840633,0807801000,Almeria,Biliran,geo,medium,0807801000
 25IA0003,"ALMERIA, BILIRAN",Biliran DEO,Region VIII,11.606095,124.3975606,0807801000,Almeria,Biliran,text+geo,high,0807801000
@@ -240111,6 +240159,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25IB0222,"BORONGAN CITY, EASTERN SAMAR",Eastern Samar DEO,Region VIII,,,0802604000,City of Borongan,Eastern Samar,text,high,
 25IB0223,"JIPAPAD, EASTERN SAMAR",Eastern Samar DEO,Region VIII,,,0802611000,Jipapad,Eastern Samar,text,high,
 25IB0224,"DOLORES, EASTERN SAMAR",Eastern Samar DEO,Region VIII,,,0802606000,Dolores,Eastern Samar,text,high,
+25IB0225,CONVERGENCE AND SPECIAL SUPPORT PROGRAM SUSTAINABLE INFRASTRUCTURE PROJECTS ALLEVIATING GAPS (SIPAG) - ACCESS ROADS AND/,Eastern Samar DEO,Region VIII,,,,,,,,
 25IC0001,"PALO, LEYTE",Leyte 1st DEO,Region VIII,11.1709928,124.9645157,0803739000,Palo,Leyte,text+geo,high,0803739000
 25IC0002,"PALO, LEYTE",Leyte 1st DEO,Region VIII,11.1711917,125.010915,0803739000,Palo,Leyte,text+geo,high,0803739000
 25IC0003,"PALO, LEYTE",Leyte 1st DEO,Region VIII,11.1814499,125.0030441,0803739000,Palo,Leyte,text+geo,high,0803739000
@@ -240936,6 +240985,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25IJ0084,"CALBAYOG CITY, SAMAR",Samar 1st DEO,Region VIII,,,0806003000,City of Calbayog,Samar,text,high,
 25IJ0085,"SECONDARY ROADS, CALBAYOG - CATARMAN RD. - K0786+364 - K0786+927",Samar 1st DEO,Region VIII,,,,,,,,
 25IJ0086,"TAGAPUL-AN, SAMAR",Samar 1st DEO,Region VIII,,,0806024000,Tagapul-An,Samar,text,high,
+25IJ0088,"GANDARA, SAMAR",Samar 1st DEO,Region VIII,,,0806007000,Gandara,Samar,text,high,
 25IK0001,"NETWORK DEVELOPMENT - ROAD WIDENING - SECONDARY ROADS, WRIGHT - TAFT - BORONGAN RD.",Samar 2nd DEO,Region VIII,,,,,,,,
 25IK0002,"PARANAS, SAMAR",Samar 2nd DEO,Region VIII,,,0806022000,Paranas,Samar,text,high,
 25IK0003,"BASEY, SAMAR",Samar 2nd DEO,Region VIII,11.3237119,125.1530864,0806002000,Basey,Samar,text+geo,high,0806002000
@@ -241817,6 +241867,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25JD0118,"GUTALAC, ZAMBOANGA DEL NORTE",Zamboanga del Norte 3rd DEO,Region IX,,,0907223000,Gutalac,Zamboanga del Norte,text,high,
 25JD0119,"GODOD, ZAMBOANGA DEL NORTE",Zamboanga del Norte 3rd DEO,Region IX,,,0907225000,Godod,Zamboanga del Norte,text,high,
 25JD0120,"LABASON DISTRICT HOSPITAL, ZAMBOANGA DEL NORTE",Zamboanga del Norte 3rd DEO,Region IX,,,,,,,,
+25JD0121,"GUTALAC, ZAMBOANGA DEL NORTE",Zamboanga del Norte 3rd DEO,Region IX,,,0907223000,Gutalac,Zamboanga del Norte,text,high,
 25JE0001,"PAGADIAN CITY, ZAMBOANGA DEL SUR",Zamboanga del Sur 1st DEO,Region IX,7.844785,123.4266267,0907322000,City of Pagadian,Zamboanga del Sur,text+geo,high,0907322000
 25JE0002,"PAGADIAN CITY, ZAMBOANGA DEL SUR",Zamboanga del Sur 1st DEO,Region IX,7.90094,123.4236233,0907322000,City of Pagadian,Zamboanga del Sur,text+geo,high,0907322000
 25JE0003,"PAGADIAN CITY, ZAMBOANGA DEL SUR",Zamboanga del Sur 1st DEO,Region IX,7.8491217,123.39068,0907322000,City of Pagadian,Zamboanga del Sur,text+geo,high,0907322000
@@ -242189,6 +242240,10 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25JI0103,"DIPLAHAN, ZAMBOANGA SIBUGAY",Zamboanga Sibugay 1st DEO,Region IX,,,0908303000,Diplahan,Zamboanga Sibugay,text,high,
 25JI0104,"OLUTANGA, ZAMBOANGA SIBUGAY",Zamboanga Sibugay 1st DEO,Region IX,,,0908310000,Olutanga,Zamboanga Sibugay,text,high,
 25JI0105,"MABUHAY, ZAMBOANGA SIBUGAY",Zamboanga Sibugay 1st DEO,Region IX,,,0908307000,Mabuhay,Zamboanga Sibugay,text,high,
+25JI0106,"IMELDA, ZAMBOANGA SIBUGAY",Zamboanga Sibugay 1st DEO,Region IX,,,0908304000,Imelda,Zamboanga Sibugay,text,high,
+25JI0107,"ALICIA, ZAMBOANGA SIBUGAY",Zamboanga Sibugay 1st DEO,Region IX,,,0908301000,Alicia,Zamboanga Sibugay,text,high,
+25JI0108,"ALICIA, ZAMBOANGA SIBUGAY",Zamboanga Sibugay 1st DEO,Region IX,,,0908301000,Alicia,Zamboanga Sibugay,text,high,
+25JI0109,"IMELDA, ZAMBOANGA SIBUGAY",Zamboanga Sibugay 1st DEO,Region IX,,,0908304000,Imelda,Zamboanga Sibugay,text,high,
 25JJ0001,"PREVENTIVE MAINTENANCE - SECONDARY ROADS, ZAMBOANGA WEST COASTAL RD (SIBUCO-LIMPAPA SECTION) - (S01152MN) CHAINAGE 5761 ",Zamboanga del Norte 4th DEO,Region IX,7.2835683,122.0486933,0907216000,Sibuco,Zamboanga del Norte,geo,medium,0907216000
 25JJ0002,"SIOCON-SIRAWAI-SIBUCO-LIMPAPA RD - K2096 + (-507) - K2096 + (-040), K2096 + (-011) - K2097 + 522)",Zamboanga del Norte 4th DEO,Region IX,7.5857758,122.1520878,0907220000,Sirawai,Zamboanga del Norte,geo,medium,0907220000
 25JJ0003,"REHABILITATION/ RECONSTRUCTION/ UPGRADING OF DAMAGED PAVED ROADS - SECONDARY ROADS, ZAMBOANGA WEST COASTAL RD (SIBUCO-LI",Zamboanga del Norte 4th DEO,Region IX,7.2588183,122.00651,0907216000,Sibuco,Zamboanga del Norte,geo,medium,0907216000
@@ -242733,6 +242788,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25KA0137,"CITY OF MALAYBALAY, BUKIDNON 2ND LD",Bukidnon 1st DEO,Region X,8.1546254,125.1341216,1001312000,City of Malaybalay,Bukidnon,text+geo,high,1001312000
 25KA0138,"MALAYBALAY CITY, BUKIDNON 2ND LD",Bukidnon 1st DEO,Region X,,,1001312000,City of Malaybalay,Bukidnon,text,high,
 25KA0139,"8.131437°) CASISANG CENTRAL INTEGRATED SCHOOL,CITY OF MALAYBALAY",Bukidnon 1st DEO,Region X,,,1001312000,City of Malaybalay,Bukidnon,text,high,
+25KA0141,"IMPASUG-ONG, BUKIDNON",Bukidnon 1st DEO,Region X,,,1001305000,Impasug-ong,Bukidnon,text,high,
 25KB0001,"DON CARLOS, BUKIDNON",Bukidnon 2nd DEO,Region X,7.6942111,124.9418806,1001304000,Don Carlos,Bukidnon,text+geo,high,1001304000
 25KB0002,"MARAMAG, BUKIDNON",Bukidnon 2nd DEO,Region X,7.7810722,124.9401639,1001315000,Maramag,Bukidnon,text+geo,high,1001315000
 25KB0003,"DAMULOG, BUKIDNON",Bukidnon 2nd DEO,Region X,7.4774772,124.9363206,1001302000,Damulog,Bukidnon,text+geo,high,1001302000
@@ -243384,6 +243440,8 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25KH0146,"REHABILITATION OF ROAD IN BARANGAY IPONAN, CAGAYAN DE ORO CITY (25KH0020 REMAINING WORKS)",Cagayan de Oro City 1st DEO,Region X,,,1030500000,City of Cagayan De Oro,Misamis Oriental,text,high,
 25KH0147,"CAGAYAN DE ORO CITY, MISAMIS ORIENTAL (25KH0055 REMAINING WORKS)",Cagayan de Oro City 1st DEO,Region X,,,1030500000,City of Cagayan De Oro,Misamis Oriental,text,high,
 25KH0148,"BARANGAY IPONAN, CAGAYAN DE ORO CITY (25KH0076 REMAINING WORKS)",Cagayan de Oro City 1st DEO,Region X,,,1030500000,City of Cagayan De Oro,Misamis Oriental,text,high,
+25KH0149,"CAGAYAN DE ORO CITY, MISAMIS ORIENTAL",Cagayan de Oro City 1st DEO,Region X,,,1030500000,City of Cagayan De Oro,Misamis Oriental,text,high,
+25KH0150,"REHABILITATION OF ROAD IN BARANGAY PAGATPAT, CAGAYAN DE ORO CITY",Cagayan de Oro City 1st DEO,Region X,,,1030500000,City of Cagayan De Oro,Misamis Oriental,text,high,
 25KI0001,"OROQUIETA CITY, MISAMIS OCCIDENTAL.",Misamis Occidental 1st DEO,Region X,8.5135472,123.7653889,1004209000,City of Oroquieta,Misamis Occidental,text+geo,high,1004209000
 25KI0002,"SAPANG DALAGA, MISAMIS OCCIDENTAL.",Misamis Occidental 1st DEO,Region X,8.5834264,123.5969564,1004213000,Sapang Dalaga,Misamis Occidental,text+geo,high,1004213000
 25KI0003,"ALORAN AND OROQUIETA CITY, MISAMIS OCCIDENTAL.",Misamis Occidental 1st DEO,Region X,8.4448292,123.8086769,1004209000,City of Oroquieta,Misamis Occidental,text-geo-conflict,medium,1004201000
@@ -244036,6 +244094,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25L00165,"POBLACION LAAK, DAVAO DE ORO",Region XI,Region XI,,,1108202000,Laak,Davao de Oro,text,high,
 25L00166,"ISLAND GARDEN CITY OF SAMAL, DAVAO DEL NORTE",Region XI,Region XI,,,1102317000,Island Garden City of Samal,Davao del Norte,text,high,
 25L00167,"K1546+324 - K1547+233, K1",Region XI,Region XI,,,,,,,,
+25L00168,"PACKAGE 15, DAVAO DEL NORTE",Region XI,Region XI,,,1108202000,Laak,Davao de Oro,text,high,
 25LA0001,"MACO, DAVAO DE ORO",Davao de Oro 1st DEO,Region XI,7.4338631,125.8358567,1108204000,Maco,Davao de Oro,text+geo,high,1108204000
 25LA0002,"NABUNTURAN, DAVAO DE ORO",Davao de Oro 1st DEO,Region XI,7.6037256,125.9943575,1108209000,Nabunturan,Davao de Oro,text+geo,high,1108209000
 25LA0004,"NABUNTURAN, DAVAO DE ORO",Davao de Oro 1st DEO,Region XI,7.6173214,126.0364956,1108209000,Nabunturan,Davao de Oro,text+geo,high,1108209000
@@ -244084,6 +244143,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25LA0098,"NABUNTURAN, DAVAO DE ORO",Davao de Oro 1st DEO,Region XI,7.5984433,126.0385433,1108209000,Nabunturan,Davao de Oro,text+geo,high,1108209000
 25LA0099,"MABINI, DAVAO DE ORO",Davao de Oro 1st DEO,Region XI,7.3719582,125.990921,1108203000,Mabini,Davao de Oro,text-geo-conflict,medium,1108204000
 25LA0103,"PANTUKAN, DAVAO DE ORO",Davao de Oro 1st DEO,Region XI,,,1108211000,Pantukan,Davao de Oro,text,high,
+25LA0104,"LAAK (SAN VICENTE), DAVAO DE ORO",Davao de Oro 1st DEO,Region XI,,,1108202000,Laak,Davao de Oro,text,high,
 25LB0017,"BARANGAY 27-C, DAVAO CITY",Davao City DEO,Region XI,7.0763072,125.6257767,1130700000,City of Davao,Davao del Sur,text+geo,high,1130700000
 25LB0026,"BAGO GALLERA, DAVAO CITY",Davao City DEO,Region XI,7.0586017,125.5238897,1130700000,City of Davao,Davao del Sur,text+geo,high,1130700000
 25LB0031,"BRGY 10-A (SITE 1), DAVAO CITY",Davao City DEO,Region XI,7.0867066,125.5952907,1130700000,City of Davao,Davao del Sur,text+geo,high,1130700000
@@ -244369,6 +244429,10 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25LD0237,"SANTA CRUZ, DAVAO DEL SUR",Davao del Sur DEO,Region XI,6.7898117,125.3894281,1102412000,Santa Cruz,Davao del Sur,text+geo,high,1102412000
 25LD0238,"CITY OF DIGOS, DAVAO DEL SUR",Davao del Sur DEO,Region XI,,,1102403000,City of Digos,Davao del Sur,text,high,
 25LD0239,"KIBLAWAN, DAVAO DEL SUR",Davao del Sur DEO,Region XI,,,1102406000,Kiblawan,Davao del Sur,text,high,
+25LD0240,"SULOP, DAVAO DEL SUR",Davao del Sur DEO,Region XI,,,1102414000,Sulop,Davao del Sur,text,high,
+25LD0241,"MATANAO, DAVAO DEL SUR",Davao del Sur DEO,Region XI,,,1102410000,Matanao,Davao del Sur,text,high,
+25LD0242,"BANSALAN, DAVAO DEL SUR",Davao del Sur DEO,Region XI,,,1102401000,Bansalan,Davao del Sur,text,high,
+25LD0243,"MAGSAYSAY, DAVAO DEL SUR",Davao del Sur DEO,Region XI,,,1102407000,Magsaysay,Davao del Sur,text,high,
 25LD9212,"HAGONOY, DAVAO DEL SUR",Davao del Sur DEO,Region XI,,,1102404000,Hagonoy,Davao del Sur,text,high,
 25LE0001,"MALITA, DAVAO OCCIDENTAL",Davao Occidental DEO,Region XI,6.4387761,125.5698839,1108603000,Malita,Davao Occidental,text+geo,high,1108603000
 25LE0002,"K1634+434 - K1634+596, K1671+000 - K1671+130",Davao Occidental DEO,Region XI,6.4990047,125.5291653,1108603000,Malita,Davao Occidental,geo,medium,1108603000
@@ -244422,6 +244486,10 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25LE0094,"STA. MARIA, DAVAO OCCIDENTAL",Davao Occidental DEO,Region XI,,,1108604000,Santa Maria,Davao Occidental,text,high,
 25LE0095,"SANTA MARIA, DAVAO OCCIDENTAL",Davao Occidental DEO,Region XI,,,1108604000,Santa Maria,Davao Occidental,text,high,
 25LE0096,"STA. MARIA, DAVAO OCCIDENTAL",Davao Occidental DEO,Region XI,,,1108604000,Santa Maria,Davao Occidental,text,high,
+25LE0097,"STA. MARIA, DAVAO OCCIDENTAL",Davao Occidental DEO,Region XI,,,1108604000,Santa Maria,Davao Occidental,text,high,
+25LE0098,"MALITA, DAVAO OCCIDENTAL",Davao Occidental DEO,Region XI,,,1108603000,Malita,Davao Occidental,text,high,
+25LE0099,"STA. MARIA, DAVAO OCCIDENTAL",Davao Occidental DEO,Region XI,,,1108604000,Santa Maria,Davao Occidental,text,high,
+25LE0100,"DON MARCELINO, DAVAO OCCIDENTAL",Davao Occidental DEO,Region XI,,,1108601000,Don Marcelino,Davao Occidental,text,high,
 25LF0001,"TARRAGONA, DAVAO ORIENTAL",Davao Oriental 1st DEO,Region XI,7.0290083,126.4325472,1102511000,Tarragona,Davao Oriental,text+geo,high,1102511000
 25LF0002,"BOSTON, DAVAO ORIENTAL",Davao Oriental 1st DEO,Region XI,7.8360103,126.3746936,1102503000,Boston,Davao Oriental,text+geo,high,1102503000
 25LF0003,"BOSTON, DAVAO ORIENTAL",Davao Oriental 1st DEO,Region XI,7.8136983,126.4166264,1102503000,Boston,Davao Oriental,text-geo-conflict,medium,1102505000
@@ -244855,6 +244923,10 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25LJ0146,"B.E. DUJALI, DAVAO DEL NORTE",Davao del Norte 2nd DEO,Region XI,,,,,,,,
 25LJ0147,"BRAULIO E. DUJALI, DAVAO DEL NORTE",Davao del Norte 2nd DEO,Region XI,7.4463617,125.6812783,1102323000,Braulio E. Dujali,Davao del Norte,text+geo,high,1102323000
 25LJ0148,"CARMEN,",Davao del Norte 2nd DEO,Region XI,7.3848028,125.660614,1102303000,Carmen,Davao del Norte,text+geo,high,1102303000
+25LJ0150,"ISLAND GARDEN CITY OF SAMAL, DAVAO DEL NORTE",Davao del Norte 2nd DEO,Region XI,,,1102317000,Island Garden City of Samal,Davao del Norte,text,high,
+25LJ0151,"ISLAND GARDEN CITY OF SAMAL, DAVAO DEL NORTE",Davao del Norte 2nd DEO,Region XI,,,1102317000,Island Garden City of Samal,Davao del Norte,text,high,
+25LJ0156,"SANTO TOMAS, DAVAO DEL NORTE",Davao del Norte 2nd DEO,Region XI,,,1102318000,Santo Tomas,Davao del Norte,text,high,
+25LJ0157,"PANABO CITY, DAVAO DEL NORTE",Davao del Norte 2nd DEO,Region XI,,,1102315000,City of Panabo,Davao del Norte,text,high,
 25LJ0159,"STO. TOMAS, DAVAO DEL NORTE",Davao del Norte 2nd DEO,Region XI,7.4795417,125.592855,1102318000,Santo Tomas,Davao del Norte,text+geo,high,1102318000
 25LJ0160,"PANABO, DAVAO DEL NORTE",Davao del Norte 2nd DEO,Region XI,7.3660319,125.7159431,1102315000,City of Panabo,Davao del Norte,text-geo-conflict,medium,1102303000
 25LJ0161,"STO. TOMAS, DAVAO DEL NORTE",Davao del Norte 2nd DEO,Region XI,7.5501893,125.6911046,1102318000,Santo Tomas,Davao del Norte,text+geo,high,1102318000
@@ -245031,6 +245103,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25M00118,"PARANG, MAGUINDANAO DEL NORTE",Region XII,Region XII,,,1908709000,Parang,Maguindanao del Norte,text,high,
 25M00119,"SULTAN KUDARAT, MAGUINDANAO DEL NORTE",Region XII,Region XII,,,,,,,,
 25M00120,"PARANG, MAGUINDANAO DEL NORTE",Region XII,Region XII,,,1908709000,Parang,Maguindanao del Norte,text,high,
+25M00122,"SULTAN KUDARAT, MAGUINDANAO DEL NORTE",Region XII,Region XII,,,,,,,,
 25M00123,"DATU PAGLAS, MAGUINDANAO",Region XII,Region XII,,,1908806000,Datu Paglas,Maguindanao del Sur,text,medium,
 25M00124,"PREVENTIVE MAINTENANCE - KIDAPAWAN-ALLAH JUNCTION RD -K1650+721 - K1651+352 DATU PAGLAS, MAGUINDANAO DEL SUR",Region XII,Region XII,6.7413603,124.8629104,1908806000,Datu Paglas,Maguindanao del Sur,text-geo-conflict,medium,1908818000
 25M00125,"SOUTH UPI, MAGUINDANAO DEL SUR",Region XII,Region XII,6.9346556,124.1572944,1908822000,South Upi,Maguindanao del Sur,text+geo,high,1908822000
@@ -245748,6 +245821,8 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25MG0132,ROAD SAFETY: PEDESTRIAN OVERPASS-CONSTRUCTION OF PEDESTRIAN OVERPASS AT MAHARLIKA HIGHWAY (COTABATO-MARBEL RD)- K1715+36,South Cotabato 2nd DEO,Region XII,,,,,,,,
 25MG0133,"SOUTH COTABATO PROVINCIAL HOSPITAL, SOUTH COTABATO",South Cotabato 2nd DEO,Region XII,,,,,,,,
 25MG0134,"NORALA DISTRICT HOSPITAL, SOUTH COTABATO",South Cotabato 2nd DEO,Region XII,,,,,,,,
+25MG0135,"CITY OF KORONADAL, SOUTH COTABATO",South Cotabato 2nd DEO,Region XII,,,,,,,,
+25MG0136,"CITY OF KORONADAL, SOUTH COTABATO",South Cotabato 2nd DEO,Region XII,,,,,,,,
 25MH0001,RECONSTRUCTION TO CONCRETE PAVEMENT - AWANG-UPI-LEBAK-KALAMANSIG-PALIMBANG-SARANGANI RD - K1940+320 - K1940+404,Sultan Kudarat 2nd DEO,Region XII,6.6329194,124.0662611,1206506000,Lebak,Sultan Kudarat,geo,medium,1206506000
 25MH0002,"RECONSTRUCTION TO CONCRETE PAVEMENT - AWANG-UPI-LEBAK-KALAMANSIG-PALIMBANG-SARANGANI RD - K1948+486 - K1949+870, K1949+2",Sultan Kudarat 2nd DEO,Region XII,6.562242,124.0593567,1206505000,Kalamansig,Sultan Kudarat,geo,medium,1206505000
 25MH0003,RECONSTRUCTION TO CONCRETE PAVEMENT - AWANG-UPI-LEBAK-KALAMANSIG-PALIMBANG-SARANGANI RD - K1998+000 - K1999+197,Sultan Kudarat 2nd DEO,Region XII,6.3182367,124.1137467,1206509000,Palimbang,Sultan Kudarat,geo,medium,1206509000
@@ -245960,6 +246035,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25MI0122,"MLANG, NORTH COTABATO",Cotabato 3rd DEO,Region XII,,,1204710000,M'Lang,Cotabato,text,high,
 25MI0123,"FR. TULIO FAVALI MUNICIPAL HOSPITAL, COTABATO (NORTH COTABATO)",Cotabato 3rd DEO,Region XII,,,,,,,,
 25MI0124,"MLANG DISTRICT HOSPITAL, COTABATO (NORTH COTABATO)",Cotabato 3rd DEO,Region XII,,,,,,,,
+25MI0125,"MLANG, COTABATO",Cotabato 3rd DEO,Region XII,,,1204710000,M'Lang,Cotabato,text,high,
 25N00001,"MAHARLIKA HIGHWAY (AGUSAN-DAVAO SECT)- K1267+569 - K1268+000, K1268+613 - K1269+290",Region XIII,Region XIII,8.7186124,125.7384106,1600301000,City of Bayugan,Agusan del Sur,geo,medium,1600301000
 25N00002,MAHARLIKA HIGHWAY (AGUSAN-DAVAO SECT)- K1273+925 - K1274+067,Region XIII,Region XIII,8.7116771,125.7920125,1600301000,City of Bayugan,Agusan del Sur,geo,medium,1600301000
 25N00003,"K1276+994-K1277+678, K1278+272-K1278+508",Region XIII,Region XIII,8.7052255,125.8086956,1600301000,City of Bayugan,Agusan del Sur,geo,medium,1600301000
@@ -246245,6 +246321,8 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25NA0051,"CITY OF CABADBARAN, AGUSAN DEL NORTE",Agusan del Norte DEO,Region XIII,9.1230283,125.5370683,1600203000,City of Cabadbaran,Agusan del Norte,text+geo,high,1600203000
 25NA0052,"SANTIAGO, AGUSAN DEL NORTE",Agusan del Norte DEO,Region XIII,,,1600210000,Santiago,Agusan del Norte,text,high,
 25NA0053,"LAS NIEVES, AGUSAN DEL NORTE",Agusan del Norte DEO,Region XIII,,,1600207000,Las Nieves,Agusan del Norte,text,high,
+25NA0054,"BUENAVISTA, AGUSAN DEL NORTE",Agusan del Norte DEO,Region XIII,,,1600201000,Buenavista,Agusan del Norte,text,high,
+25NA0055,"BUENAVISTA, AGUSAN DEL NORTE",Agusan del Norte DEO,Region XIII,,,1600201000,Buenavista,Agusan del Norte,text,high,
 25NB0001,"PROSPERIDAD, AGUSAN DEL SUR",Agusan del Sur 1st DEO,Region XIII,8.63481,125.9686564,1600306000,Prosperidad,Agusan del Sur,text+geo,high,1600306000
 25NB0002,"ESPERANZA, AGUSAN DEL SUR",Agusan del Sur 1st DEO,Region XIII,8.6738186,125.6460572,1600303000,Esperanza,Agusan del Sur,text+geo,high,1600303000
 25NB0003,"ESPERANZA, AGUSAN DEL SUR",Agusan del Sur 1st DEO,Region XIII,8.6304139,125.5836472,1600303000,Esperanza,Agusan del Sur,text+geo,high,1600303000
@@ -246371,6 +246449,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25NC0066,"TRENTO, AGUSAN DEL SUR",Agusan del Sur 2nd DEO,Region XIII,,,1600312000,Trento,Agusan del Sur,text,high,
 25NC0067,"BUNAWAN, AGUSAN DEL SUR",Agusan del Sur 2nd DEO,Region XIII,8.1824099,125.9959602,1600302000,Bunawan,Agusan del Sur,text+geo,high,1600302000
 25NC0068,"LORETO, AGUSAN DEL SUR",Agusan del Sur 2nd DEO,Region XIII,,,1600305000,Loreto,Agusan del Sur,text,high,
+25NC0069,"VERUELA, AGUSAN DEL SUR",Agusan del Sur 2nd DEO,Region XIII,,,1600313000,Veruela,Agusan del Sur,text,high,
 25ND0001,"BUTUAN CITY, AGUSAN DEL NORTE",Butuan City DEO,Region XIII,,,1630400000,City of Butuan,Agusan del Norte,text,high,
 25ND0002,"LAS NIEVES, AGUSAN DEL NORTE",Butuan City DEO,Region XIII,,,1600207000,Las Nieves,Agusan del Norte,text,high,
 25ND0003,"BUTUAN CITY, AGUSAN DEL NORTE",Butuan City DEO,Region XIII,8.7618778,125.5199278,1630400000,City of Butuan,Agusan del Norte,text+geo,high,1630400000
@@ -247109,6 +247188,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25O00136,"TAGUIG CITY, PHASE III",National Capital Region,National Capital Region,,,1381500000,City of Taguig,Metro Manila,text,high,
 25O00137,"BARANGAY CENTRAL BICUTAN, TAGUIG CITY (PHASE 2)",National Capital Region,National Capital Region,,,1381500000,City of Taguig,Metro Manila,text,high,
 25O00138,"CONSTRUCTION OF DRAINAGE SYSTEM ALONG SUMULONG HIGHWAY INCLUDING LATERALS, MARIKINA CITY (PHASE IV)",National Capital Region,National Capital Region,,,1380700000,City of Marikina,Metro Manila,text,high,
+25O00139,"K0020 + (-107) - K0015 + 743, K0015 + (-714) - K0019 + 672",National Capital Region,National Capital Region,,,,,,,,
 25O00140,CONSTRUCTION OF THE DPWH COMMAND CENTER,National Capital Region,National Capital Region,,,,,,,,
 25OA0001,"PHASE 4, NAVOTAS CITY",Malabon-Navotas DEO,National Capital Region,14.676015,120.9322978,1380900000,City of Navotas,Metro Manila,text+geo,high,1380900000
 25OA0002,"PHASE 5, NAVOTAS CITY",Malabon-Navotas DEO,National Capital Region,14.6760806,120.9329439,1380900000,City of Navotas,Metro Manila,text+geo,high,1380900000
@@ -249258,6 +249338,9 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25PA0185,"LICUAN-BAAY, ABRA",Abra DEO,Cordillera Administrative Region,,,1400113000,Licuan-Baay,Abra,text,high,
 25PA0186,"TUBO, ABRA; E.) 135110 SUPO",Abra DEO,Cordillera Administrative Region,,,1400126000,Tubo,Abra,text,high,
 25PA0187,"BANGUED, ABRA",Abra DEO,Cordillera Administrative Region,,,1400101000,Bangued,Abra,text,high,
+25PA0188,"TUBO, ABRA",Abra DEO,Cordillera Administrative Region,,,1400126000,Tubo,Abra,text,high,
+25PA0189,"LAGAYAN, ABRA",Abra DEO,Cordillera Administrative Region,,,1400111000,Lagayan,Abra,text,high,
+25PA0190,"MANABO, ABRA",Abra DEO,Cordillera Administrative Region,,,1400116000,Manabo,Abra,text,high,
 25PB0001,"NETWORK DEVELOPMENT PROGRAM - OFF-CARRIAGEWAY IMPROVEMENT - TERTIARY ROADS, APAYAO-KALINGA-ABRA RD.(BULUAN-SACPIL-WAGUD-",Apayao 1st DEO,Cordillera Administrative Region,17.7376972,121.3964583,1408102000,Conner,Apayao,geo,medium,1408102000
 25PB0002,"NETWORK DEVELOPMENT PROGRAM - OFF-CARRIAGEWAY IMPROVEMENT - TERTIARY ROADS, APAYAO-KALINGA-ABRA RD (BULUAN-SACPIL-WAGUD-",Apayao 1st DEO,Cordillera Administrative Region,17.6854694,121.3718361,1408102000,Conner,Apayao,geo,medium,1408102000
 25PB0003,"CHICO RIVER BASIN, CAGLAYAN",Apayao 1st DEO,Cordillera Administrative Region,17.7955861,121.3207028,1408102000,Conner,Apayao,geo,medium,1408102000
@@ -249975,6 +250058,8 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25PK0078,"LUBUAGAN, KALINGA",Upper Kalinga DEO,Cordillera Administrative Region,,,1403206000,Lubuagan,Kalinga,text,high,
 25PK0079,"PASIL, KALINGA",Upper Kalinga DEO,Cordillera Administrative Region,,,1403208000,Pasil,Kalinga,text,high,
 25PK0081,"BALBALAN, KALINGA",Upper Kalinga DEO,Cordillera Administrative Region,,,1403201000,Balbalan,Kalinga,text,high,
+25PK0082,"TINGLAYAN, KALINGA",Upper Kalinga DEO,Cordillera Administrative Region,,,1403215000,Tinglayan,Kalinga,text,high,
+25PK0083,"BALBALAN, KALINGA.",Upper Kalinga DEO,Cordillera Administrative Region,,,1403201000,Balbalan,Kalinga,text,high,
 25PL0001,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - ASSET PRESERVATION - PREVENTIVE MAINTENANCE - ,Lower Kalinga DEO,Cordillera Administrative Region,17.4049169,121.319137,1403213000,City of Tabuk,Kalinga,geo,medium,1403213000
 25PL0002,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - ASSET PRESERVATION - PREVENTIVE MAINTENANCE - ,Lower Kalinga DEO,Cordillera Administrative Region,17.4087,121.4336722,1403213000,City of Tabuk,Kalinga,geo,medium,1403213000
 25PL0003,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - ASSET PRESERVATION - PREVENTIVE MAINTENANCE - ,Lower Kalinga DEO,Cordillera Administrative Region,17.5726611,121.3617222,1403209000,Pinukpuk,Kalinga,geo,medium,1403209000
@@ -250116,6 +250201,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25PL0150,"TABUK CITY, KALINGA",Lower Kalinga DEO,Cordillera Administrative Region,,,1403213000,City of Tabuk,Kalinga,text,high,
 25PL0151,"KATABBOGAN, PINUKPUK",Lower Kalinga DEO,Cordillera Administrative Region,,,1403209000,Pinukpuk,Kalinga,text,medium,
 25PL0152,"CITY OF TABUK, KALINGA",Lower Kalinga DEO,Cordillera Administrative Region,,,1403213000,City of Tabuk,Kalinga,text,high,
+25PL0153,"KALINGA PROVINCIAL HOSPITAL, KALINGA",Lower Kalinga DEO,Cordillera Administrative Region,,,,,,,,
 25PM0001,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - ASSET PRESERVATION PROGRAM-REHABILITATION/RECO,Mountain Province 2nd DEO,Cordillera Administrative Region,17.1515778,121.4158083,1404406000,Paracelis,Mountain Province,geo,medium,1404406000
 25PM0002,ORGANIZATIONAL OUTCOME 1 - ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM-ASSET PRESERVATION PROGRAM-REHABILITATION/ RECO,Mountain Province 2nd DEO,Cordillera Administrative Region,17.1195694,121.4784222,1404406000,Paracelis,Mountain Province,geo,medium,1404406000
 25PM0003,ORGANIZATIONAL OUTCOME 1 - ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - REHABILITATION/ RECONSTRUCTION/ UPGRADING OF ,Mountain Province 2nd DEO,Cordillera Administrative Region,17.0748133,121.2143097,1404405000,Natonin,Mountain Province,geo,medium,1404405000
@@ -250184,6 +250270,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25R00007,"AMLAN, NEGROS ORIENTAL",Negros Island Region,Negros Island Region,,,1804601000,Amlan,Negros Oriental,text,high,
 25R00008,"SIQUIJOR,SIQUIJOR",Negros Island Region,Negros Island Region,9.21321,123.47339,1806106000,Siquijor,Siquijor,geo,medium,1806106000
 25R00009,"AYUNGON, NEGROS ORIENTAL",Negros Island Region,Negros Island Region,,,1804602000,Ayungon,Negros Oriental,text,high,
+25R00010,CONSTRUCTION OF ELECTRIC VEHICLE CHARGING STATIONS IN 13 VARIOUS LOCATIONS IN THE NEGROS ISLAND REGION,Negros Island Region,Negros Island Region,,,,,,,,
 25RA0001,"SILAY CITY, NEGROS OCCIDENTAL",Negros Occidental 1st DEO,Negros Island Region,,,1804526000,City of Silay,Negros Occidental,text,high,
 25RA0002,"CADIZ CITY, NEGROS OCCIDENTAL",Negros Occidental 1st DEO,Negros Island Region,,,1804504000,City of Cadiz,Negros Occidental,text,high,
 25RA0003,"SAGAY CITY, NEGROS OCCIDENTAL",Negros Occidental 1st DEO,Negros Island Region,,,1804523000,City of Sagay,Negros Occidental,text,high,
@@ -250233,6 +250320,8 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 25RB0014,"HIMAMAYLAN CITY, NEGROS OCCIDENTAL",Negros Occidental 2nd DEO,Negros Island Region,,,1804510000,City of Himamaylan,Negros Occidental,text,high,
 25RB0015,"MOISES PADILLA, NEGROS OCCIDENTAL",Negros Occidental 2nd DEO,Negros Island Region,,,1804519000,Moises Padilla,Negros Occidental,text,high,
 25RB0016,"HINIGARAN, NEGROS OCCIDENTAL",Negros Occidental 2nd DEO,Negros Island Region,,,1804511000,Hinigaran,Negros Occidental,text,high,
+25RB0017,"HINIGARAN, NEGROS OCCIDENTAL",Negros Occidental 2nd DEO,Negros Island Region,,,1804511000,Hinigaran,Negros Occidental,text,high,
+25RB0018,"HINIGARAN, NEGROS OCCIDENTAL",Negros Occidental 2nd DEO,Negros Island Region,,,1804511000,Hinigaran,Negros Occidental,text,high,
 25RC0002,CONSTRUCTION/REHABILITATION OF WATER SUPPLY/SEPTAGE AND SEWERAGE/RAINWATER COLLECTOR SYSTEM - RAINWATER COLLECTOR IN PUB,Negros Occidental 3rd DEO,Negros Island Region,9.6999788,122.7580553,1804515000,City of Kabankalan,Negros Occidental,geo,medium,1804515000
 25RC0003,"KABANKALAN CITY, NEGROS OCCIDENTAL",Negros Occidental 3rd DEO,Negros Island Region,10.0217188,122.8241349,1804515000,City of Kabankalan,Negros Occidental,text+geo,high,1804515000
 25RC0004,"CAUAYAN, NEGROS OCCIDENTAL",Negros Occidental 3rd DEO,Negros Island Region,9.9057222,122.5272056,1804507000,Cauayan,Negros Occidental,text+geo,high,1804507000
@@ -251275,6 +251364,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26B00056,OO1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM: BRIDGE PROGRAM-RETROFITTING/ STRENGTHENING OF PERMANENT BRIDGES - CA,Region II,Region II,,,,,,,,
 26B00057,OO1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM: BRIDGE PROGRAM-RETROFITTING/ STRENGTHENING OF PERMANENT BRIDGES - MA,Region II,Region II,,,,,,,,
 26B00058,OO1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM: BRIDGE PROGRAM-RETROFITTING/ STRENGTHENING OF PERMANENT BRIDGES - UR,Region II,Region II,,,,,,,,
+26B00060,"ROXAS, ISABELA",Region II,Region II,,,0203126000,Roxas,Isabela,text,high,
 26B00065,OO1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM: NETWORK DEVELOPMENT PROGRAM-ROAD WIDENING - PRIMARY ROADS - MAHARLIK,Region II,Region II,,,,,,,,
 26B00066,OO1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM: BRIDGE PROGRAM-RETROFITTING/ STRENGTHENING OF PERMANENT BRIDGES - OR,Region II,Region II,,,,,,,,
 26B00067,OO1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM: BRIDGE PROGRAM-RETROFITTING/ STRENGTHENING OF PERMANENT BRIDGES - TA,Region II,Region II,,,,,,,,
@@ -251300,6 +251390,10 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26B00099,CSSP: CONSTRUCTION/ REHABILITATION/ IMPROVEMENT OF FACILITIES FOR PERSONS WITH DISABILITIES (PWDS) AND ELDERLIES/ SENIOR,Region II,Region II,,,,,,,,
 26B00100,"ABULUG, CAGAYAN",Region II,Region II,,,0201501000,Abulug,Cagayan,text,high,
 26B00101,"COMPLETION/CONSTRUCTION OF THE SECOND FLOOR OFFICE BUILDING OF NLRC RAB II, TUGUEGARAO CITY",Region II,Region II,,,0201529000,Tuguegarao City,Cagayan,text,high,
+26B00105,CONSTRUCTION OF NEW CLASSROOMS UNDER THE 2026 BASIC EDUCATION FACILITIES FUND (BEFF) - DPWH REGION II - CLUSTER 1 - BATC,Region II,Region II,,,,,,,,
+26B00106,CONSTRUCTION OF NEW CLASSROOMS UNDER THE 2026 BASIC EDUCATION FACILITIES FUND (BEFF) - DPWH REGION II - CLUSTER 1 - BATC,Region II,Region II,,,,,,,,
+26B00107,CONSTRUCTION OF NEW CLASSROOMS UNDER THE 2026 BASIC EDUCATION FACILITIES FUND (BEFF) - DPWH REGION II - CLUSTER 1 - BATC,Region II,Region II,,,,,,,,
+26B00108,CONSTRUCTION OF NEW CLASSROOMS UNDER THE 2026 BASIC EDUCATION FACILITIES FUND (BEFF) - DPWH REGION II - CLUSTER 1 - BATC,Region II,Region II,,,,,,,,
 26BA0001,ORGANIZATIONAL OUTCOME 1 : ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM: ASSET PRESERVATION PROGRAM: PREVENTIVE MAINTEN,Batanes DEO,Region II,20.7449267,121.81615,0200902000,Itbayat,Batanes,geo,medium,0200902000
 26BA0003,ORGANIZATIONAL OUTCOME 1 : ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM: ASSET PRESERVATION PROGRAM: PREVENTIVE MAINTEN,Batanes DEO,Region II,20.7786917,121.8280083,0200902000,Itbayat,Batanes,geo,medium,0200902000
 26BA0004,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM: ASSET PRESERVATION PROGRAM: REHABILITATION/RECO,Batanes DEO,Region II,,,,,,,,
@@ -251982,6 +252076,8 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26BH0185,"ECHAGUE, ISABELA",Isabela 4th DEO,Region II,,,0203112000,Echague,Isabela,text,high,
 26BH0186,"CITY OF CAUAYAN, ISABELA",Isabela 4th DEO,Region II,,,0203108000,City of Cauayan,Isabela,text,high,
 26BH0187,"ECHAGUE - SAN GUILLERMO - CAUAYAN ALTERNATE ROUTE, ISABELA",Isabela 4th DEO,Region II,,,,,,,,
+26BH0189,"CORDON, ISABELA",Isabela 4th DEO,Region II,,,0203109000,Cordon,Isabela,text,high,
+26BH0190,"CITY OF CAUAYAN, ISABELA",Isabela 4th DEO,Region II,,,0203108000,City of Cauayan,Isabela,text,high,
 26BI0001,CONVERGENCE AND SPECIAL SUPPORT PROGRAM (CSSP): SUSTAINABLE INFRASTRUCTURE PROJECTS ALLEVIATING GAPS (SIPAG) - ACCESS RO,Nueva Vizcaya DEO,Region II,,,,,,,,
 26BI0002,CONVERGENCE AND SPECIAL SUPPORT PROGRAM - SUSTAINABLE INFRASTRUCTURE PROJECTS ALLEVIATING GAPS (SIPAG) - ACCESS ROADS AN,Nueva Vizcaya DEO,Region II,,,,,,,,
 26BI0003,CONVERGENCE AND SPECIAL SUPPORT PROGRAM (CSSP): SUSTAINABLE INFRASTRUCTURE PROJECTS ALLEVIATING GAPS (SIPAG) - ACCESS RO,Nueva Vizcaya DEO,Region II,,,,,,,,
@@ -252423,6 +252519,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26CA0088,"ORANI, BATAAN",Bataan 1st DEO,Region III,,,0300809000,Orani,Bataan,text,high,
 26CA0089,"ABUCAY, BATAAN",Bataan 1st DEO,Region III,,,0300801000,Abucay,Bataan,text,high,
 26CA0090,"BATAAN (14.83438001, 120.49258589)",Bataan 1st DEO,Region III,,,0300805000,Hermosa,Bataan,text,medium,
+26CA0091,CONVERGENCE AND SPECIAL SUPPORT PROGAM-REHABILITATION OF WATER SUPPLY/SEPTAGE AND SEWERAGE/RAIN WATE,Bataan 1st DEO,Region III,,,,,,,,
 26CB0001,"INSTALLATION/APPLICATION OF ROAD SAFETY FACILITIES (PAVEMENT MARKINGS) ALONG MT SAMAT RD - K0134 + (-916) - K0140 + 341,",Bataan 2nd DEO,Region III,,,,,,,,
 26CB0002,"14.6757, 120.5285",Bataan 2nd DEO,Region III,,,0300803000,City of Balanga,Bataan,text,high,
 26CB0003,"14.571667, 120.593333",Bataan 2nd DEO,Region III,,,0300806000,Limay,Bataan,text,high,
@@ -253506,6 +253603,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26CM0044,"ZAMBALES (14.892332, 120.226488)",Zambales 2nd DEO,Region III,,,0307114000,Subic,Zambales,text,medium,
 26CM0045,"ZAMBALES (14.9740, 120.1557)",Zambales 2nd DEO,Region III,,,0307111000,San Marcelino,Zambales,text,medium,
 26CM0046,"SUBIC, ZAMBALES",Zambales 2nd DEO,Region III,,,0307114000,Subic,Zambales,text,high,
+26CM0047,"ZAMBALES (14.933128, 120.200506)",Zambales 2nd DEO,Region III,,,0307104000,Castillejos,Zambales,text,medium,
 26CM0048,"CASTILLEJOS, ZAMBALES",Zambales 2nd DEO,Region III,,,0307104000,Castillejos,Zambales,text,high,
 26CM0049,"OLONGAPO CITY, ZAMBALES",Zambales 2nd DEO,Region III,,,0331400000,City of Olongapo,Zambales,text,high,
 26CN0002,"AURORA (16.158628,121.982233)",Aurora DEO,Region III,,,0307704000,Dinalungan,Aurora,text,medium,
@@ -253823,11 +253921,16 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26DB0089,"TUY, BATANGAS",Batangas 1st DEO,Region IV-A,,,0401034000,Tuy,Batangas,text,high,
 26DB0143,"NASUGBU, BATANGAS",Batangas 1st DEO,Region IV-A,,,0401019000,Nasugbu,Batangas,text,high,
 26DB0144,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM-ASSET PRESERVATION PROGRAM-CONSTRUCTION / UPGRAD,Batangas 1st DEO,Region IV-A,,,,,,,,
+26DB0145,OO1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM-ASSET PRESERVATION PROGRAM-CONSTRUCTION / UPGRADING / REHABILITATION ,Batangas 1st DEO,Region IV-A,,,,,,,,
+26DB0146,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM-BRIDGE PROGRAM-REPLACEMENT OF PERMANENT WEAK BRI,Batangas 1st DEO,Region IV-A,,,,,,,,
 26DB0147,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM-ASSET PRESERVATION PROGRAM-CONSTRUCTION / UPGRAD,Batangas 1st DEO,Region IV-A,,,,,,,,
 26DB0148,"K0110+000-K0110+900, K0111+628.3-K0112+028.3",Batangas 1st DEO,Region IV-A,,,,,,,,
 26DB0225,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM-ASSET PRESERVATION PROGRAM-CONSTRUCTION / UPGRAD,Batangas 1st DEO,Region IV-A,,,,,,,,
 26DB0226,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM-ASSET PRESERVATION PROGRAM-CONSTRUCTION / UPGRAD,Batangas 1st DEO,Region IV-A,,,,,,,,
+26DB0227,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM-ASSET PRESERVATION PROGRAM-CONSTRUCTION / UPGRAD,Batangas 1st DEO,Region IV-A,,,,,,,,
 26DB0228,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM-NETWORK DEVELOPMENT PROGRAM-ROAD WIDENING - SECO,Batangas 1st DEO,Region IV-A,,,,,,,,
+26DB0229,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM-BRIDGE PROGRAM-REPLACEMENT OF PERMANENT WEAK BRI,Batangas 1st DEO,Region IV-A,,,,,,,,
+26DB0230,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM-BRIDGE PROGRAM-REPLACEMENT OF PERMANENT WEAK BRI,Batangas 1st DEO,Region IV-A,,,,,,,,
 26DB0231,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM-BRIDGE PROGRAM-REHABILITATION/ MAJOR REPAIR OF P,Batangas 1st DEO,Region IV-A,,,,,,,,
 26DB0474,"K0106+(-216.00) - K0113+285.80, (INTERMITTENT SECTION)",Batangas 1st DEO,Region IV-A,,,,,,,,
 26DB0475,"K0117+819.30 - K0118+000, (INTERMITTENT SECTION)",Batangas 1st DEO,Region IV-A,,,,,,,,
@@ -253970,6 +254073,8 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26DC0137,"REPAIR AND REHABILITATION OF SLOPE PROTECTION, MAHARLIKA HIGHWAY LZ (S01911LZ)NK0064+600 RS",Batangas 3rd DEO,Region IV-A,,,,,,,,
 26DC0138,CONSTRUCTION OF RETAINING WALL WITH PARAPET AND REPAIR OF SIDEWALK ALONG TANAUAN-TALISAY-TAGAYTAY ROAD K0072+860 - K0072,Batangas 3rd DEO,Region IV-A,,,,,,,,
 26DC0139,"BATANGAS (14.084779, 121.15",Batangas 3rd DEO,Region IV-A,,,0401031000,City of Tanauan,Batangas,text,high,
+26DC0142,"REHABILITATION/ RECONSTRUCTION OF DRAINAGE ALONG MANILA-BATANGAS ROAD, (S01917LZ) K0068+070 - K0068+298 (RS)",Batangas 3rd DEO,Region IV-A,,,,,,,,
+26DC0143,REHABILITATION/ RECONSTRUCTION OF ROADS ALONG TALISAY-LAUREL-AGONCILLO ROAD (S00517LZ) K0114+100,Batangas 3rd DEO,Region IV-A,,,,,,,,
 26DD0001,"BATANGAS (13.954910°, 121.170031°)",Batangas 4th DEO,Region IV-A,,,0401014000,City of Lipa,Batangas,text,high,
 26DD0002,"IBAAN, BATANGAS",Batangas 4th DEO,Region IV-A,,,0401010000,Ibaan,Batangas,text,high,
 26DD0003,"BATANGAS (13.971090°, 121.162238°)",Batangas 4th DEO,Region IV-A,,,0401014000,City of Lipa,Batangas,text,high,
@@ -254681,6 +254786,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26DI0118,"SLOPE COLLAPSE, AND LANDSLIDE - PRIMARY ROADS - CALAMBA-STA CRUZ-FAMY JCT RD - K0059 + 753 - K0061 + 085",Laguna 2nd DEO,Region IV-A,,,,,,,,
 26DI0119,REHABILITATION OF ROAD AND DRAINAGE AT MT. MAKILING ECO GARDEN RD. (K0063+185) AND BAY POBLACION RD. (K0068+205 - K0068+,Laguna 2nd DEO,Region IV-A,,,,,,,,
 26DI0120,"MAYAPA - CANLUBANG RD K0050 + (-959) - K0051 + 863, CALAMBA - TAGAYTAY ROAD K0051 + (-740)",Laguna 2nd DEO,Region IV-A,,,,,,,,
+26DI0121,"LAGUNA (14.353532Â°, 121.069924Â°)",Laguna 2nd DEO,Region IV-A,,,0403425000,City of San Pedro,Laguna,text,high,
 26DJ0001,"SARIAYA QUEZON (13.838697º, 121.449147º)",Quezon 2nd DEO,Region IV-A,,,,,,,,
 26DJ0002,"QUEZON (13.925131º, 121.308942º)",Quezon 2nd DEO,Region IV-A,,,0405648000,Tiaong,Quezon,text,medium,
 26DJ0003,"QUEZON (13.957253º, 121.466843º)",Quezon 2nd DEO,Region IV-A,,,0405645000,Sariaya,Quezon,text,medium,
@@ -254761,6 +254867,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26DJ0079,"BARANGAY GUISGUIS-SAN ROQUE, SECTION I: STA.",Quezon 2nd DEO,Region IV-A,,,,,,,,
 26DJ0080,"BARANGAY JANAGDONG I, STA. 0 + 000 - STA. 0",Quezon 2nd DEO,Region IV-A,,,,,,,,
 26DJ0081,"CONSTRUCTION OF ROAD, BRIDGE APP",Quezon 2nd DEO,Region IV-A,,,,,,,,
+26DJ0082,"CONSTRUCTION/REHABILITATION OF WATER SUPPLY/ SEPTAGE AND SEWERAGE/ RAIN WATER COLLECTORS - RAINWATER COLLECTOR SYSTEM, R",Quezon 2nd DEO,Region IV-A,,,,,,,,
 26DK0001,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - BRIDGE PROGRAM - RETROFITTING/ STRENGTHENING O,Quezon 1st DEO,Region IV-A,,,,,,,,
 26DK0002,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - BRIDGE PROGRAM - RETROFITTING/ STRENGTHENING O,Quezon 1st DEO,Region IV-A,,,,,,,,
 26DK0003,ORGANIZATIONAL OUTCOME 1 : ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - BRIDGE PROGRAM - RETROFITTING/ STRENGTHENING ,Quezon 1st DEO,Region IV-A,,,,,,,,
@@ -255022,6 +255129,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26DL0144,"QUEZON (13.94607°, 121.99547°)",Quezon 4th DEO,Region IV-A,,,0405603000,Atimonan,Quezon,text,medium,
 26DL0147,"NATIONAL ROAD TRAFFIC SURVEY PROGRAM CY 2026 - AUTOMATED TRAFFIC DATA COLLECTION PROGRAM, DPWH QUEZON 4TH DISTRICT ENGIN",Quezon 4th DEO,Region IV-A,,,,,,,,
 26DL0148,"NATIONAL ROAD TRAFFIC SURVEY PROGRAM (NRTSP) - AXLE LOAD SURVEY PROGRAM 2026, DPWH QUEZON 4TH DISTRICT ENGINEERING OFFIC",Quezon 4th DEO,Region IV-A,,,,,,,,
+26DL0149,"ALABAT, QUEZON",Quezon 4th DEO,Region IV-A,,,0405602000,Alabat,Quezon,text,high,
 26DM0002,"K0167 + 000 - K0167 + 656, K0173 + 648 - K0175 + 000",Quezon 3rd DEO,Region IV-A,,,,,,,,
 26DM0003,"K0276 + 000 - K0276 + 120, K0277",Quezon 3rd DEO,Region IV-A,,,,,,,,
 26DM0004,"QUEZON (13.844087°,122.059326°)",Quezon 3rd DEO,Region IV-A,,,0405634000,Pitogo,Quezon,text,medium,
@@ -255339,6 +255447,9 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26DO0110,"BARAS, RIZAL",Rizal 2nd DEO,Region IV-A,,,0405803000,Baras,Rizal,text,high,
 26DO0111,"PILILLA, RIZAL",Rizal 2nd DEO,Region IV-A,,,0405810000,Pililla,Rizal,text,high,
 26DO0112,CONVERGENCE AND SPECIAL SUPPORT PROGRAM - BASIC INFRASTRUCTURE PROGRAM - BIP - ACCESS ROADS AND/OR BRIDGES FROM THE NATI,Rizal 2nd DEO,Region IV-A,,,,,,,,
+26DO0117,"REHABILITATION OF DRAINAGE STRUCTURE ALONG SAN MATEO - RODRIGUEZ ROAD, K0025+600 TO K0025+900 INVOLVING THE REPLACEMENT ",Rizal 2nd DEO,Region IV-A,,,,,,,,
+26DO0118,CONSTRUCTION/REHABILITATION OF WATER SUPPLY/SEPTAGE AND SEWERAGE/RAINWATER COLLECTOR SYSTEM ALONG VARIOUS SITES OF TERES,Rizal 2nd DEO,Region IV-A,,,0405814000,Teresa,Rizal,text,high,
+26DO0119,"TANAY, RIZAL",Rizal 2nd DEO,Region IV-A,,,0405812000,Tanay,Rizal,text,high,
 26DP0004,"LAGUNA (14.178596°, 121.409291°)",Laguna 3rd DEO,Region IV-A,,,0403417000,Nagcarlan,Laguna,text,medium,
 26DP0005,"LAGUNA (14.135968°, 121.402162°)",Laguna 3rd DEO,Region IV-A,,,0403417000,Nagcarlan,Laguna,text,medium,
 26DP0006,"LAGUNA (14.129409°, 121.413162°)",Laguna 3rd DEO,Region IV-A,,,0403417000,Nagcarlan,Laguna,text,medium,
@@ -255777,6 +255888,10 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26EE0104,"STA. 46+178.50 - STA. 46+435.00 BUSUANGA, PALAWAN",Palawan 1st DEO,Region IV-B,,,1705307000,Busuanga,Palawan,text,high,
 26EE0105,"K0047+596 - K0047+735 BUSUANGA, PALAWAN",Palawan 1st DEO,Region IV-B,,,1705307000,Busuanga,Palawan,text,high,
 26EE0106,"BINUAN ELEMENTARY SCHOOL, ABO",Palawan 1st DEO,Region IV-B,,,1705319000,San Vicente,Palawan,text,high,
+26EE0107,"119Â°16'55""E) SAN VICENTE, PALAWAN",Palawan 1st DEO,Region IV-B,,,1705319000,San Vicente,Palawan,text,high,
+26EE0108,"CORON, PALAWAN",Palawan 1st DEO,Region IV-B,,,1705309000,Coron,Palawan,text,high,
+26EE0109,"BARANGAY 4 ROXAS, PALAWAN",Palawan 1st DEO,Region IV-B,,,1705318000,Roxas,Palawan,text,high,
+26EE0110,"ROXAS, PALAWAN",Palawan 1st DEO,Region IV-B,,,1705318000,Roxas,Palawan,text,high,
 26EF0001,"NARRA, PALAWAN",Palawan 2nd DEO,MIMAROPA Region,,,1705315000,Narra,Palawan,text,high,
 26EF0002,"QUEZON, PALAWAN",Palawan 2nd DEO,Region IV-B,,,,,,,,
 26EF0003,"BATARAZA, PALAWAN",Palawan 2nd DEO,Region IV-B,,,1705305000,Bataraza,Palawan,text,high,
@@ -256597,6 +256712,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26FI0038,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - ASSET PRESERVATION - REHABILITATION/ RECONSTRU,Masbate 2nd DEO,Region V,,,,,,,,
 26FI0039,"AROROY MASBATE, STA. 7+400 - STA. 7+700",Masbate 2nd DEO,Region V,,,0504101000,Aroroy,Masbate,text,high,
 26FI0040,"SLOPE COLLAPSE, AND LANDSLIDE - SECONDARY ROADS - JCT MILAGROS - BALENO - LAGTA RD - K0038+150 - K0038+200",Masbate 2nd DEO,Region V,12.3000928,123.4301583,0504112000,Milagros,Masbate,geo,medium,0504112000
+26FI0041,CSSP - CONSTRUCTION / REHABILITATION OF WATER SUPPLY / SEPTAGE AND SEWERAGE / RAINWATER COLLECTOR SYSTEM AT MASBATE CITY,Masbate 2nd DEO,Region V,,,,,,,,
 26FJ0001,OO1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM- NETWORK DEVELOPMENT PROGRAM- ROAD WIDENING- SECONDARY ROADS- BUENAVI,Masbate 3rd DEO,Region V,12.1779997,123.7906254,0504121000,Uson,Masbate,geo,medium,0504121000
 26FJ0002,OO1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM- NETWORK DEVELOPMENT PROGRAM- SECONDARY ROADS- MASBATE- CATAINGAN- PL,Masbate 3rd DEO,Region V,12.208238,123.8421919,0504108000,Dimasalang,Masbate,geo,medium,0504108000
 26FJ0003,"MASBATE, STA. 2+694- STA. 4+060",Masbate 3rd DEO,Region V,,,0504121000,Uson,Masbate,text,high,
@@ -256649,6 +256765,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26FJ0050,OO1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - ASSET PRESERVATION PROGRAM - REHABILITATION/ RECONSTRUCTION OF ROAD,Masbate 3rd DEO,Region V,,,,,,,,
 26FJ0051,CSSP CONSTRUCTION/ REHABILITATION OF WATER SUPPLY/ SEPTAGE AND SEWERAGE/ RAIN WATER COLLECTORS RAINWATER COLLECTOR SYSTE,Masbate 3rd DEO,Region V,,,,,,,,
 26FJ0052,"12.154686N, 123.726620E",Masbate 3rd DEO,Region V,,,0504121000,Uson,Masbate,text,high,
+26FJ0053,"12.014804N, 123.922401E",Masbate 3rd DEO,Region V,,,0504105000,Cataingan,Masbate,text,high,
 26FK0002,ORGANIZATIONAL OUTCOME 1 : ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM-NETWORK DEVELOPMENT PROGRAM-OFF-CARRIAGEWAY IMP,Sorsogon DEO,Region V,,,,,,,,
 26FK0003,"CASIGURAN, SORSOGON",Sorsogon DEO,Region V,,,0506205000,Casiguran,Sorsogon,text,high,
 26FK0004,"SORSOGON, STA. 0+000 - STA. 0+780",Sorsogon DEO,Region V,,,0506216000,City of Sorsogon,Sorsogon,text,high,
@@ -256723,6 +256840,15 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26FK0073,"PILAR, SORSOGON",Sorsogon DEO,Region V,,,0506213000,Pilar,Sorsogon,text,high,
 26FK0074,"SORSOGON, STA. 1+524 - STA. 2+540",Sorsogon DEO,Region V,,,0506206000,Castilla,Sorsogon,text,high,
 26FK0075,CONSTRUCTION/ IMPROVEMENT OF ACCESS ROADS LEADING TO DECLARED TOURISM DESTINATIONS (TOURISM ROAD INFRASTRUCTURE PROGRAM ,Sorsogon DEO,Region V,,,,,,,,
+26FK0076,"SCHOOL ID: 114380, 12.994963°N 123.652455°E",Sorsogon DEO,Region V,,,0506213000,Pilar,Sorsogon,text,high,
+26FK0077,"SCHOOL ID: 114379, 13.011117°N 123.723091°E",Sorsogon DEO,Region V,,,0506213000,Pilar,Sorsogon,text,high,
+26FK0078,"SORSOGON,SCHOOL ID:175013 12.870983°N 123.742804°E",Sorsogon DEO,Region V,,,0506213000,Pilar,Sorsogon,text,high,
+26FK0079,"CASTILLA, SORSOGON",Sorsogon DEO,Region V,,,0506206000,Castilla,Sorsogon,text,high,
+26FK0080,"PILAR, SORSOGON",Sorsogon DEO,Region V,,,0506213000,Pilar,Sorsogon,text,high,
+26FK0081,"CASTILLA, SORSOGON",Sorsogon DEO,Region V,,,0506206000,Castilla,Sorsogon,text,high,
+26FK0082,"PILAR, SORSOGON",Sorsogon DEO,Region V,,,0506213000,Pilar,Sorsogon,text,high,
+26FK0083,"SORSOGON,SCHOOL ID: 12.857122N 123.859698E",Sorsogon DEO,Region V,,,0506211000,Magallanes,Sorsogon,text,high,
+26FK0084,"SCHOOL ID: 114361, 12.925747°N 123.656190°E",Sorsogon DEO,Region V,,,0506213000,Pilar,Sorsogon,text,high,
 26FL0001,"BULAN, SORSOGON",Sorsogon 2nd DEO,Region V,12.6656333,123.8848809,0506203000,Bulan,Sorsogon,text+geo,high,0506203000
 26FL0003,"SLOPE COLLAPSE, AND LANDSLIDE - TERTIARY ROADS",Sorsogon 2nd DEO,Region V,12.8202196,123.9510706,0506210000,Juban,Sorsogon,geo,medium,0506210000
 26FL0005,"BULUSAN, SORSOGON",Sorsogon 2nd DEO,Region V,12.7396323,124.0975982,0506204000,Bulusan,Sorsogon,text+geo,high,0506204000
@@ -256899,6 +257025,11 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26G00049,"64 CLASSROOMS IN THE PROVINCES OF ANTIQUE, CAPIZ AND ILOILO (BATCH 1)",Region VI,Region VI,,,,,,,,
 26G00050,"59 CLASSROOMS IN THE PROVINCES OF AKLAN, ANTIQUE (BATCH 1)",Region VI,Region VI,,,,,,,,
 26G00051,"CONSTRUCTION OF 10 SCHOOL BUILDING PROJECTS, 57 CLASSROOMS IN THE PROVINCES OF CAPIZ AND ILOILO (BATCH 2)",Region VI,Region VI,,,,,,,,
+26G00052,"AND TIBIAO, ANTIQUE (BATCH 1)",Region VI,Region VI,,,0600617000,Tibiao,Antique,text,high,
+26G00053,"LIBERTAD & PANDAN, ANTIQUE (BATCH 1)",Region VI,Region VI,,,0600611000,Pandan,Antique,text,high,
+26G00054,"AND BUGASONG, ANTIQUE (BATCH 1)",Region VI,Region VI,,,0600604000,Bugasong,Antique,text,high,
+26G00055,"12 CLASSROOMS IN THE MUNICIPALITIES OF SIBALOM AND TOBIAS FORNIER (DAO), ANTIQUE (BATCH 1)",Region VI,Region VI,,,0600607000,Tobias Fornier,Antique,text,high,
+26G00056,"VALDERRAMA AND PATNONGON, ANTIQUE (BATCH 1)",Region VI,Region VI,,,0600612000,Patnongon,Antique,text,high,
 26GA0002,"AKLAN EAST RD - K0294 + 800 - K0294 + 900, K0295 + 900 - K0296 + 561",Aklan DEO,Region VI,,,,,,,,
 26GA0005,AKLAN WEST RD (KALIBO-NABAS) (S00324PN) - K0270+585 - K0272+196.67,Aklan DEO,Region VI,,,,,,,,
 26GA0007,"AKLAN EAST RD - K0316 + 697 - K0317 + 218, K0317 + 258 - K0317 + 927",Aklan DEO,Region VI,,,,,,,,
@@ -257339,6 +257470,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26GB0328,"ANTIQUE (10.73808, 121.98586)",Antique DEO,Region VI,,,0600608000,Hamtic,Antique,text,medium,
 26GB0329,"ANTIQUE (10.523130, 121.944980)",Antique DEO,Region VI,,,0600607000,Tobias Fornier,Antique,text,medium,
 26GB0330,"ANTIQUE (10.837440, 121.959955)",Antique DEO,Region VI,,,0600603000,Belison,Antique,text,medium,
+26GB0337,CONSTRUCTION/REHABILITATION OF WATER SUPPLY/SEPTAGE AND SEWERAGE/RAINWATER COLLECTORS - RAINWATER CO,Antique DEO,Region VI,,,,,,,,
 26GD0007,ROAD WIDENING - ILOILO EAST COAST-CAPIZ RD-KO143+407 - KO143+637,Capiz 1st DEO,Region VI,,,,,,,,
 26GD0008,RECONSTRUCTION TO CONCRETE PAVEMENT - ILOILO EAST COAST-CAPIZ RD - KO154+100 - KO154+900,Capiz 1st DEO,Region VI,,,,,,,,
 26GD0009,RECONSTRUCTION TO CONCRETE PAVEMENT - ILOILO EAST COAST-CAPIZ RD-KO131+300 - KO131+730,Capiz 1st DEO,Region VI,,,,,,,,
@@ -257379,6 +257511,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26GD0060,"PILAR, CAPIZ",Capiz 1st DEO,Region VI,,,0601911000,Pilar,Capiz,text,high,
 26GD0061,"11.401678, 122.877426",Capiz 1st DEO,Region VI,,,0601912000,Pontevedra,Capiz,text,high,
 26GD0062,"11.421571, 122.965297",Capiz 1st DEO,Region VI,,,0601913000,President Roxas,Capiz,text,high,
+26GD0063,"11.393641, 122.786951",Capiz 1st DEO,Region VI,,,0601907000,Ma-Ayon,Capiz,text,high,
 26GD0064,"11.474719, 122.985421",Capiz 1st DEO,Region VI,,,0601911000,Pilar,Capiz,text,high,
 26GD0065,"11.567079, 122.753383",Capiz 1st DEO,Region VI,,,0601914000,City of Roxas,Capiz,text,high,
 26GD0066,"11.457975, 122.842298",Capiz 1st DEO,Region VI,,,0601912000,Pontevedra,Capiz,text,high,
@@ -257467,6 +257600,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26GF0034,"SAN JOAQUIN, ILOILO - STA 0+000 - 1+500",Iloilo 1st DEO,Region VI,,,0603040000,San Joaquin,Iloilo,text,medium,
 26GF0035,"ILOILO, STA. 0+000 - STA. 1+500",Iloilo 1st DEO,Region VI,,,0603045000,Tigbauan,Iloilo,text,high,
 26GF0042,REHABILITATION/MAJOR REPAIR OF PERMANENT BRIDGES UNDER 41X - BRIDGES (EMERGENCY PROJECTS) - CABIRI-AN BR. (B00165PN) ALO,Iloilo 1st DEO,Region VI,,,,,,,,
+26GF0045,CONSTRUCTION/REHABILITATION OF WATER SUPPLY/ SEPTAGE AND SEWERAGE/ RAIN WATER COLLECTORS- RAINWATER COLLECTOR SYSTEM,Iloilo 1st DEO,Region VI,,,,,,,,
 26GG0017,"BAROTAC NUEVO, ILOILO - STA. 0 + 000 - STA. 0 + 597",Iloilo 2nd DEO,Region VI,,,0603007000,Barotac Nuevo,Iloilo,text,medium,
 26GG0018,"DUMANGAS, ILOILO - STA. 0 + 000 - STA. 0 + 692",Iloilo 2nd DEO,Region VI,,,0603018000,Dumangas,Iloilo,text,medium,
 26GG0019,"DUMANGAS, ILOILO - STA. 0 + 000 - STA. 0 + 655.74",Iloilo 2nd DEO,Region VI,,,0603018000,Dumangas,Iloilo,text,medium,
@@ -258093,6 +258227,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26HA0104,"123.8900114503719E, BRGY. DAO-",Bohol 1st DEO,Region VII,,,,,,,,
 26HA0105,"9.652357, 123.873713",Bohol 1st DEO,Region VII,,,0701242000,City of Tagbilaran,Bohol,text,high,
 26HA0106,CONSTRUCTION OF PEDESTRIAN OVERPASS AT THE PRESIDENT CARLOS P. GARCIA CIRCUMFERENTIAL RD - K0002 + 308,Bohol 1st DEO,Region VII,,,,,,,,
+26HA0108,REHABILITATION / RECONSTRUCTION / UPGRADING OF DAMAGED PAVED ROADS - SECONDARY ROADS - THE PRESIDENT CARLOS P. GARCIA CI,Bohol 1st DEO,Region VII,,,,,,,,
 26HB0001,"BOHOL, STA. 0+514 - STA. 0+689",Bohol 3rd DEO,Region VII,,,0701211000,Candijay,Bohol,text,high,
 26HB0002,"BOHOL, S",Bohol 3rd DEO,Region VII,,,0701221000,Duero,Bohol,text,high,
 26HB0003,CONVERGENCE AND SPECIAL SUPPORT PROGRAM - CONSTRUCTION/IMPROVEMENT OF ACCESS ROADS LEADING TO DECLARED TOURISM DESTINATI,Bohol 3rd DEO,Region VII,,,,,,,,
@@ -258162,13 +258297,19 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26HB0069,"BOHOL, STA.1+144.00-STA.3+009.00",Bohol 3rd DEO,Region VII,,,0701247000,Valencia,Bohol,text,high,
 26HB0070,ORGANIZATIONAL OUTCOME 1 : ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - ASSET PRESERVATION PROGRAM - REHABILITATION/ ,Bohol 3rd DEO,Region VII,,,,,,,,
 26HB0071,"9.685023, 124.174543",Bohol 3rd DEO,Region VII,,,0701220000,Dimiao,Bohol,text,high,
+26HB0072,"LOBOC, BOHOL",Bohol 3rd DEO,Region VII,,,0701229000,Loboc,Bohol,text,high,
 26HB0073,"VALENCIA, BOHOL",Bohol 3rd DEO,Region VII,,,0701247000,Valencia,Bohol,text,high,
+26HB0074,"BILAR, BOHOL",Bohol 3rd DEO,Region VII,,,0701208000,Bilar,Bohol,text,high,
 26HB0075,"ANDA, BOHOL",Bohol 3rd DEO,Region VII,,,0701203000,Anda,Bohol,text,high,
 26HB0076,"LILA, BOHOL",Bohol 3rd DEO,Region VII,,,0701227000,Lila,Bohol,text,high,
+26HB0079,"BOHOL, STA. 0+296.00-STA. 0+500.00",Bohol 3rd DEO,Region VII,,,0701223000,Guindulman,Bohol,text,high,
 26HB0080,CONVERGENCE AND SPECIAL SUPPORT PROGRAM - SPECIAL ROAD FUND - MOTOR VEHICLE USER'S CHARGE (MVUC) AS PER R.A. 11239 - INS,Bohol 3rd DEO,Region VII,,,,,,,,
 26HB0082,CONVERGENCE AND SPECIAL SUPPORT PROGRAM - BASIC INFRASTRUCTURE PROGRAM - BIP - MULTI-PURPOSE BUILDINGS/ FACILITIES TO SU,Bohol 3rd DEO,Region VII,,,0701229000,Loboc,Bohol,text,high,
 26HB0083,OO1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - NETWORK DEVELOPEMENT PROGRAM - OFF-CARRIAGEWAY IMPROVEMENT - SECOND,Bohol 3rd DEO,Region VII,,,,,,,,
 26HB0084,CONVERGENCE AND SPECIAL SUPPORT PROGRAM - BASIC INFRASTRUCTURE PROGRAM - BIP - ACCESS ROADS AND/OR BRIDGES FROM THE NATI,Bohol 3rd DEO,Region VII,,,,,,,,
+26HB0085,"LOBOC, BOHOL",Bohol 3rd DEO,Region VII,,,0701229000,Loboc,Bohol,text,high,
+26HB0087,OO1: BRIDGE PROGRAM - REPLACEMENT OF PERMANENT WEAK BRIDGES - TABAJAN BR. (B00034BH) ALONG THE PRESIDENT CARLOS P. GARCI,Bohol 3rd DEO,Region VII,,,,,,,,
+26HB0089,"DIMIAO, BOHOL (PHASE 2)",Bohol 3rd DEO,Region VII,,,0701220000,Dimiao,Bohol,text,high,
 26HB0090,"9.597046, 1204.028051",Bohol 3rd DEO,Region VII,,,0701228000,Loay,Bohol,text,high,
 26HC0009,"BOHOL (10.043863, 124.069618)",Bohol 2nd DEO,Region VII,,,0701224000,Inabanga,Bohol,text,medium,
 26HC0010,"UBAY, BOHOL",Bohol 2nd DEO,Region VII,,,0701246000,Ubay,Bohol,text,high,
@@ -258471,6 +258612,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26HE0066,"CEBU (9.432375, 12",Cebu 2nd DEO,Region VII,,,0702245000,Santander,Cebu,text,medium,
 26HE0067,"CEBU (9.462339, 12",Cebu 2nd DEO,Region VII,,,0702245000,Santander,Cebu,text,medium,
 26HE0068,"CEBU (9.71670, 123.43082)",Cebu 2nd DEO,Region VII,,,0702202000,Alcoy,Cebu,text,medium,
+26HE0069,"CEBU (9.420136, 123.3194",Cebu 2nd DEO,Region VII,,,0702245000,Santander,Cebu,text,medium,
 26HE0070,"CEBU (9.962530,123.61986",Cebu 2nd DEO,Region VII,,,0702205000,Argao,Cebu,text,medium,
 26HE0071,"CEBU (9.438500, 123.3",Cebu 2nd DEO,Region VII,,,0702245000,Santander,Cebu,text,medium,
 26HE0072,"CEBU (9.596492, 1",Cebu 2nd DEO,Region VII,,,0702212000,Boljoon,Cebu,text,medium,
@@ -258839,6 +258981,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26HH0087,REPAIR / REHABILITATION OF DRAINAGE SYSTEM ALONG M.J. CUENCO AVENUE (S00123CB) CORNER QUEZON BLVD. (S00121CB) CHAINAGE 0,Cebu City DEO,Region VII,,,0730600000,City of Cebu,Cebu,text,high,
 26HH0089,"BARANGAY TINAGO, 2 CEBU NORMAL UNIVERSI",Cebu City DEO,Region VII,,,0730600000,City of Cebu,Cebu,deo,low,
 26HH0090,"INSTALLATION OF ROAD SAFETY DEVICES (BOUNDARY LIMITS AND INFORMATIVE SIGN) ALONG NATIONAL ROADS WITHIN CEBU CITY DEO, CE",Cebu City DEO,Region VII,,,0730600000,City of Cebu,Cebu,text,high,
+26HH0091,"BARANGAY BUOT-TAUP, CEBU CITY",Cebu City DEO,Region VII,,,0730600000,City of Cebu,Cebu,text,high,
 26HI0001,"LILOAN, CEBU",Cebu 5th DEO,Region VII,,,0702227000,Liloan,Cebu,text,high,
 26HI0002,"CEBU (10.493128, 123.",Cebu 5th DEO,Region VII,,,0702218000,Compostela,Cebu,text,medium,
 26HI0003,"CEBU (10.452519, 124.01339",Cebu 5th DEO,Region VII,,,0702218000,Compostela,Cebu,text,medium,
@@ -259150,6 +259293,9 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26I00048,"CAIBIRAN, BILIRAN; PROJECT 3: CONSTRUCT",Region VIII,Region VIII,,,0807804000,Caibiran,Biliran,text,high,
 26I00049,"K0758 + 200 - K0758 + 600, K0758 + 690 - K0758 + 78",Region VIII,Region VIII,,,,,,,,
 26I00050,BRIDGE - RETROFITTING/STRENGTHENING OF PERMANENT BRIDGES - CALOGCOG BR. (B00034LT) ALONG MAHARLIKA HIGHWAY (LT),Region VIII,Region VIII,,,,,,,,
+26I00051,"SLOPE COLLAPSE, AND LANDSLIDE - PRIMARY ROADS - MAHARLIKA HIGHWAY (SN ISIDRO - SN JUANICO BR) - K0784+087 - K0784+150",Region VIII,Region VIII,,,,,,,,
+26I00052,"SLOPE COLLAPSE, AND LANDSLIDE - PRIMARY ROADS - MAHARLIKA HIGHWAY (SN ISIDRO - SN JUANICO BR) - K0719+910 - K0720+325",Region VIII,Region VIII,,,,,,,,
+26I00053,"AND LANDSLIDE - PRIMARY ROADS - MAHARLIKA HIGHWAY (SN ISIDRO-SN JUANICO BR) - K0684+000 - K0684+300, NORTHERN SAMAR 1ST ",Region VIII,Region VIII,,,,,,,,
 26I00054,"MACROHON, SOUTHERN LEYTE;",Region VIII,Region VIII,,,,,,,,
 26IA0001,NETWORK DEVELOPMENT - ROAD WIDENING - SECONDARY ROADS - BILIRAN CIRCUMFERENTIAL RD - K1086+940 - K1088+800,Biliran DEO,Region VIII,11.5592599,124.5929148,0807804000,Caibiran,Biliran,geo,medium,0807804000
 26IA0002,"K1014+603 - K1014+683, K1014+869 - K1014+991",Biliran DEO,Region VIII,11.5007625,124.4439215,0807802000,Biliran,Biliran,geo,medium,0807802000
@@ -259491,6 +259637,8 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26IC0052,"PALO, LEYTE",Leyte 1st DEO,Region VIII,,,0803739000,Palo,Leyte,text,high,
 26IC0053,"LEYTE (125.034615°, 11.045031°)",Leyte 1st DEO,Region VIII,,,0803749000,Tolosa,Leyte,text,medium,
 26IC0054,"LEYTE (124.83359°, 11.29133°)",Leyte 1st DEO,Region VIII,,,0803743000,San Miguel,Leyte,text,medium,
+26IC0055,"K0924+305 - K0924+310 (INNER LL), K0924+324",Leyte 1st DEO,Region VIII,,,,,,,,
+26IC0056,"K0925+474.5 - K0925+479 (IRL), K0925+510 - K0925+514.5 (IRL)",Leyte 1st DEO,Region VIII,,,,,,,,
 26ID0001,"BRIDGE PROGRAM-RETROFITTING/STRENGTHENING OF PERMANENT BRIDGES,CANOMANTAG BR.(B00488LT) ALONG BAGAHUPI-BABATNGON-STA CRU",Leyte 2nd DEO,Region VIII,11.306154,124.7139622,0803706000,Barugo,Leyte,geo,medium,0803706000
 26ID0002,"BRIDGE PROGRAM-RETROFITTING/STRENGTHENING OF PERMANENT BRIDGES,GUINARONA BR.(B00081LT) ALONG JARO-DAGAMI-BURAUEN-LA PAZ ",Leyte 2nd DEO,Region VIII,11.0193906,124.8993962,0803710000,Burauen,Leyte,geo,medium,0803710000
 26ID0003,"BRIDGE PROGRAM-RETROFITTING/STRENGTHENING OF PERMANENT BRIDGES,JUGABAN BR.(B00490LT) ALONG BAGAHUPI-BABATNGON-STA. CRUZ-",Leyte 2nd DEO,Region VIII,11.3007631,124.6923336,0803715000,Carigara,Leyte,geo,medium,0803715000
@@ -259536,6 +259684,8 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26ID0043,"DAGAMI,LEYTE",Leyte 2nd DEO,Region VIII,,,0803717000,Dagami,Leyte,text,high,
 26ID0044,"BARUGO,LEYTE",Leyte 2nd DEO,Region VIII,,,0803706000,Barugo,Leyte,text,high,
 26ID0045,"JARO,LEYTE",Leyte 2nd DEO,Region VIII,,,0803723000,Jaro,Leyte,text,high,
+26ID0047,"BURAUEN, LEYTE",Leyte 2nd DEO,Region VIII,,,0803710000,Burauen,Leyte,text,high,
+26ID0048,"BURAUEN, LEYTE",Leyte 2nd DEO,Region VIII,,,0803710000,Burauen,Leyte,text,high,
 26IE0001,"TABANGO, LEYTE",Leyte 3rd DEO,Region VIII,,,0803745000,Tabango,Leyte,text,high,
 26IE0002,"LEYTE, LEYTE",Leyte 3rd DEO,Region VIII,,,,,,,,
 26IE0003,"VILLABA, LEYTE",Leyte 3rd DEO,Region VIII,,,0803751000,Villaba,Leyte,text,high,
@@ -259608,6 +259758,13 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26IE0071,"LEYTE 11.218030,124.428421",Leyte 3rd DEO,Region VIII,,,0803751000,Villaba,Leyte,text,medium,
 26IE0072,"VILLABA, LEYTE",Leyte 3rd DEO,Region VIII,,,0803751000,Villaba,Leyte,text,high,
 26IE0074,"VILLABA, LEYTE",Leyte 3rd DEO,Region VIII,,,0803751000,Villaba,Leyte,text,high,
+26IE0075,"VILLABA LEYTE 11.248727, 124.404121",Leyte 3rd DEO,Region VIII,,,,,,,,
+26IE0076,"LEYTE (11.490161, 124.368503)",Leyte 3rd DEO,Region VIII,,,0803713000,Calubian,Leyte,text,medium,
+26IE0077,"LEYTE (11.20923, 124.40645)",Leyte 3rd DEO,Region VIII,,,0803751000,Villaba,Leyte,text,medium,
+26IE0078,"LEYTE (11.18468, 124.43184)",Leyte 3rd DEO,Region VIII,,,0803751000,Villaba,Leyte,text,medium,
+26IE0079,"LEYTE (11.19433, 124.38564)",Leyte 3rd DEO,Region VIII,,,0803751000,Villaba,Leyte,text,medium,
+26IE0080,"LEYTE (11.31379,124.47071)",Leyte 3rd DEO,Region VIII,,,0803745000,Tabango,Leyte,text,medium,
+26IE0081,"LEYTE, LEYTE",Leyte 3rd DEO,Region VIII,,,,,,,,
 26IF0001,"ALBUERA, LEYTE",Leyte 4th DEO,Region VIII,,,0803703000,Albuera,Leyte,text,high,
 26IF0002,"ORMOC CITY, LEYTE",Leyte 4th DEO,Region VIII,,,0803738000,Ormoc City,Leyte,text,high,
 26IF0003,"ORMOC CITY, LEYTE",Leyte 4th DEO,Region VIII,,,0803738000,Ormoc City,Leyte,text,high,
@@ -260084,6 +260241,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26J00025,"CITY OF LAMITAN, BASILAN STA. 0+475 - STA. 1+346",Region IX,Region IX,,,,,,,,
 26J00028,"STA. 2+865.00 - STA. 2+925.90, ZAMBOANGA CITY",Region IX,Region IX,,,0931700000,City of Zamboanga,Zamboanga del Sur,text,high,
 26J00031,"K1867 + 326 - K1867 + 412, K1868 + 848 - K1869 + 000",Region IX,Region IX,,,,,,,,
+26J00035,CONSTRUCTION/ UPGRADING/ REHABILITATION OF DRAINAGE ALONG NATIONAL ROADS - PRIMARY ROADS - MAHARLIKA HIGHWAY (PAGADIAN C,Region IX,Region IX,,,,,,,,
 26J00036,ROAD WIDENING - PRIMARY ROADS - MAHARLIKA HIGHWAY (PAGADIAN CITY-ZAMBOANGA CITY RD) - K1913 + 274 - K1913 + 779,Region IX,Region IX,,,,,,,,
 26J00037,"ROAD WIDENING - PRIMARY ROADS - MAHARLIKA HIGHWAY (PAGADIAN CITY-ZAMBOANGA CITY RD) - K1922 + 695 - K1922 + 758, K1923 +",Region IX,Region IX,,,,,,,,
 26J00038,"STA. 8+510.00 - STA. 9+500.00, STA. 9+791.84",Region IX,Region IX,,,,,,,,
@@ -260411,6 +260569,9 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26JD0066,"ZAMBOANGA DEL NORTE (7.954997, 122.363046)",Zamboanga del Norte 3rd DEO,Region IX,,,0907223000,Gutalac,Zamboanga del Norte,text,medium,
 26JD0067,"ZAMBOANGA DEL NORTE (7.920939, 122.396713)",Zamboanga del Norte 3rd DEO,Region IX,,,0907223000,Gutalac,Zamboanga del Norte,text,medium,
 26JD0071,"LABASON, ZAMBOANGA DEL NORTE (STA. 0+000 - STA. 0+280)",Zamboanga del Norte 3rd DEO,Region IX,,,0907205000,Labason,Zamboanga del Norte,text,high,
+26JD0074,"ZAMBOANGA DEL NORTE (7.986634, 122.3735)",Zamboanga del Norte 3rd DEO,Region IX,,,0907223000,Gutalac,Zamboanga del Norte,text,medium,
+26JD0075,"ZAMBOANGA DEL NORTE (8.10503,122.76543)",Zamboanga del Norte 3rd DEO,Region IX,,,0907213000,Salug,Zamboanga del Norte,text,medium,
+26JD0076,"ZAMBOANGA DEL NORTE (7.987855, 122.804242)",Zamboanga del Norte 3rd DEO,Region IX,,,0907225000,Godod,Zamboanga del Norte,text,medium,
 26JE0001,"DUMINGAG, ZAMBOANGA DEL SUR STA. 02+748- STA. 02+863.50",Zamboanga del Sur 1st DEO,Region IX,,,0907308000,Dumingag,Zamboanga del Sur,text,medium,
 26JE0002,"AURORA, ZAMBOANGA DEL SUR STA.01+246- STA.02+791.50",Zamboanga del Sur 1st DEO,Region IX,,,,,,,,
 26JE0003,"DUMINGAG, ZAMBOANGA DEL SUR STA.02+253- STA.03+203",Zamboanga del Sur 1st DEO,Region IX,,,0907308000,Dumingag,Zamboanga del Sur,text,medium,
@@ -260481,6 +260642,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26JE0072,(REBID) RETROFITTING/ STRENGTHENING OF PERMANENT BRIDGES DIPOLO BR. (B01777MN) ALONG SINDANGAN-SIAYAN DUMINGAG-MAHAYAG R,Zamboanga del Sur 1st DEO,Region IX,,,,,,,,
 26JE0073,"ZAMBOANGA DEL SUR (8.214361, 123.546096)",Zamboanga del Sur 1st DEO,Region IX,,,0907337000,Josefina,Zamboanga del Sur,text,medium,
 26JE0074,"ZAMBOANGA DEL SUR (7.846944, 123.430833)",Zamboanga del Sur 1st DEO,Region IX,,,0907322000,City of Pagadian,Zamboanga del Sur,text,high,
+26JE0076,"PAGADIAN CITY, ZAMBOANGA DEL SUR STA. 0+000 - STA. 0+650 PAGADIAN CITY",Zamboanga del Sur 1st DEO,Region IX,,,0907322000,City of Pagadian,Zamboanga del Sur,text,high,
 26JF0001,"PREVENTIVE MAINTENANCE - PRIMARY ROADS - IPIL - LILOY - SINDANGAN RD. - K2004+477 - K2004+737, K2007+000 - K2008+000",Zamboanga Sibugay 2nd DEO,Region IX,,,,,,,,
 26JF0002,PREVENTIVE MAINTENANCE - PRIMARY ROADS - IPIL - LILOY - SINDANGAN RD. - K2013 + 344 - K2013 + 568,Zamboanga Sibugay 2nd DEO,Region IX,,,,,,,,
 26JF0003,PREVENTIVE MAINTENANCE - TERTIARY ROADS - CROSSING STA. CLARA - SANDAYONG RD. - K1790+000 - K1792+352,Zamboanga Sibugay 2nd DEO,Region IX,7.8171279,122.6839034,0908309000,Naga,Zamboanga Sibugay,geo,medium,0908309000
@@ -261082,6 +261244,10 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26K00239,"000.00; 2. CONSTRUCTION OF 2 STOREY, 10",Region X,Region X,,,,,,,,
 26K00240,"000.00; 2. CONSTRUCTION OF 2 STOREY, 10-CLASSR",Region X,Region X,,,,,,,,
 26K00241,"500,000.00; AND 2. CONSTRUCTION OF 2 STORE",Region X,Region X,,,1001319000,Sumilao,Bukidnon,text,medium,
+26K00243,"500,000.00; AND 2.",Region X,Region X,,,1030500000,City of Cagayan De Oro,Misamis Oriental,text,high,
+26K00244,"000,000.00; 2. CONS",Region X,Region X,,,1030500000,City of Cagayan De Oro,Misamis Oriental,text,high,
+26K00245,"362,000.00; 2. CONSTRUCTION OF ONE STOREY - FOUR",Region X,Region X,,,1001303000,Dangcagan,Bukidnon,text,medium,
+26K00246,"840,000.00; 2. CONSTRUCTION OF 2 STOREY 6-CLASSROOM AT VALENCIA NATIONAL H",Region X,Region X,,,1001321000,City of Valencia,Bukidnon,text,high,
 26KA0001,"LANTAPAN, BUKIDNON",Bukidnon 1st DEO,Region X,,,1001310000,Lantapan,Bukidnon,text,high,
 26KA0002,"CITY OF MALAYBALAY, BUKIDNON",Bukidnon 1st DEO,Region X,,,1001312000,City of Malaybalay,Bukidnon,text,high,
 26KA0003,"CITY OF MALAYBALAY, BUKIDNON",Bukidnon 1st DEO,Region X,,,1001312000,City of Malaybalay,Bukidnon,text,high,
@@ -261307,6 +261473,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26KB0154,"KITAOTAO, BUKIDNON",Bukidnon 2nd DEO,Region X,,,1001309000,Kitaotao,Bukidnon,text,high,
 26KB0155,"QUEZON, BUKIDNON",Bukidnon 2nd DEO,Region X,,,,,,,,
 26KB0156,"KADINGILAN, BUKIDNON",Bukidnon 2nd DEO,Region X,,,1001306000,Kadingilan,Bukidnon,text,high,
+26KB0157,"KADINGILAN, BUKIDNON",Bukidnon 2nd DEO,Region X,,,1001306000,Kadingilan,Bukidnon,text,high,
 26KB0158,"MARAMAG, BUKIDNON PHASE 6",Bukidnon 2nd DEO,Region X,,,1001315000,Maramag,Bukidnon,text,medium,
 26KB0160,"BUKIDNON (124.935973°, 7.482710°)",Bukidnon 2nd DEO,Region X,,,1001302000,Damulog,Bukidnon,text,medium,
 26KB0161,"MARAMAG, BUKIDNON",Bukidnon 2nd DEO,Region X,,,1001315000,Maramag,Bukidnon,text,high,
@@ -261325,6 +261492,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26KB0175,"BUKIDNON (125.040091°, 7.490711°)",Bukidnon 2nd DEO,Region X,,,1001308000,Kibawe,Bukidnon,text,medium,
 26KB0176,"DANGCAGAN, BUKIDNON PHASE 2",Bukidnon 2nd DEO,Region X,,,1001303000,Dangcagan,Bukidnon,text,medium,
 26KB0177,"KITAOTAO, BUKIDNON",Bukidnon 2nd DEO,Region X,,,1001309000,Kitaotao,Bukidnon,text,high,
+26KB0179,"BUKIDNON (125.139818°, 7.4713919°)",Bukidnon 2nd DEO,Region X,,,,,,,,
 26KB0180,"DANGCAGAN, BUKIDNON",Bukidnon 2nd DEO,Region X,,,1001303000,Dangcagan,Bukidnon,text,high,
 26KB0181,"MARAMAG, BUKIDNON",Bukidnon 2nd DEO,Region X,,,1001315000,Maramag,Bukidnon,text,high,
 26KB0182,"BUKIDNON (124.937518°, 7.588818°)",Bukidnon 2nd DEO,Region X,,,1001306000,Kadingilan,Bukidnon,text,medium,
@@ -261761,6 +261929,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26KH0101,"CAGAYAN DE ORO CITY, MISAMIS ORIENTAL",Cagayan de Oro City 1st DEO,Region X,,,1030500000,City of Cagayan De Oro,Misamis Oriental,text,high,
 26KH0102,"CAGAYAN DE ORO CITY (124.58273°, 8.48722°)",Cagayan de Oro City 1st DEO,Region X,,,1030500000,City of Cagayan De Oro,Misamis Oriental,deo,low,
 26KH0103,"CAGAYAN DE ORO CITY (124.615553°, 8.459997°)",Cagayan de Oro City 1st DEO,Region X,,,1030500000,City of Cagayan De Oro,Misamis Oriental,deo,low,
+26KH0107,"CAGAYAN DE ORO CITY, MISAMIS ORIENTAL",Cagayan de Oro City 1st DEO,Region X,,,1030500000,City of Cagayan De Oro,Misamis Oriental,text,high,
 26KI0001,BRIDGE PROGRAM - WIDENING OF PERMANENT BRIDGES - TIPAN DIUT BR. (B00379MN) ALONG OROQUIETA CITY - CALAMBA MT. RD.,Misamis Occidental 1st DEO,Region X,8.4672714,123.7160658,1004209000,City of Oroquieta,Misamis Occidental,geo,medium,1004209000
 26KI0002,BRIDGE PROGRAM - CONSTRUCTION OF NEW BRIDGES - MAKAWA BRIDGE ALONG OZAMIZ CITY-OROQUIETA CITY RD K1730+643,Misamis Occidental 1st DEO,Region X,8.3911983,123.83022,1004201000,Aloran,Misamis Occidental,geo,medium,1004201000
 26KI0003,"ASSET PRESERVATION PROGRAM - REHABILITATION / RECONSTRUCTION OF ROADS WITH SLIPS, SLOPE COLLAPSE AND LANDSLIDE - SECONDA",Misamis Occidental 1st DEO,Region X,,,,,,,,
@@ -261898,6 +262067,11 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26KJ0079,"TUDELA, MISAMIS OCCIDENTAL",Misamis Occidental 2nd DEO,Region X,,,1004216000,Tudela,Misamis Occidental,text,high,
 26KJ0080,"SINACABAN, MISAMIS OCCIDENTAL",Misamis Occidental 2nd DEO,Region X,,,1004214000,Sinacaban,Misamis Occidental,text,high,
 26KJ0081,"OZAMIZ CITY, MISAMIS OCCIDENTAL",Misamis Occidental 2nd DEO,Region X,,,1004210000,City of Ozamiz,Misamis Occidental,text,high,
+26KJ0082,"K1720+184 - K1720+665, K1717+425 - K1717+589",Misamis Occidental 2nd DEO,Region X,,,,,,,,
+26KJ0083,"OZAMIZ - OROQUIETA ROAD, K1720+692 - K1721+223",Misamis Occidental 2nd DEO,Region X,,,,,,,,
+26KJ0084,"OZAMIZ - PAGADIAN ROAD, K1667+847 - K1668+647",Misamis Occidental 2nd DEO,Region X,,,,,,,,
+26KJ0085,"K1668+647 - K1669+287, K1694+788 - K1694+950",Misamis Occidental 2nd DEO,Region X,,,,,,,,
+26KJ0086,"OZAMIZ CITY, MISAMIS OCCIDENTAL",Misamis Occidental 2nd DEO,Region X,,,1004210000,City of Ozamiz,Misamis Occidental,text,high,
 26KK0001,"MISAMIS ORIENTAL (124.791195°, 8.983982°)",Misamis Oriental 1st DEO,Region X,,,1004312000,Kinoguitan,Misamis Oriental,text,medium,
 26KK0002,RETROFITTING/ STRENGTHENING OF PERMANENT BRIDGES - BOLISONG BR. (B01300MN) ALONG BUTUAN CITY-CAGAYAN DE ORO CITY-ILIGAN ,Misamis Oriental 1st DEO,Region X,9.002464,124.8358401,1004303000,Balingoan,Misamis Oriental,geo,medium,1004303000
 26KK0003,RETROFITTING/ STRENGTHENING OF PERMANENT BRIDGES - MINLAGAS BR. (B01352MN) ALONG BUTUAN CITY-CAGAYAN DE ORO CITY-ILIGAN ,Misamis Oriental 1st DEO,Region X,8.8712688,125.0447119,1004308000,City of Gingoog,Misamis Oriental,geo,medium,1004308000
@@ -262985,6 +263159,9 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26M00165,"PAGLAT, MAGUINDANAO DEL SUR",Region XII,Region XII,,,1908817000,Paglat,Maguindanao del Sur,text,high,
 26M00166,"BULUAN, MAGUINDANAO DEL SUR",Region XII,Region XII,,,1908802000,Buluan,Maguindanao del Sur,text,high,
 26M00168,"MANGUDADATU, MAGUINDANAO DEL SUR",Region XII,Region XII,,,1908814000,Mangudadatu,Maguindanao del Sur,text,high,
+26M00169,"SGA, BARMM",Region XII,Region XII,,,1999907000,Ligawasan,BARMM,text,medium,
+26M00170,"SGA, BARMM",Region XII,Region XII,,,,,,,,
+26M00171,"SGA, BARMM",Region XII,Region XII,,,1999907000,Ligawasan,BARMM,text,medium,
 26M00179,"SURALLAH, SOUTH COTABATO",Region XII,Region XII,,,,,,,,
 26M00180,"T'BOLI, SOUTH COTABATO",Region XII,Region XII,,,,,,,,
 26M00181,"T'BOLI, SOUTH COTABATO",Region XII,Region XII,,,,,,,,
@@ -262997,6 +263174,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26M00200,"LEBAK, SULTAN KUDARAT",Region XII,Region XII,,,1206506000,Lebak,Sultan Kudarat,text,high,
 26M00201,"LEBAK, SULTAN KUDARAT",Region XII,Region XII,,,1206506000,Lebak,Sultan Kudarat,text,high,
 26M00202,"ESPERANZA, SULTAN KUDARAT",Region XII,Region XII,,,1206503000,Esperanza,Sultan Kudarat,text,high,
+26M00210,"BRGY. CARPENTER HILL, KORONADAL CITY",Region XII,Region XII,,,1206306000,City of Koronadal,South Cotabato,text,high,
 26MB0001,PREVENTIVE MAINTENANCE - SECONDARY ROADS - BUAYAN-GLAN RD - (S00366MN) CHAINAGE 000 - CHAINAGE 167,South Cotabato 1st DEO,Region XII,,,,,,,,
 26MB0002,PREVENTIVE MAINTENANCE - SECONDARY ROADS - MAKAR-KIAMBA RD - K1662 + 000 - K1663 + 000,South Cotabato 1st DEO,Region XII,,,,,,,,
 26MB0003,PREVENTIVE MAINTENANCE - SECONDARY ROADS - MAKAR-KIAMBA RD - K1665 + 366 - K1665 + 743.70.,South Cotabato 1st DEO,Region XII,,,,,,,,
@@ -263070,10 +263248,13 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26MC0034,"KIDAPAWAN CITY, NORTH COTABATO",Cotabato 2nd DEO,Region XII,,,1204704000,City of Kidapawan,Cotabato,text,high,
 26MC0035,"MAGPET, NORTH COTABATO",Cotabato 2nd DEO,Region XII,,,1204706000,Magpet,Cotabato,text,high,
 26MC0036,"ARAKAN, NORTH COTABATO (REPUBLISHED)",Cotabato 2nd DEO,Region XII,,,1204718000,Arakan,Cotabato,text,high,
+26MC0037,CONSTRUCTION OF PEDESTRIAN OVERPASS AT DAVAO-COTABATO RD (JCT DIGOS-COTABATO SECT) - K1598 + 065,Cotabato 2nd DEO,Region XII,,,,,,,,
+26MC0038,CONSTRUCTION OF PEDESTRIAN OVERPASS AT DAVAO-COTABATO RD (JCT DIGOS-COTABATO SECT) - K1630 + 808,Cotabato 2nd DEO,Region XII,,,,,,,,
 26MC0039,"ARAKAN, NORTH COTABATO (RE-PUBLISHED)",Cotabato 2nd DEO,Region XII,,,1204718000,Arakan,Cotabato,text,high,
 26MC0040,"MAKILALA, NORTH COTABATO (REPUBLISHED)",Cotabato 2nd DEO,Region XII,,,1204707000,Makilala,Cotabato,text,high,
 26MC0041,"KIDAPAWAN CITY, NORTH COTABATO (REPUBLISHED)",Cotabato 2nd DEO,Region XII,,,1204704000,City of Kidapawan,Cotabato,text,high,
 26MC0042,"KIDAPAWAN CITY, NORTH COTABATO (REPUBLISHED)",Cotabato 2nd DEO,Region XII,,,1204704000,City of Kidapawan,Cotabato,text,high,
+26MC0044,"MAKILALA, NORTH COTABATO",Cotabato 2nd DEO,Region XII,,,1204707000,Makilala,Cotabato,text,high,
 26MC0045,"PRESIDENT ROXAS, NORTH COTABATO",Cotabato 2nd DEO,Region XII,,,1204713000,President Roxas,Cotabato,text,high,
 26MC0046,"MAKILALA, NORTH COTABATO",Cotabato 2nd DEO,Region XII,,,1204707000,Makilala,Cotabato,text,high,
 26MC0047,"MAKILALA, NORTH COTABATO (RE-PUBLISHED)",Cotabato 2nd DEO,Region XII,,,1204707000,Makilala,Cotabato,text,high,
@@ -263112,6 +263293,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26MC0085,"NORTH COTABATO (125.160357, 7.115542)",Cotabato 2nd DEO,Region XII,,,1204706000,Magpet,Cotabato,text,medium,
 26MC0086,"MAKILALA, NORTH COTABATO",Cotabato 2nd DEO,Region XII,,,1204707000,Makilala,Cotabato,text,high,
 26MC0087,"MAKILALA, NORTH COTABATO",Cotabato 2nd DEO,Region XII,,,1204707000,Makilala,Cotabato,text,high,
+26MC0088,"MAKILALA, NORTH COTABATO",Cotabato 2nd DEO,Region XII,,,1204707000,Makilala,Cotabato,text,high,
 26MC0091,R/M OF KILOMETER POST ALONG MAGPET- NOWA- DOROLUMAN- GREENFIELD ROAD,Cotabato 2nd DEO,Region XII,,,,,,,,
 26MC0094,INSTALLATION OF SIGNAGES ALONG KIDAPAWAN- ILOMAVIS TOURIST ROAD K1634+000- K1638+000 AND MAGPET- NOWA- DOROLUMAN- GREENF,Cotabato 2nd DEO,Region XII,,,,,,,,
 26MC0099,R/M OF KILOMETER POSTS ALONG DAVAO-COTABATO ROAD AND MAKILALA-ALA VALLEY ROAD,Cotabato 2nd DEO,Region XII,,,,,,,,
@@ -263129,6 +263311,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26MD0014,"LIBUNGAN, COTABATO - K1698+100 - K1703+000",Cotabato 1st DEO,Region XII,,,1204705000,Libungan,Cotabato,text,medium,
 26MD0015,"MIDSAYAP, COTABATO",Cotabato 1st DEO,Region XII,,,1204709000,Midsayap,Cotabato,text,high,
 26MD0016,"ALEOSAN, COTABATO",Cotabato 1st DEO,Region XII,,,1204717000,Aleosan,Cotabato,text,high,
+26MD0018,"LIBUNGAN, NORTH COTABATO",Cotabato 1st DEO,Region XII,,,1204705000,Libungan,Cotabato,text,high,
 26MD0020,"ALEOSAN, COTABATO STA. 5+578.8 - 5+752.19",Cotabato 1st DEO,Region XII,,,1204717000,Aleosan,Cotabato,text,medium,
 26MD0021,"COTABATO, STA. 5+953 - STA. 6+153",Cotabato 1st DEO,Region XII,,,1204717000,Aleosan,Cotabato,text,high,
 26MD0022,"COTABATO, STA. 4+696 - STA. 5+389.08",Cotabato 1st DEO,Region XII,7.1399645,124.5639782,1204717000,Aleosan,Cotabato,text+geo,high,1204717000
@@ -263166,6 +263349,8 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26MD0056,"COTABATO (124.5254, 7.20606)",Cotabato 1st DEO,Region XII,,,1204709000,Midsayap,Cotabato,text,medium,
 26MD0058,"COTABATO (124.50609, 7.2409)",Cotabato 1st DEO,Region XII,,,1204705000,Libungan,Cotabato,text,medium,
 26MD0059,"LIBUNGAN AND PIGCAWAYAN, COTABATO",Cotabato 1st DEO,Region XII,,,1204709000,Midsayap,Cotabato,text,high,
+26MD0060,"ALEOSAN, COTABATO",Cotabato 1st DEO,Region XII,,,1204717000,Aleosan,Cotabato,text,high,
+26MD0061,"ALEOSAN, COTABATO",Cotabato 1st DEO,Region XII,,,1204717000,Aleosan,Cotabato,text,high,
 26ME0001,"SARANGANI (125.303862, 6.289552)",Sarangani DEO,Region XII,,,1208007000,Malungon,Sarangani,text,medium,
 26ME0002,"SARANGANI (125.300856, 6.106151)",Sarangani DEO,Region XII,,,1208001000,Alabel,Sarangani,text,medium,
 26ME0003,"MAASIM, SARANGANI",Sarangani DEO,Region XII,,,1208004000,Maasim,Sarangani,text,high,
@@ -263535,6 +263720,10 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26MG0227,"LAKE SEBU, SOUTH COTABATO",South Cotabato 2nd DEO,Region XII,,,,,,,,
 26MG0228,"T'BOLI, SOUTH COTABATO",South Cotabato 2nd DEO,Region XII,,,,,,,,
 26MG0229,"LAKE SEBU, SOUTH COTABATO",South Cotabato 2nd DEO,Region XII,,,,,,,,
+26MG0230,"124.79209667 END: 6.43892333, 124.80691",South Cotabato 2nd DEO,Region XII,,,,,,,,
+26MG0231,"124.75771333 END: 6.38608, 124.76697833",South Cotabato 2nd DEO,Region XII,,,1206302000,Banga,South Cotabato,text,medium,
+26MG0232,"124.88145667 END: 6.431312, 124.889587",South Cotabato 2nd DEO,Region XII,,,1206306000,City of Koronadal,South Cotabato,text,high,
+26MG0233,"124.77418833 END: 6.573916, 124.786160",South Cotabato 2nd DEO,Region XII,,,1206315000,Tantangan,South Cotabato,text,medium,
 26MH0001,"RECONSTRUCTION TO CONCRETE PAVEMENT - ISULAN JCT-NINOY AQUINO RD - K1807+361 - K1807+439, K1808+100 - K1808+300",Sultan Kudarat 2nd DEO,Region XII,6.4984865,124.5078565,1206501000,Bagumbayan,Sultan Kudarat,geo,medium,1206501000
 26MH0002,"K1961+700 - K1961+799, K1961+950 - K1962+000",Sultan Kudarat 2nd DEO,Region XII,6.64394,124.07099,1206506000,Lebak,Sultan Kudarat,geo,medium,1206506000
 26MH0003,"K1971+277 - K1971+317, K1971+344 - K1971+465",Sultan Kudarat 2nd DEO,Region XII,6.6439409,124.0709865,1206506000,Lebak,Sultan Kudarat,geo,medium,1206506000
@@ -263624,6 +263813,11 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26MH0121,"SULTAN KUDARAT (6.710025,124.531419)",Sultan Kudarat 2nd DEO,Region XII,,,1206503000,Esperanza,Sultan Kudarat,text,medium,
 26MH0123,"SULTAN KUARAT (6.643298,124.07073)",Sultan Kudarat 2nd DEO,Region XII,,,1206506000,Lebak,Sultan Kudarat,text,medium,
 26MH0129,CONSTRUCTION OF RAINWATER COLLECTOR SYSTEM,Sultan Kudarat 2nd DEO,Region XII,,,,,,,,
+26MH0130,"PALIMBANG, SULTAN KUDARAT",Sultan Kudarat 2nd DEO,Region XII,,,1206509000,Palimbang,Sultan Kudarat,text,high,
+26MH0131,"ESPERANZA, SULTAN KUDARAT",Sultan Kudarat 2nd DEO,Region XII,,,1206503000,Esperanza,Sultan Kudarat,text,high,
+26MH0132,"LEBAK, SULTAN KUDARAT",Sultan Kudarat 2nd DEO,Region XII,,,1206506000,Lebak,Sultan Kudarat,text,high,
+26MH0133,"LEBAK, SULTAN KUDARAT",Sultan Kudarat 2nd DEO,Region XII,,,1206506000,Lebak,Sultan Kudarat,text,high,
+26MH0134,"LEBAK, SULTAN KUDARAT",Sultan Kudarat 2nd DEO,Region XII,,,1206506000,Lebak,Sultan Kudarat,text,high,
 26MI0001,(RE-BID) ASPHALT OVERLAY ALONG DAVAO-COTABATO RD (JCT DIGOS-COTABATO SECT) - K1649 + 670 - K1649 + 1000,Cotabato 3rd DEO,Region XII,7.1077677,124.8244787,1204703000,Kabacan,Cotabato,geo,medium,1204703000
 26MI0002,"BANISILAN, NORTH COTABATO",Cotabato 3rd DEO,Region XII,7.3724003,124.6527075,1204716000,Banisilan,Cotabato,text+geo,high,1204716000
 26MI0003,"TULUNAN, COTABATO",Cotabato 3rd DEO,Region XII,,,1204714000,Tulunan,Cotabato,text,high,
@@ -263745,6 +263939,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26N00008,"BRGY. BINUANGAN - BRGY. LA FRATERNIDAD SECTION, AGUSAN DEL NORTE",Region XIII,Region XIII,,,,,,,,
 26N00009,"BRGY. PUTING BATO SECTION, AGUSAN DEL NORTE",Region XIII,Region XIII,,,,,,,,
 26N00010,"BRGY. POLACION 2 - BRGY. POBLACION 1 SECTION (0+000 - 0+640), AGUSAN DEL NORTE",Region XIII,Region XIII,,,,,,,,
+26N00019,"SANTIAGO, AGUSAN DEL NORTE",Region XIII,Region XIII,,,1600210000,Santiago,Agusan del Norte,text,high,
 26N00020,"BUENAVISTA, AGUSAN DEL",Region XIII,Region XIII,,,1600201000,Buenavista,Agusan del Norte,text,medium,
 26N00025,"RTR, AGUSAN DEL NORTE",Region XIII,Region XIII,,,,,,,,
 26N00026,"SAN FRANCISCO, SURIGAO DEL NORTE",Region XIII,Region XIII,,,1606719000,San Francisco,Surigao del Norte,text,high,
@@ -263805,6 +264000,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26N00163,ASSET PRESERVATION/ REHABILITATION/ RECONSTRUCTION/ NETWORK DEVELOPMENT OF MAHARLIKA HIGHWAY (DESIGN AND BUILD),Region XIII,Region XIII,,,,,,,,
 26N00164,"BRGY. CABANTAO - BRGY. MARFIL SECTION, AGUSAN DEL SUR",Region XIII,Region XIII,,,,,,,,
 26N00165,"POBLACION SECTION, SURIGAO DEL SUR",Region XIII,Region XIII,,,,,,,,
+26N00166,ASSET PRESERVATION/ REHABILITATION/ RECONSTRUCTION/ NETWORK DEVELOPMENT OF MAHARLIKA HIGHWAY,Region XIII,Region XIII,,,,,,,,
 26NA0001,(RE-AD) REHABILITATION/ RECONSTRUCTION/ UPGRADING OF DAMAGED PAVED ROADS - PRIMARY ROADS - BUTUAN CITY-CAGAYAN DE ORO CI,Agusan del Norte DEO,Region XIII,8.9927883,125.24395,1600204000,Carmen,Agusan del Norte,geo,medium,1600204000
 26NA0002,"CABADBARAN, AGUSAN DEL NORTE",Agusan del Norte DEO,Region XIII,,,1600203000,City of Cabadbaran,Agusan del Norte,text,high,
 26NA0003,"CARMEN, AGUSAN DEL NORTE",Agusan del Norte DEO,Region XIII,,,1600204000,Carmen,Agusan del Norte,text,high,
@@ -264066,6 +264262,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26ND0101,BUTUAN CITY-MASAO PORT RD - K1249 + 642 - K1249 + 766,Butuan City DEO,Region XIII,,,1630400000,City of Butuan,Agusan del Norte,deo,low,
 26ND0102,"CONSTRUCTION OF ROAD WITH DRAINAGE AT BARANGAY DOONGAN (STA. 0+000 - STA. 0+864), BUTUAN CITY",Butuan City DEO,Region XIII,,,1630400000,City of Butuan,Agusan del Norte,text,high,
 26ND0103,"BUTUAN CITY, AGUSAN DEL NORTE",Butuan City DEO,Region XIII,,,1630400000,City of Butuan,Agusan del Norte,text,high,
+26ND0104,CONSTRUCTION/REHABILITATION OF WATER SUPPLY/SEPTAGE AND SEWERAGE/RAINWATER COLLECTOR SYSTEM,Butuan City DEO,Region XIII,,,1630400000,City of Butuan,Agusan del Norte,deo,low,
 26ND0105,"BUTUAN CITY, AGUSAN DEL NORTE",Butuan City DEO,Region XIII,,,1630400000,City of Butuan,Agusan del Norte,text,high,
 26ND0106,"BUTUAN CITY, AGUSAN DEL NORTE",Butuan City DEO,Region XIII,,,1630400000,City of Butuan,Agusan del Norte,text,high,
 26ND0107,"BUTUAN CITY, AGUSAN DEL NORTE",Butuan City DEO,Region XIII,,,1630400000,City of Butuan,Agusan del Norte,text,high,
@@ -264796,6 +264993,20 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26OD0138,"BARANGAY 180, CALOOCAN CITY",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
 26OD0139,"BARANGAY 180, CALOOCAN CITY",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
 26OD0140,"14.666572, 120.996093",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
+26OD0141,"BARANGAY LAWANG BATO, VALENZUELA CITY",Metro Manila 3rd DEO,National Capital Region,,,1381600000,City of Valenzuela,Metro Manila,text,high,
+26OD0142,"(C0+000 - C2+513), CALOOCAN CITY",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
+26OD0143,"CONSTRUCTION/REHABILITATION OF ROADS AND DRAINAGE SYSTEMS ALONG BARANGAY 176 A & B (C 0+000 - C 0+600), CALOOCAN CITY",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
+26OD0144,"14.746689, 121.07893",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
+26OD0145,"14.67345, 121.00487",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
+26OD0146,"14.756333, 121.057024",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
+26OD0147,"14.752993, 121.062805",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
+26OD0148,"14.69059, 121.01589",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
+26OD0149,"BARANGAY 178, CALOOCAN CITY",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
+26OD0150,"BARANGAY 183, CALOOCAN CITY",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
+26OD0151,"BARANGAY 187, CALOOCAN CITY",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
+26OD0152,"BARANGAY 186, CALOOCAN CITY",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
+26OD0153,"14.761096, 121.07501",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
+26OD0154,"BARANGAY 172, CALOOCAN CITY",Metro Manila 3rd DEO,National Capital Region,,,1380100000,City of Caloocan,Metro Manila,text,high,
 26OD0207,REHABILITATION/ RECONSTRUCTION/ UPGRADING OF DAMAGED PAVED ROADS - PRIMARY ROADS MACARTHUR HIGHWAY (S02225LZ) K0013+128 ,Metro Manila 3rd DEO,National Capital Region,,,1381600000,City of Valenzuela,Metro Manila,text,high,
 26OD0208,REHABILITATION/ RECONSTRUCTION/ UPGRADING OF DAMAGED PAVED ROADS - TERTIARY ROADS CANUMAY-BIGNAY RD (S02139LZ) K0024+753,Metro Manila 3rd DEO,National Capital Region,,,1381600000,City of Valenzuela,Metro Manila,text,high,
 26OD0209,"K0016+705 - K0017+016, VALENZUELA CITY",Metro Manila 3rd DEO,National Capital Region,,,1381600000,City of Valenzuela,Metro Manila,text,high,
@@ -265105,8 +265316,12 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26P00012,CY 2026 BASIC EDUCATION FACILITIES FUND - NEW CONSTRUCTION OF VARIOUS CLASSROOMS IN CORDILLERA ADMINISTRATIVE REGION - C,Cordillera Administrative Region,Cordillera Administrative Region,,,,,,,,
 26P00013,CONVERGENCE AND SPECIAL SUPPORT PROGRAM - BASIC INFRASTRUCTURE PROGRAM - BIP - MAJOR/STRATEGIC PUBLIC BUILDINGS/FACILITI,Cordillera Administrative Region,Cordillera Administrative Region,,,1430300000,City of Baguio,Benguet,text,high,
 26P00014,"SABLAN, BENGUET",Cordillera Administrative Region,Cordillera Administrative Region,,,1401112000,Sablan,Benguet,text,high,
+26P00015,"ITOGON, BENGUET",Cordillera Administrative Region,Cordillera Administrative Region,,,1401106000,Itogon,Benguet,text,high,
 26P00016,"SLOPE COLLAPSE, AND LANDSLIDE - PRIMARY ROADS - KENNON RD - K0237 + 648 - K0237+725",Cordillera Administrative Region,Cordillera Administrative Region,,,,,,,,
 26P00017,BRIDGE CONSTRUCTION REPLACEMENT PROGRAM (BCRP) I - CONTRACT PACKAGE (CP) 3 (PHASE II),Cordillera Administrative Region,Cordillera Administrative Region,,,,,,,,
+26P00018,CONSTRUCTION OF VARIOUS CLASSROOMS UNDER BASIC EDUCATION FACILITIES FUND (BEFF) - BATCH 1 - PACKAGE 4,Cordillera Administrative Region,Cordillera Administrative Region,,,,,,,,
+26P00019,CONSTRUCTION OF VARIOUS CLASSROOMS UNDER BASIC EDUCATION FACILITIES FUND (BEFF) - BATCH 1 - PACKAGE 3,Cordillera Administrative Region,Cordillera Administrative Region,,,,,,,,
+26P00022,CONSTRUCTION OF VARIOUS CLASSROOMS UNDER BASIC EDUCATION FACILITIES FUND (BEFF) - BATCH 1 - PACKAGE 2,Cordillera Administrative Region,Cordillera Administrative Region,,,,,,,,
 26PA0001,"CABULOAN SECTION (PHASE II), STA. 3+680-STA",Abra DEO,Cordillera Administrative Region,,,,,,,,
 26PA0002,"PALAO SECTION (PHASE II), STA. 1+336-STA. 1",Abra DEO,Cordillera Administrative Region,,,,,,,,
 26PA0003,"SITIO PUDOK SECTION (PHASE II), STA. 2+480-",Abra DEO,Cordillera Administrative Region,,,,,,,,
@@ -265212,6 +265427,8 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26PB0047,"17.796389, 121.322222",Apayao 1st DEO,Cordillera Administrative Region,,,1408102000,Conner,Apayao,text,high,
 26PB0049,"CONNER, APAYAO",Apayao 1st DEO,Cordillera Administrative Region,,,1408102000,Conner,Apayao,text,high,
 26PB0051,"CONNER, APAYAO",Apayao 1st DEO,Cordillera Administrative Region,,,1408102000,Conner,Apayao,text,high,
+26PB0053,CONVERGENCE AND SPECIAL SUPPORT PROGRAM- CONSTRUCTION/ REHABILITATION OF WATER SUPPLY/ SEPTAGE AND SEWERAGE/ RAIN WATER ,Apayao 1st DEO,Cordillera Administrative Region,,,,,,,,
+26PB0054,"CONNER,APAYAO",Apayao 1st DEO,Cordillera Administrative Region,,,1408102000,Conner,Apayao,text,high,
 26PC0005,"SLOPE COLLAPSE, & LANDSLIDE - TERTIARY ROADS - APAYAO (CALANASAN)-ILOCOS NORTE RD - K0614 + 737 - K0614 + 804.50",Apayao 2nd DEO,Cordillera Administrative Region,,,,,,,,
 26PC0006,"SLOPE COLLAPSE, & LANDSLIDE - TERTIARY ROADS - APAYAO (CALANASAN)-ILOCOS NORTE RD - K0619 + 843 - K0620 + 095.50",Apayao 2nd DEO,Cordillera Administrative Region,,,,,,,,
 26PC0007,"STA. 7+124-STA.7+304 STA. MARCELA, APAYAO",Apayao 2nd DEO,Cordillera Administrative Region,,,1408107000,Santa Marcela,Apayao,text,high,
@@ -265772,6 +265989,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26PL0104,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - ASSET PRESERVATION PROGRAM - REHABILITATION/ R,Lower Kalinga DEO,Cordillera Administrative Region,,,,,,,,
 26PL0105,"AND LANDSLIDE - PRIMARY ROADS - MANUEL S. AGYAO BOULEVARD- K0496+133- K0496+141, K0",Lower Kalinga DEO,Cordillera Administrative Region,,,,,,,,
 26PL0106,CONVERGENCE AND SPECIAL SUPPORT PROGRAM - BASIC INFRASTRUCTURE PROGRAM - BIP - ACCESS ROADS AND/OR BRIDGES FROM THE NATI,Lower Kalinga DEO,Cordillera Administrative Region,,,,,,,,
+26PL0107,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - ASSET PRESERVATION PROGRAM - CONSTRUCTION/ UPG,Lower Kalinga DEO,Cordillera Administrative Region,,,,,,,,
 26PM0001,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - ASSET PRESERVATION PROGRAM - REHABILITATION/ R,Mountain Province 2nd DEO,Cordillera Administrative Region,,,,,,,,
 26PM0002,ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - ASSET PRESERVATION PROGRAM - REHABILITATION/ R,Mountain Province 2nd DEO,Cordillera Administrative Region,17.2026349,121.3946665,1404406000,Paracelis,Mountain Province,geo,medium,1404406000
 26PM0003,ORGANIZATION OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM- ASSET PRESERVATION PROGRAM - REHABILITATION/ RECO,Mountain Province 2nd DEO,Cordillera Administrative Region,17.2039727,121.3951169,1404406000,Paracelis,Mountain Province,geo,medium,1404406000
@@ -265842,6 +266060,11 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26R00019,"LA CARLOTA CITY, NEGROS OCCIDENTAL",Negros Island Region,Negros Island Region,,,1804516000,City of La Carlota,Negros Occidental,text,high,
 26R00020,"DON SALVADOR BENEDICTO, NEGROS OCCIDENTAL",Negros Island Region,Negros Island Region,,,1804532000,Salvador Benedicto,Negros Occidental,text,high,
 26R00021,"NEGROS ORIENTAL (9.47117, 123.193393)",Negros Island Region,Negros Island Region,,,1804601000,Amlan,Negros Oriental,text,medium,
+26R00022,"CONSTRUCTION OF 6 SCHOOL BUILDING PROJECTS, 9 CLASSROOMS IN VARIOUS SCHOOL SITES IN NEGROS ISLAND REGION-BATCH 1 (CLUSTE",Negros Island Region,Negros Island Region,,,,,,,,
+26R00023,"CONSTRUCTION OF 5 SCHOOL BUILDING PROJECTS, 6 CLASSROOMS IN VARIOUS SCHOOL SITES IN NEGROS ISLAND REGION-BATCH 1 (CLUSTE",Negros Island Region,Negros Island Region,,,,,,,,
+26R00024,"CONSTRUCTION OF 2 SCHOOL BUILDING PROJECTS, 8 CLASSROOMS IN VARIOUS SCHOOL SITES IN NEGROS ISLAND REGION -BATCH 1 (CLUST",Negros Island Region,Negros Island Region,,,,,,,,
+26R00025,"CONSTRUCTION OF 2 SCHOOL BUILDING PROJECTS, 8 CLASSROOMS IN VARIOUS SCHOOL SITES IN NEGROS ISLAND REGION-BATCH 1 (CLUSTE",Negros Island Region,Negros Island Region,,,,,,,,
+26R00026,"CONSTRUCTION OF 5 SCHOOL BUILDING PROJECTS, 12 CLASSROOMS IN VARIOUS SCHOOL SITES IN NEGROS ISLAND REGION-BATCH 2 (CLUST",Negros Island Region,Negros Island Region,,,,,,,,
 26RA0001,REHABILITATION/MAJOR REPAIR OF PERMANENT BRIDGES - GUINDASCAN BR. (B00164NR) ALONG BACOLOD NORTH RD,Negros Occidental 1st DEO,Negros Island Region,,,,,,,,
 26RA0002,REHABILITATION/MAJOR REPAIR OF PERMANENT BRIDGES - MINABUNO BR. (B00171NR) ALONG BACOLOD NORTH RD,Negros Occidental 1st DEO,Negros Island Region,,,,,,,,
 26RA0003,REHABILITATION/MAJOR REPAIR OF PERMANENT BRIDGES - GUINHALARAN BR. (B00141NR) ALONG BACOLOD NORTH RD,Negros Occidental 1st DEO,Negros Island Region,,,,,,,,
@@ -266343,6 +266566,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26RF0097,"BACOLOD CITY, NEGROS OCCIDENTAL",Bacolod City DEO,Negros Island Region,,,1830200000,City of Bacolod,Negros Occidental,text,high,
 26RF0098,"BACOLOD CITY, NEGROS OCCIDENTAL",Bacolod City DEO,Negros Island Region,,,1830200000,City of Bacolod,Negros Occidental,text,high,
 26RF0101,"BACOLOD CITY, NEGROS OCCIDENTAL",Bacolod City DEO,Negros Island Region,,,1830200000,City of Bacolod,Negros Occidental,text,high,
+26RF0102,"BRGY. GRANADA ,3. FR.GRATIAN MURRAY",Bacolod City DEO,Negros Island Region,,,1830200000,City of Bacolod,Negros Occidental,deo,low,
 26RG0001,"BARANGAY GUINCALABAN, STA. 00+000 - STA. 0",Negros Oriental 1st DEO,Negros Island Region,,,,,,,,
 26RG0004,"AYUNGON, NEGROS ORIENTAL",Negros Oriental 1st DEO,Negros Island Region,,,1804602000,Ayungon,Negros Oriental,text,high,
 26RG0006,"AYUNGON, NEGROS ORIENTAL",Negros Oriental 1st DEO,Negros Island Region,,,1804602000,Ayungon,Negros Oriental,text,high,
@@ -266613,6 +266837,7 @@ contract_id,location_text,dpwh_office,dpwh_region,lat,lng,psgc,lgu_name,province
 26RI0063,"BAYAWAN - KABANKALAN ROAD, K0138+150.00 - K0138+300.00 (K0138+195 - K0138+280)",Negros Oriental 3rd DEO,Negros Island Region,,,,,,,,
 26RI0065,"BAYAWAN - KABANKALAN ROAD, K0138+195 - K0138+280 (FOOTING AND PARAPET)",Negros Oriental 3rd DEO,Negros Island Region,,,,,,,,
 26RI0066,"SIATON; 3.) SALINGKUBONG ELEMENTARY SCHOOL,",Negros Oriental 3rd DEO,Negros Island Region,,,1804619000,Siaton,Negros Oriental,text,medium,
+26RI0075,"CITY OF BAYAWAN (TULONG), NEGROS ORIENTAL",Negros Oriental 3rd DEO,Negros Island Region,,,1804606000,City of Bayawan,Negros Oriental,text,high,
 26RJ0001,"REHABILITATION/ RECONSTRUCTION/ UPGRADING OF DAMAGED PAVED ROADS - SECONDARY ROADS, SIQUIJOR CIRCUMFERENTIAL RD - K0056 ",Siquijor DEO,Negros Island Region,,,,,,,,
 26RJ0002,"REHABILITATION/ RECONSTRUCTION/ UPGRADING OF DAMAGED PAVED ROADS - SECONDARY ROADS, SIQUIJOR CIRCUMFERENTIAL RD - K0061 ",Siquijor DEO,Negros Island Region,,,,,,,,
 26RJ0003,"REHABILITATION/ RECONSTRUCTION/ UPGRADING OF DAMAGED PAVED ROADS - TERTIARY ROADS, LUYANG-POO-LAZI RD - K0012 + 480 - K0",Siquijor DEO,Negros Island Region,,,,,,,,
